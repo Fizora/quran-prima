@@ -55,4 +55,32 @@ class DataService {
       );
     }
   }
+
+  static Future<Map<String, dynamic>> loadSurahData(int surahNumber) async {
+    try {
+      final String response = await rootBundle.loadString(
+        'assets/data/surah/$surahNumber.json',
+      );
+      return json.decode(response);
+    } catch (e) {
+      // Fallback data jika file tidak ditemukan
+      return {
+        "nomor": surahNumber,
+        "nama": "Surah $surahNumber",
+        "nama_latin": "Surah $surahNumber",
+        "jumlah_ayat": 7,
+        "tempat_turun": "Mekah",
+        "arti": "Arti Surah",
+        "deskripsi": "Deskripsi surah...",
+        "ayat": [
+          {
+            "nomor": 1,
+            "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+            "latin": "Bismillāhir-raḥmānir-raḥīm",
+            "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.",
+          },
+        ],
+      };
+    }
+  }
 }

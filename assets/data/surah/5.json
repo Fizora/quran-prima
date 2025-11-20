@@ -1,0 +1,732 @@
+{
+  "nomor": 5,
+  "nama": "Al-Ma'idah",
+  "ayat": [
+    {
+      "nomor": 0,
+      "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+      "latin": "Bismillāhir-raḥmānir-raḥīm",
+      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
+    },
+    {
+      "nomor": 1,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَوْفُوا بِالْعُقُودِ ۚ أُحِلَّتْ لَكُمْ بَهِيمَةُ الْأَنْعَامِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّي الصَّيْدِ وَأَنْتُمْ حُرُمٌ ۗ إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ",
+      "latin": "Yā ayyuhallażīna āmanū awfū bil-'uqụd, uḥillat lakum bahīmatul-an'ām illā mā yutlā 'alaikum gairu muḥillīṣ-ṣaidī wa antum ḥurum, innallāha yaḥkumu mā yurīd",
+      "arti": "Wahai orang-orang yang beriman! Penuhilah janji-janji. Dihalalkan bagimu hewan ternak kecuali yang akan dibacakan kepadamu, dengan tidak menghalalkan berburu ketika kamu sedang berihram. Sesungguhnya Allah menetapkan hukum sesuai yang Dia kehendaki."
+    },
+    {
+      "nomor": 2,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحِلُّوا شَعَائِرَ اللَّهِ وَلَا الشَّهْرَ الْحَرَامَ وَلَا الْهَدْيَ وَلَا الْقَلَائِدَ وَلَا آمِّينَ الْبَيْتَ الْحَرَامَ ...",
+      "latin": "Yā ayyuhallażīna āmanū lā tuḥillụ sya'ā'irallāhi walasy-syahral-ḥarāma walal-hadyi walal-qalā'id, wa lā āmīnal-baital-ḥarāma ...",
+      "arti": "Wahai orang-orang yang beriman! Janganlah kamu melanggar syiar-syiar Allah, bulan-bulan haram, hewan kurban, hewan yang diberi kalung, dan orang-orang yang menuju Baitul Haram..."
+    },
+    {
+      "nomor": 3,
+      "arab": "حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ وَالدَّمُ وَلَحْمُ الْخِنزِيرِ ... الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ ...",
+      "latin": "Ḥurrimat 'alaikumul-maitatu wad-damu wa laḥmul-khinzīri ... Al-yauma akmaltu lakum dīnakum ...",
+      "arti": "Diharamkan bagimu bangkai, darah, daging babi ... Pada hari ini telah Aku sempurnakan agamamu untukmu ..."
+    },
+    {
+      "nomor": 4,
+      "arab": "يَسْأَلُونَكَ مَاذَا أُحِلَّ لَهُمْ ...",
+      "latin": "Yas'alụnaka māżā uḥilla lahum ...",
+      "arti": "Mereka menanyakan kepadamu (Muhammad) apa yang dihalalkan bagi mereka ..."
+    },
+    {
+      "nomor": 5,
+      "arab": "الْيَوْمَ أُحِلَّ لَكُمُ الطَّيِّبَاتُ ...",
+      "latin": "Al-yauma uḥilla lakumuṭ-ṭayyibāt ...",
+      "arti": "Pada hari ini dihalalkan bagimu yang baik-baik ..."
+    },
+    {
+      "nomor": 6,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ ...",
+      "latin": "Yā ayyuhallażīna āmanū iżā qumtum ilāṣ-ṣalāti ...",
+      "arti": "Wahai orang-orang yang beriman! Apabila kamu hendak melaksanakan salat ... (tentang wudu, tayamum)"
+    },
+    {
+      "nomor": 7,
+      "arab": "وَاذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ ...",
+      "latin": "Ważkurụ ni'matallāhi 'alaikum ...",
+      "arti": "Ingatlah nikmat Allah kepadamu ..."
+    },
+    {
+      "nomor": 8,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ لِلَّهِ شُهَدَاءَ بِالْقِسْطِ ...",
+      "latin": "Yā ayyuhallażīna āmanū kūnụ qawwāmīna lillāhi syuhadā'a bil-qisṭ ...",
+      "arti": "Wahai orang-orang yang beriman! Jadilah kamu penegak keadilan ..."
+    },
+    {
+      "nomor": 9,
+      "arab": "وَعَدَ اللَّهُ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ...",
+      "latin": "Wa'adallāhullażīna āmanū wa 'amiluṣ-ṣāliḥāti ...",
+      "arti": "Allah telah menjanjikan kepada orang-orang beriman dan berbuat kebaikan ..."
+    },
+    {
+      "nomor": 10,
+      "arab": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا ...",
+      "latin": "Wallażīna kafarụ wa każżabụ bi'āyātinā ...",
+      "arti": "Dan orang-orang yang kafir serta mendustakan ayat-ayat Kami ..."
+    },
+    {
+      "nomor": 11,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ ...",
+      "latin": "Yā ayyuhallażīna āmanụ ważkurụ ni'matallāhi 'alaikum ...",
+      "arti": "Wahai orang-orang yang beriman! Ingatlah nikmat Allah kepadamu ..."
+    },
+    {
+      "nomor": 12,
+      "arab": "وَلَقَدْ أَخَذَ اللَّهُ مِيثَاقَ بَنِي إِسْرَائِيلَ ...",
+      "latin": "Wa laqad akhazallāhu mīṡāqa banī isrā'īla ...",
+      "arti": "Dan sungguh, Allah telah mengambil perjanjian dari Bani Israil ..."
+    },
+    {
+      "nomor": 13,
+      "arab": "فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ ...",
+      "latin": "Fabi mā naqḍihim mīṡāqahum ...",
+      "arti": "Maka disebabkan mereka melanggar perjanjian mereka ..."
+    },
+    {
+      "nomor": 14,
+      "arab": "وَمِنَ الَّذِينَ قَالُوا إِنَّا نَصَارَىٰ ...",
+      "latin": "Wa minal-lażīna qālū innā naṣārā ...",
+      "arti": "Dan di antara orang-orang yang mengatakan, “Sesungguhnya kami orang Nasrani” ..."
+    },
+    {
+      "nomor": 15,
+      "arab": "يَا أَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ رَسُولُنَا ...",
+      "latin": "Yā ahlal-kitābi qad jā'akum rasụlunā ...",
+      "arti": "Wahai Ahli Kitab! Sungguh telah datang kepada kalian Rasul Kami ..."
+    },
+    {
+      "nomor": 16,
+      "arab": "يَهْدِي بِهِ اللَّهُ مَنِ اتَّبَعَ رِضْوَانَهُ ...",
+      "latin": "Yahdī bihillāhu manittaba'a riḍwānahu ...",
+      "arti": "Dengan kitab itulah Allah memberi petunjuk kepada orang yang mengikuti keridaan-Nya ..."
+    },
+    {
+      "nomor": 17,
+      "arab": "لَقَدْ كَفَرَ الَّذِينَ قَالُوا إِنَّ اللَّهَ هُوَ الْمَسِيحُ ابْنُ مَرْيَمَ ...",
+      "latin": "Laqad kafarallażīna qālū innallāha huwal-masīḥubnu maryam ...",
+      "arti": "Sungguh telah kafir orang-orang yang berkata, “Sesungguhnya Allah itu ialah Al-Masih putra Maryam.” ..."
+    },
+    {
+      "nomor": 18,
+      "arab": "وَقَالَتِ الْيَهُودُ وَالنَّصَارَىٰ نَحْنُ أَبْنَاءُ اللَّهِ ...",
+      "latin": "Wa qālatil-yahụdu wan-naṣārā naḥnu abnā'ullāhi ...",
+      "arti": "Orang Yahudi dan Nasrani berkata, “Kami ini anak-anak Allah dan kekasih-kekasih-Nya.” ..."
+    },
+    {
+      "nomor": 19,
+      "arab": "يَا أَهْلَ الْكِتَابِ قَدْ جَاءَكُمْ رَسُولُنَا ...",
+      "latin": "Yā ahlal-kitābi qad jā'akum rasụlunā ...",
+      "arti": "Wahai Ahli Kitab! Sungguh, telah datang kepada kalian Rasul Kami ..."
+    },
+    {
+      "nomor": 20,
+      "arab": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَا قَوْمِ اذْكُرُوا نِعْمَتَ اللَّهِ عَلَيْكُمْ ...",
+      "latin": "Wa iż qāla mūsā liquamihī yā qaumiżkurụ ni'matallāhi 'alaikum ...",
+      "arti": "Dan (ingatlah) ketika Musa berkata kepada kaumnya, “Wahai kaumku! Ingatlah nikmat Allah atasmu…”"
+    },
+    {
+      "nomor": 21,
+      "arab": "يَا قَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ وَلَا تَرْتَدُّوا عَلَىٰ أَدْبَارِكُمْ فَتَنْقَلِبُوا خَاسِرِينَ",
+      "latin": "Yā qaumidkhulul-arḍal-muqaddasatal-latī kataballāhu lakum wa lā tartaddụ 'alā adbārikum fatanqalibụ khāsirīn",
+      "arti": "Wahai kaumku! Masuklah ke tanah suci yang telah ditentukan Allah bagimu, dan janganlah kamu berpaling ke belakang sehingga menjadi orang yang rugi."
+    },
+    {
+      "nomor": 22,
+      "arab": "قَالُوا يَا مُوسَىٰ إِنَّ فِيهَا قَوْمًا جَبَّارِينَ وَإِنَّا لَنْ نَدْخُلَهَا حَتَّىٰ يَخْرُجُوا مِنْهَا ...",
+      "latin": "Qālū yā mūsā inna fīhā qauman jabbārīna wa innā lan nadkhulahā ḥattā yakhrujụ minhā ...",
+      "arti": "Mereka berkata, “Wahai Musa! Di sana ada kaum yang sangat kuat. Kami tidak akan masuk sebelum mereka keluar.”"
+    },
+    {
+      "nomor": 23,
+      "arab": "قَالَ رَجُلَانِ مِنَ الَّذِينَ يَخَافُونَ ...",
+      "latin": "Qāla rajulāni minał-lażīna yakhāfụna ...",
+      "arti": "Berkatalah dua orang yang takut kepada Allah, yang Allah telah memberi nikmat atas keduanya ..."
+    },
+    {
+      "nomor": 24,
+      "arab": "قَالُوا يَا مُوسَىٰ إِنَّا لَنْ نَدْخُلَهَا أَبَدًا مَا دَامُوا فِيهَا ...",
+      "latin": "Qālū yā mūsā innā lan nadkhulahā abadam mā dāmụ fīhā ...",
+      "arti": "Mereka berkata, “Wahai Musa! Kami selamanya tidak akan masuk selama mereka berada di dalamnya.”"
+    },
+    {
+      "nomor": 25,
+      "arab": "قَالَ رَبِّ إِنِّي لَا أَمْلِكُ إِلَّا نَفْسِي وَأَخِي ...",
+      "latin": "Qāla rabbī innī lā amliku illā nafsī wa akhī ...",
+      "arti": "Dia (Musa) berkata, “Ya Tuhanku, aku hanya menguasai diriku dan saudaraku …”"
+    },
+    {
+      "nomor": 26,
+      "arab": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً ...",
+      "latin": "Qāla fa innahā muḥarramatun 'alaihim arba'īna sanah ...",
+      "arti": "Allah berfirman, “(Maka) negeri itu diharamkan atas mereka selama empat puluh tahun; mereka akan tersesat di bumi.”"
+    },
+    {
+      "nomor": 27,
+      "arab": "وَاتْلُ عَلَيْهِمْ نَبَأَ ابْنَيْ آدَمَ بِالْحَقِّ ...",
+      "latin": "Watlu 'alaihim naba'abnay ādama bil-ḥaqq ...",
+      "arti": "Dan bacakanlah kepada mereka kisah dua putra Adam (Habil dan Qabil) dengan benar ..."
+    },
+    {
+      "nomor": 28,
+      "arab": "لَئِنْ بَسَطْتَ إِلَيَّ يَدَكَ لِتَقْتُلَنِي ...",
+      "latin": "La in basatta ilayya yadaka litaqtulanī ...",
+      "arti": "Jika engkau menggerakkan tanganmu untuk membunuhku, aku tidak akan menggerakkan tanganku untuk membunuhmu ..."
+    },
+    {
+      "nomor": 29,
+      "arab": "إِنِّي أُرِيدُ أَنْ تَبُوءَ بِإِثْمِي وَإِثْمِكَ ...",
+      "latin": "Innī urīdu an tabụ'a bi itsmī wa itsmik ...",
+      "arti": "Aku ingin agar kamu memikul dosaku dan dosamu sendiri ..."
+    },
+    {
+      "nomor": 30,
+      "arab": "فَطَوَّعَتْ لَهُ نَفْسُهُ قَتْلَ أَخِيهِ ...",
+      "latin": "Faṭawwa'at lahū nafsuhū qatla akhīh ...",
+      "arti": "Maka nafsunya mendorongnya untuk membunuh saudaranya, lalu ia membunuhnya ..."
+    },
+    {
+      "nomor": 31,
+      "arab": "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ ...",
+      "latin": "Fa ba'athallāhu ghurāban yabḥatsu fil-arḍ ...",
+      "arti": "Kemudian Allah mengutus seekor burung gagak yang menggaruk tanah ..."
+    },
+    {
+      "nomor": 32,
+      "arab": "مِنْ أَجْلِ ذَٰلِكَ كَتَبْنَا عَلَىٰ بَنِي إِسْرَائِيلَ ...",
+      "latin": "Min ajli żālika katabnā 'alā banī isrā'īla ...",
+      "arti": "Oleh karena itu, Kami tetapkan bagi Bani Israil ..."
+    },
+    {
+      "nomor": 33,
+      "arab": "إِنَّمَا جَزَاءُ الَّذِينَ يُحَارِبُونَ اللَّهَ وَرَسُولَهُ ...",
+      "latin": "Innamā jazā'ullażīna yuḥāribụnallāha wa rasụlahū ...",
+      "arti": "Sesungguhnya pembalasan bagi orang-orang yang memerangi Allah dan Rasul-Nya ..."
+    },
+    {
+      "nomor": 34,
+      "arab": "إِلَّا الَّذِينَ تَابُوا مِنْ قَبْلِ أَنْ تَقْدِرُوا عَلَيْهِمْ ...",
+      "latin": "Illallażīna tābụ min qabli an taqdirụ 'alaihim ...",
+      "arti": "Kecuali orang-orang yang bertobat sebelum kamu menguasai mereka ..."
+    },
+    {
+      "nomor": 35,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَابْتَغُوا إِلَيْهِ الْوَسِيلَةَ ...",
+      "latin": "Yā ayyuhallażīna āmanūttaqullāha wabtaghụ ilaihil-wasīlah ...",
+      "arti": "Wahai orang-orang yang beriman! Bertakwalah kepada Allah dan carilah jalan mendekat kepada-Nya ..."
+    },
+    {
+      "nomor": 36,
+      "arab": "إِنَّ الَّذِينَ كَفَرُوا لَوْ أَنَّ لَهُمْ مَا فِي الْأَرْضِ جَمِيعًا ...",
+      "latin": "Inna allażīna kafarụ law anna lahum mā fil-arḍi jamī'an ...",
+      "arti": "Sesungguhnya orang-orang kafir, jika mereka memiliki seluruh isi bumi ..."
+    },
+    {
+      "nomor": 37,
+      "arab": "يُرِيدُونَ أَنْ يَخْرُجُوا مِنَ النَّارِ وَمَا هُمْ بِخَارِجِينَ مِنْهَا ...",
+      "latin": "Yurīdụna an yakhrujụ minan-nār wa mā hum bikharijīna minhā ...",
+      "arti": "Mereka ingin keluar dari neraka, padahal mereka tidak akan dapat keluar darinya ..."
+    },
+    {
+      "nomor": 38,
+      "arab": "وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا ...",
+      "latin": "Was-sāriqu was-sāriqatu faqṭa'ụ aydiyahumā ...",
+      "arti": "Laki-laki yang mencuri dan perempuan yang mencuri, potonglah tangan keduanya ..."
+    },
+    {
+      "nomor": 39,
+      "arab": "فَمَنْ تَابَ مِنْ بَعْدِ ظُلْمِهِ وَأَصْلَحَ ...",
+      "latin": "Faman tāba min ba'di ẓulmihī wa aṣlaḥa ...",
+      "arti": "Barang siapa bertobat setelah melakukan kezaliman dan memperbaiki diri ..."
+    },
+    {
+      "nomor": 40,
+      "arab": "أَلَمْ تَعْلَمْ أَنَّ اللَّهَ لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "A lam ta'lam anna lillāhi mulkas-samāwāti wal-arḍ ...",
+      "arti": "Tidakkah kamu mengetahui bahwa Allah memiliki kerajaan langit dan bumi ..."
+    },
+    {
+      "nomor": 41,
+      "arab": "يَا أَيُّهَا الرَّسُولُ لَا يَحْزُنْكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ ...",
+      "latin": "Yā ayyuhar-rasụlu lā yaḥzunka allażīna yusāri'ụna fil-kufr ...",
+      "arti": "Wahai Rasul! Janganlah engkau disedihkan oleh orang-orang yang bergegas dalam kekafiran ..."
+    },
+    {
+      "nomor": 42,
+      "arab": "سَمَّاعُونَ لِلْكَذِبِ أَكَّالُونَ لِلسُّحْتِ ...",
+      "latin": "Sammā'ụna lil-każibi akkālụna lis-suḥti ...",
+      "arti": "Mereka itu banyak mendengar berita bohong, banyak memakan yang haram ..."
+    },
+    {
+      "nomor": 43,
+      "arab": "وَكَيْفَ يُحَكِّمُونَكَ وَعِنْدَهُمُ التَّوْرَاةُ ...",
+      "latin": "Wa kaifa yuḥakkimụnaka wa 'indahumut-taurāt ...",
+      "arti": "Bagaimana mereka menjadikanmu sebagai hakim, padahal mereka mempunyai Taurat ..."
+    },
+    {
+      "nomor": 44,
+      "arab": "إِنَّا أَنْزَلْنَا التَّوْرَاةَ فِيهَا هُدًى وَنُورٌ ...",
+      "latin": "Innā anzalnat-taurāta fīhā hudaw wa nụr ...",
+      "arti": "Sesungguhnya Kami telah menurunkan Taurat, di dalamnya ada petunjuk dan cahaya ..."
+    },
+    {
+      "nomor": 45,
+      "arab": "وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ ...",
+      "latin": "Wa katabnā 'alaihim fīhā annan-nafsa bin-nafsi ...",
+      "arti": "Dan Kami tetapkan bagi mereka di dalamnya: nyawa dibalas dengan nyawa ..."
+    },
+    {
+      "nomor": 46,
+      "arab": "وَقَفَّيْنَا عَلَىٰ آثَارِهِمْ بِعِيسَى ابْنِ مَرْيَمَ ...",
+      "latin": "Wa qaffainā 'alā ātsārihim bi 'īsabni maryama ...",
+      "arti": "Kemudian Kami iringi jejak mereka dengan Isa putra Maryam ..."
+    },
+    {
+      "nomor": 47,
+      "arab": "وَلْيَحْكُمْ أَهْلُ الْإِنْجِيلِ بِمَا أَنْزَلَ اللَّهُ فِيهِ ...",
+      "latin": "Walyahkum ahlul-injīli bimā anzalallāhu fīh ...",
+      "arti": "Hendaklah para pengikut Injil memutuskan perkara menurut apa yang diturunkan Allah di dalamnya ..."
+    },
+    {
+      "nomor": 48,
+      "arab": "وَأَنْزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ ...",
+      "latin": "Wa anzalnā ilaikal-kitāba bil-ḥaqq ...",
+      "arti": "Dan Kami turunkan kepadamu Kitab (Al-Qur’an) dengan membawa kebenaran ..."
+    },
+    {
+      "nomor": 49,
+      "arab": "وَأَنِ احْكُمْ بَيْنَهُمْ بِمَا أَنْزَلَ اللَّهُ ...",
+      "latin": "Wa anihkum bainahum bimā anzalallāh ...",
+      "arti": "Dan hendaklah engkau memutuskan perkara di antara mereka menurut apa yang diturunkan Allah ..."
+    },
+    {
+      "nomor": 50,
+      "arab": "أَفَحُكْمَ الْجَاهِلِيَّةِ يَبْغُونَ ...",
+      "latin": "Afaḥukmal-jāhiliyyati yabghụn ...",
+      "arti": "Apakah hukum jahiliyah yang mereka kehendaki? ..."
+    },
+    {
+      "nomor": 51,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الْيَهُودَ وَالنَّصَارَىٰ أَوْلِيَاءَ ...",
+      "latin": "Yā ayyuhallażīna āmanū lā tattakhiżul-yahụda wan-naṣārā aula'yā' ...",
+      "arti": "Wahai orang-orang beriman! Jangan menjadikan Yahudi dan Nasrani sebagai pemimpin-pemimpin ..."
+    },
+    {
+      "nomor": 52,
+      "arab": "فَتَرَى الَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ ...",
+      "latin": "Fa tarallażīna fī qulūbihim maraḍ ...",
+      "arti": "Maka engkau akan melihat orang-orang yang di dalam hatinya ada penyakit ..."
+    },
+    {
+      "nomor": 53,
+      "arab": "وَيَقُولُ الَّذِينَ آمَنُوا أَهَٰؤُلَاءِ الَّذِينَ أَقْسَمُوا بِاللَّهِ ...",
+      "latin": "Wa yaqụlul-lażīna āmanū aha'ulā'i allażīna aqsamụ billāh ...",
+      "arti": "Dan orang-orang beriman berkata, “Inikah orang-orang yang bersumpah atas nama Allah ...”"
+    },
+    {
+      "nomor": 54,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا مَنْ يَرْتَدَّ مِنْكُمْ عَنْ دِينِهِ ...",
+      "latin": "Yā ayyuhallażīna āmanụ may yartadda minkum 'an dīnihī ...",
+      "arti": "Wahai orang-orang beriman! Barang siapa di antara kamu murtad dari agamanya ..."
+    },
+    {
+      "nomor": 55,
+      "arab": "إِنَّمَا وَلِيُّكُمُ اللَّهُ وَرَسُولُهُ ...",
+      "latin": "Innamā waliyyukumullāhu wa rasụluh ...",
+      "arti": "Sesungguhnya penolongmu hanyalah Allah, rasul-Nya ..."
+    },
+    {
+      "nomor": 56,
+      "arab": "وَمَنْ يَتَوَلَّ اللَّهَ وَرَسُولَهُ وَالَّذِينَ آمَنُوا ...",
+      "latin": "Wa may yatawalla allāha wa rasụlahu wallażīna āmanụ ...",
+      "arti": "Barang siapa menjadikan Allah, Rasul-Nya, dan orang-orang beriman sebagai penolong ..."
+    },
+    {
+      "nomor": 57,
+      "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَتَّخِذُوا الَّذِينَ اتَّخَذُوا دِينَكُمْ هُزُوًا ...",
+      "latin": "Yā ayyuhallażīna āmanụ lā tattakhiżu allażīna ittakhazụ dīnakum huzuwan ...",
+      "arti": "Wahai orang-orang beriman! Janganlah kamu menjadikan orang-orang yang menjadikan agamamu bahan ejekan ..."
+    },
+    {
+      "nomor": 58,
+      "arab": "وَإِذَا نَادَيْتُمْ إِلَى الصَّلَاةِ اتَّخَذُوهَا هُزُوًا وَلَعِبًا ...",
+      "latin": "Wa iżā nādaitum ilaṣ-ṣalāti ittakhazụhā huzuwan wa la'ibā ...",
+      "arti": "Dan apabila kamu menyeru untuk shalat, mereka menjadikannya bahan ejekan dan permainan ..."
+    },
+    {
+      "nomor": 59,
+      "arab": "قُلْ يَا أَهْلَ الْكِتَابِ هَلْ تَنْقِمُونَ مِنَّا ...",
+      "latin": "Qul yā ahlal-kitābi hal tanqimụnnā ...",
+      "arti": "Katakanlah, “Wahai Ahli Kitab! Apakah kamu membenci kami hanya karena kami beriman ...”"
+    },
+    {
+      "nomor": 60,
+      "arab": "قُلْ هَلْ أُنَبِّئُكُمْ بِشَرٍّ مِنْ ذَٰلِكَ مَثُوبَةً ...",
+      "latin": "Qul hal unabbi'ukum bisharrim min żālika matsụbatan ...",
+      "arti": "Katakanlah, “Apakah akan aku beritakan kepadamu tentang sesuatu yang lebih buruk pembalasannya di sisi Allah?” ..."
+    },
+    {
+    "nomor": 61,
+    "arab": "وَاِذَا جَاۤءُوْكُمْ قَالُوْۤا اٰمَنَّا وَقَدْ دَخَلُوْا بِالْكُفْرِ وَهُمْ قَدْ خَرَجُوْا بِهٖۗ وَاللّٰهُ اَعْلَمُ بِمَا كَانُوْا يَكْتُمُوْنَ",
+    "latin": "Wa iżā jā'ụkum qālụ āmannā wa qad dakhalaụ bil-kufri wa hum qad kharajụ bih, wallāhu a'lamu bimā kānụ yaktumụn",
+    "arti": "Apabila mereka datang kepadamu, mereka berkata, “Kami beriman.” Padahal mereka masuk dengan kekafiran dan keluar dengan kekafiran. Allah lebih mengetahui apa yang mereka sembunyikan."
+  },
+  {
+    "nomor": 62,
+    "arab": "وَتَرٰى كَثِيْرًا مِّنْهُمْ يُسَارِعُوْنَ فِى الْاِثْمِ وَالْعُدْوَانِ وَاَكْلِهِمُ السُّحْتَۗ لَبِئْسَ مَا كَانُوْا يَعْمَلُوْنَ",
+    "latin": "Wa tarā kaṡīram min-hum yusāri'ụna fil-iṡmi wal-'udwāni wa aklihimus-suḥt, labi'sa mā kānụ ya'malụn",
+    "arti": "Engkau melihat banyak di antara mereka bersegera dalam dosa, permusuhan, dan memakan yang haram. Sungguh, buruk apa yang mereka kerjakan."
+  },
+  {
+    "nomor": 63,
+    "arab": "لَوْلَا يَنْهٰىهُمُ الرَّبّٰنُوْنَ وَالْاَحْبَارُ عَنْ قَوْلِهِمُ الْاِثْمَ وَاَكْلِهِمُ السُّحْتَۗ لَبِئْسَ مَا كَانُوْا يَصْنَعُوْنَ",
+    "latin": "Lawlā yanhāhumur-rabbāniyyụna wal-aḥbāru 'an qaulihimul-iṡma wa aklihimus-suḥt, labi'sa mā kānụ yaṣna'ụn",
+    "arti": "Mengapa para ulama dan pendeta tidak melarang mereka mengucapkan perkataan yang berdosa dan memakan yang haram? Sungguh, buruk apa yang mereka lakukan."
+  },
+  {
+    "nomor": 64,
+    "arab": "وَقَالَتِ الْيَهُوْدُ يَدُ اللّٰهِ مَغْلُوْلَةٌۗ غُلَّتْ اَيْدِيْهِمْ وَلُعِنُوْا بِمَا قَالُوْاۘ بَلْ يَدٰهُ مَبْسُوْطَتٰنِ يُنْفِقُ كَيْفَ يَشَاۤءُۚ وَلَيَزِيْدَنَّ كَثِيْرًا مِّنْهُمْ مَّآ اُنْزِلَ اِلَيْكَ مِنْ رَّبِّكَ طُغْيَانًا وَّكُفْرًاۚ وَاَلْقَيْنَا بَيْنَهُمُ الْعَدَاوَةَ وَالْبَغْضَاۤءَ اِلٰى يَوْمِ الْقِيٰمَةِۗ كُلَّمَآ اَوْقَدُوْا نَارًا لِّلْحَرْبِ اَطْفَاَهَا اللّٰهُ وَيَسْعَوْنَ فِى الْاَرْضِ فَسَادًاۗ وَاللّٰهُ لَا يُحِبُّ الْمُفْسِدِيْنَ",
+    "latin": "Wa qālatil-yahụdu yadullāhi maglụlah, gullat aidīhim wa lu'inụ bimā qālụ, bal yadāhu mabṣụṭatāni yunfiqu kaifa yasya, wa la yazīdanna kaṡīram min-hum mā unzila ilaika mir-rabbika ṭugyānan wa kufrā, wa alqainā bainahumul-'adāwata wal-baghdā` ilā yaumil-qiyāmah, kullamā auqadụ nāran lil-ḥarbi aṭfa`ahallāh, wa yas'auna fil-arḍi fasādā, wallāhu lā yuḥibbul-mufsidīn",
+    "arti": "Orang Yahudi berkata, “Tangan Allah terbelenggu.” Tangan merekalah yang dibelenggu dan mereka dilaknat atas perkataan mereka. (Tidak!) Kedua tangan-Nya terbuka; Dia memberi rezeki sebagaimana Dia kehendaki. Apa yang diturunkan kepadamu dari Tuhanmu akan menambah banyak dari mereka dalam kedurhakaan dan kekafiran. Kami timbulkan di antara mereka permusuhan dan kebencian sampai hari Kiamat. Setiap kali mereka menyalakan api peperangan, Allah memadamkannya. Mereka berusaha membuat kerusakan di bumi. Allah tidak menyukai para perusak."
+  },
+  {
+    "nomor": 65,
+    "arab": "وَلَوْ اَنَّ اَهْلَ الْكِتٰبِ اٰمَنُوْا وَاتَّقَوْا لَكَفَّرْنَا عَنْهُمْ سَيِّاٰتِهِمْ وَلَاَدْخَلْنٰهُمْ جَنّٰتِ النَّعِيْمِ",
+    "latin": "Wa lau annan ahlal-kitābi āmanụ wat-taqau lakaffarnā 'anhum sayyiātihim wa la adkhalnāhum jannātin-na'īm",
+    "arti": "Sekiranya Ahli Kitab beriman dan bertakwa, pasti Kami akan hapus kesalahan-kesalahan mereka dan akan memasukkan mereka ke dalam surga yang penuh kenikmatan."
+  },
+  {
+    "nomor": 66,
+    "arab": "وَلَوْ اَنَّهُمْ اَقَامُوا التَّوْرٰىةَ وَالْاِنْجِيْلَ وَمَآ اُنْزِلَ اِلَيْهِمْ مِّنْ رَّبِّهِمْ لَاَكَلُوْا مِنْ فَوْقِهِمْ وَمِنْ تَحْتِ اَرْجُلِهِمْۗ مِنْهُمْ اُمَّةٌ مُّقْتَصِدَةٌۗ وَكَثِيْرٌ مِّنْهُمْ سَاۤءَ مَا يَعْمَلُوْنَ",
+    "latin": "Wa lau annahum aqāmụt-taurāta wal-injīla wa mā unzila ilaihim mir-rabbihim la akalụ min fauqihim wa min taḥti arjulihim, min-hum ummatum-muqtashiḍah, wa kaṡīrun min-hum sā`a mā ya'malụn",
+    "arti": "Sekiranya mereka menegakkan Taurat, Injil, dan apa yang diturunkan kepada mereka dari Tuhan mereka, niscaya mereka akan memperoleh rezeki dari atas dan dari bawah kaki mereka. Di antara mereka ada golongan yang moderat, tetapi banyak di antara mereka buruk perbuatannya."
+  },
+  {
+    "nomor": 67,
+    "arab": "يٰٓاَيُّهَا الرَّسُوْلُ بَلِّغْ مَآ اُنْزِلَ اِلَيْكَ مِنْ رَّبِّكَۗ وَاِنْ لَّمْ تَفْعَلْ فَمَا بَلَّغْتَ رِسَالَتَهٗۗ وَاللّٰهُ يَعْصِمُكَ مِنَ النَّاسِۗ اِنَّ اللّٰهَ لَا يَهْدِى الْقَوْمَ الْكٰفِرِيْنَ",
+    "latin": "Yā ayyuhar-rasụlu balligh mā unzila ilaika mir-rabbik, wa illam taf'al famā ballaghta risālah, wallāhu ya'ṣimuka minan-nās, innallāha lā yahdil-qaumal-kāfirīn",
+    "arti": "Wahai Rasul! Sampaikanlah apa yang diturunkan kepadamu dari Tuhanmu. Jika tidak engkau lakukan, berarti engkau tidak menyampaikan risalah-Nya. Allah akan memelihara engkau dari (gangguan) manusia. Sungguh, Allah tidak memberi petunjuk kepada orang-orang kafir."
+  },
+  {
+    "nomor": 68,
+    "arab": "قُلْ يٰٓاَهْلَ الْكِتٰبِ لَسْتُمْ عَلٰى شَيْءٍ حَتّٰى تُقِيْمُوا التَّوْرٰىةَ وَالْاِنْجِيْلَ وَمَآ اُنْزِلَ اِلَيْكُمْ مِّنْ رَّبِّكُمْۗ وَلَيَزِيْدَنَّ كَثِيْرًا مِّنْهُمْ مَّآ اُنْزِلَ اِلَيْكَ مِنْ رَّبِّكَ طُغْيَانًا وَّكُفْرًاۚ فَلَا تَاْسَ عَلَى الْقَوْمِ الْكٰفِرِيْنَ",
+    "latin": "Qul yā ahlal-kitābi lastum 'alā syai`in ḥattā tuqīmụt-taurāta wal-injīla wa mā unzila ilaikum mir-rabbikum, wa la yazīdanna kaṡīram min-hum mā unzila ilaika mir-rabbika ṭugyānan wa kufrā, fa lā ta`s 'alal-qaumil-kāfirīn",
+    "arti": "Katakanlah, “Wahai Ahli Kitab! Kamu tidak berada di atas sesuatu (yang benar), sampai kamu menegakkan Taurat, Injil, dan apa yang diturunkan kepadamu dari Tuhanmu.” Tetapi apa yang diturunkan kepadamu akan menambah banyak dari mereka dalam kedurhakaan dan kekafiran. Maka jangan bersedih hati terhadap kaum kafir."
+  },
+  {
+    "nomor": 69,
+    "arab": "اِنَّ الَّذِيْنَ اٰمَنُوْا وَالَّذِيْنَ هَادُوْا وَالصّٰبِـُٔوْنَ وَالنَّصٰرٰىۗ مَنْ اٰمَنَ بِاللّٰهِ وَالْيَوْمِ الْاٰخِرِ وَعَمِلَ صَالِحًا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُوْنَ",
+    "latin": "Innallażīna āmanụ wallażīna hādụ waṣ-ṣābi`ụna wan-naṣārā, man āmana billāhi wal-yaumil-ākhiri wa 'amila ṣāliḥan fa lā khaufun 'alaihim wa lā hum yaḥzanụn",
+    "arti": "Sesungguhnya orang-orang beriman, Yahudi, Sabi’in, dan Nasrani, siapa saja yang beriman kepada Allah dan hari kemudian serta berbuat kebajikan, tidak ada rasa takut pada mereka dan mereka tidak bersedih hati."
+  },
+  {
+    "nomor": 70,
+    "arab": "لَقَدْ اَخَذْنَا مِيْثَاقَ بَنِيْٓ اِسْرَاۤءِيْلَ وَاَرْسَلْنَآ اِلَيْهِمْ رُسُلًاۖ كُلَّمَا جَاۤءَهُمْ رَسُوْلٌۢ بِمَا لَا تَهْوٰۤى اَنْفُسُهُمْ فَرِيْقًا كَذَّبُوْا وَفَرِيْقًا يَّقْتُلُوْنَ",
+    "latin": "Laqad akhażnā mīṡāqa banī isrā`īla wa arsalnā ilaihim rusulā, kullamā jā`ahum rasụlun bimā lā tahwā anfusuhum farīqan każżabụ wa farīqan yaqtulụn",
+    "arti": "Sungguh, Kami telah mengambil perjanjian dari Bani Israil dan Kami mengutus rasul-rasul kepada mereka. Setiap kali datang seorang rasul membawa apa yang tidak disukai oleh hati mereka, mereka mendustakan sebagian dan membunuh sebagian yang lain."
+  },
+  {
+    "nomor": 71,
+    "arab": "وَحَسِبُوْٓا اَلَّا تَكُوْنَ فِتْنَةٌ فَعَمُوْا وَصَمُّوْا ثُمَّ تَابَ اللّٰهُ عَلَيْهِمْ ثُمَّ عَمُوْا وَصَمُّوْا كَثِيْرٌ مِّنْهُمْۗ وَاللّٰهُ بَصِيْرٌۢ بِمَا يَعْمَلُوْنَ",
+    "latin": "Wa ḥasibụ allā takụna fitnah fa 'amụ wa ṣammụ, ṡumma tāballāhu 'alaihim ṡumma 'amụ wa ṣammụ kaṡīrum min-hum, wallāhu baṣīrumbimā ya'malụn",
+    "arti": "Mereka mengira tidak akan terjadi bencana, lalu mereka menjadi buta dan tuli. Kemudian Allah menerima tobat mereka, tetapi kemudian banyak dari mereka menjadi buta dan tuli lagi. Allah Maha Melihat apa yang mereka kerjakan."
+  },
+  {
+    "nomor": 72,
+    "arab": "لَقَدْ كَفَرَ الَّذِيْنَ قَالُوْٓا اِنَّ اللّٰهَ هُوَ الْمَسِيْحُ ابْنُ مَرْيَمَۗ وَقَالَ الْمَسِيْحُ يٰبَنِيْٓ اِسْرَاۤءِيْلَ اعْبُدُوا اللّٰهَ رَبِّيْ وَرَبَّكُمْۗ اِنَّهٗ مَنْ يُّشْرِكْ بِاللّٰهِ فَقَدْ حَرَّمَ اللّٰهُ عَلَيْهِ الْجَنَّةَ وَمَاْوٰىهُ النَّارُۗ وَمَا لِلظّٰلِمِيْنَ مِنْ اَنْصَارٍ",
+    "latin": "Laqad kafarallażīna qālụ innallāha huwal-masīḥubnu maryam, wa qālal-masīḥu yā banī isrā`īla'budullāha rabbī wa rabbakum, innahụ may yusyrik billāhi faqad ḥarramallāhu 'alaihīl-jannata wa ma'wāhun-nār, wa mā liẓ-ẓālimīna min anṣār",
+    "arti": "Sungguh, telah kafirlah orang-orang yang berkata, “Sesungguhnya Allah itu adalah Al-Masih putra Maryam.” Padahal Al-Masih berkata, “Wahai Bani Israil! Sembahlah Allah, Tuhanku dan Tuhanmu.” Sesungguhnya siapa mempersekutukan Allah, maka Allah mengharamkan baginya surga dan tempatnya ialah neraka. Tidak ada bagi orang-orang zalim seorang penolong pun."
+  },
+  {
+    "nomor": 73,
+    "arab": "لَقَدْ كَفَرَ الَّذِيْنَ قَالُوْٓا اِنَّ اللّٰهَ ثَالِثُ ثَلٰثَةٍۘ وَمَا مِنْ اِلٰهٍ اِلَّآ اِلٰهٌ وَّاحِدٌۗ وَاِنْ لَّمْ يَنْتَهُوْا عَمَّا يَقُوْلُوْنَ لَيَمَسَّنَّ الَّذِيْنَ كَفَرُوْا مِنْهُمْ عَذَابٌ اَلِيْمٌ",
+    "latin": "Laqad kafarallażīna qālụ innallāha ṡāliṡu ṡalāṡah, wa mā min ilāhin illā ilāhun wāḥid, wa illam yantahụ 'ammā yaqụlụna layamassannallażīna kafarụ min-hum 'ażābun alīm",
+    "arti": "Sungguh, telah kafirlah orang-orang yang berkata, “Allah adalah salah satu dari tiga tuhan.” Padahal tidak ada tuhan selain Tuhan Yang Esa. Jika mereka tidak berhenti dari apa yang mereka katakan itu, pasti orang-orang kafir di antara mereka akan ditimpa azab yang pedih."
+  },
+  {
+    "nomor": 74,
+    "arab": "اَفَلَا يَتُوْبُوْنَ اِلَى اللّٰهِ وَيَسْتَغْفِرُوْنَهٗۗ وَاللّٰهُ غَفُوْرٌ رَّحِيْمٌ",
+    "latin": "Afalā yatụbụna ilallāhi wa yastagfirụnah, wallāhu gafụrur-raḥīm",
+    "arti": "Maka mengapa mereka tidak bertobat kepada Allah dan memohon ampun kepada-Nya? Allah Maha Pengampun, Maha Penyayang."
+  },
+  {
+    "nomor": 75,
+    "arab": "مَا الْمَسِيْحُ ابْنُ مَرْيَمَ اِلَّا رَسُوْلٌۗ قَدْ خَلَتْ مِنْ قَبْلِهِ الرُّسُلُۗ وَاُمُّهٗ صِدِّيْقَةٌۗ كَانَا يَاْكُلٰنِ الطَّعَامَۗ اُنْظُرْ كَيْفَ نُبَيِّنُ لَهُمُ الْاٰيٰتِ ثُمَّ انْظُرْ اَنّٰى يُؤْفَكُوْنَ",
+    "latin": "Mal-masīḥubnu maryama illā rasụl, qad khalat min qablihīr-rusul, wa ummuhū ṣiddīqah, kānā ya'kulānit-ta'ām, unẓur kaifa nubayyinu lahumul-āyāt, ṡumma unẓur annā yu`fakụn",
+    "arti": "Al-Masih putra Maryam itu hanyalah seorang rasul; sungguh, telah berlalu sebelumnya beberapa rasul. Ibunya seorang yang sangat benar. Keduanya biasa makan makanan. Perhatikan bagaimana Kami menjelaskan ayat-ayat kepada mereka, kemudian perhatikan bagaimana mereka dipalingkan."
+  },
+  {
+    "nomor": 76,
+    "arab": "قُلْ اَتَعْبُدُوْنَ مِنْ دُوْنِ اللّٰهِ مَا لَا يَمْلِكُ لَكُمْ ضَرًّا وَّلَا نَفْعًاۗ وَاللّٰهُ هُوَ السَّمِيْعُ الْعَلِيْمُ",
+    "latin": "Qul ata'budụna min dūnillāhi mā lā yamliku lakum ḍarranw wa lā naf'ā, wallāhu hus-samī'ul-'alīm",
+    "arti": "Katakanlah, “Mengapa kamu menyembah selain Allah sesuatu yang tidak kuasa menimpakan mudarat kepadamu dan tidak (pula) memberi manfaat?” Allah Maha Mendengar, Maha Mengetahui."
+  },
+  {
+    "nomor": 77,
+    "arab": "قُلْ يٰٓاَهْلَ الْكِتٰبِ لَا تَغْلُوْا فِيْ دِيْنِكُمْ غَيْرَ الْحَقِّ وَلَا تَتَّبِعُوْٓا اَهْوَاۤءَ قَوْمٍ قَدْ ضَلُّوْا مِنْ قَبْلُ وَاَضَلُّوْا كَثِيْرًا وَّضَلُّوْا عَنْ سَوَاۤءِ السَّبِيْلِ",
+    "latin": "Qul yā ahlal-kitābi lā taglụ fī dīnikum gairal-ḥaqqi wa lā tattabi'ụ ahwā`a qaumin qad ḍallụ min qablu wa aḍallụ kaṡīraw wa ḍallụ 'an sawā`is-sabīl",
+    "arti": "Katakanlah, “Wahai Ahli Kitab! Janganlah kamu melampaui batas dalam agamamu tanpa kebenaran, dan janganlah mengikuti hawa nafsu orang-orang yang telah sesat sebelumnya, mereka telah menyesatkan banyak orang dan tersesat dari jalan yang lurus.”"
+  },
+  {
+    "nomor": 78,
+    "arab": "لُعِنَ الَّذِيْنَ كَفَرُوْا مِنْۢ بَنِيْٓ اِسْرَاۤءِيْلَ عَلٰى لِسَانِ دَاوٗدَ وَعِيْسَى ابْنِ مَرْيَمَۗ ذٰلِكَ بِمَا عَصَوْا وَّكَانُوْا يَعْتَدُوْنَ",
+    "latin": "Lu'inal-lażīna kafarụ mim banī isrā`īla 'alā lisāni dāwụda wa 'īsab-ni maryam, żālika bimā 'aṣau wa kānụ ya'tadụn",
+    "arti": "Orang-orang kafir dari Bani Israil telah dilaknat melalui lisan Dawud dan Isa putra Maryam. Hal itu disebabkan mereka durhaka dan selalu melampaui batas."
+  },
+  {
+    "nomor": 79,
+    "arab": "كَانُوْا لَا يَتَنَاهَوْنَ عَنْ مُّنْكَرٍ فَعَلُوْهُۗ لَبِئْسَ مَا كَانُوْا يَفْعَلُوْنَ",
+    "latin": "Kānụ lā yatanāhau na'an munkarin fa'alụh, labi'sa mā kānụ yaf'alụn",
+    "arti": "Mereka tidak saling mencegah dari perbuatan mungkar yang mereka lakukan. Sungguh, sangat buruk apa yang mereka kerjakan."
+  },
+  {
+    "nomor": 80,
+    "arab": "تَرٰى كَثِيْرًا مِّنْهُمْ يَتَوَلَّوْنَ الَّذِيْنَ كَفَرُوْاۗ لَبِئْسَ مَا قَدَّمَتْ لَهُمْ اَنْفُسُهُمْ اَنْ سَخِطَ اللّٰهُ عَلَيْهِمْ وَفِى الْعَذَابِ هُمْ خٰلِدُوْنَ",
+    "latin": "Tarā kaṡīram min-hum yatawallau-nal-lażīna kafarụ, labi'sa mā qaddamat lahum anfusuhum an sakhitallāhu 'alaihim wa fil-'ażābi hum khālidụn",
+    "arti": "Engkau melihat banyak di antara mereka menjadikan orang-orang kafir sebagai teman setia. Sungguh buruk apa yang mereka perbuat untuk diri mereka sendiri, sehingga Allah murka kepada mereka, dan mereka kekal dalam azab."
+  },
+  {
+    "nomor": 81,
+    "arab": "وَلَوْ كَانُوا يُؤْمِنُونَ بِاللَّهِ وَالنَّبِيِّ وَمَا أُنْزِلَ إِلَيْهِ مَا اتَّخَذُوهُمْ أَوْلِيَاءَ وَلَٰكِنَّ كَثِيرًا مِنْهُمْ فَاسِقُونَ",
+    "latin": "Walau kaanuu yu'minuuna billaahi wan-nabiyyi wa maa unzila ilaihi mat-takhadzuuhum awliyaa-a wa laakinna katsiiran minhum faasiquun",
+    "arti": "Sekiranya mereka beriman kepada Allah, nabi, dan apa yang diturunkan kepadanya, niscaya mereka tidak menjadikan orang-orang kafir itu sebagai wali. Tetapi kebanyakan dari mereka adalah orang-orang fasik."
+  },
+  {
+    "nomor": 82,
+    "arab": "لَتَجِدَنَّ أَشَدَّ النَّاسِ عَدَاوَةً لِلَّذِينَ آمَنُوا الْيَهُودَ وَالَّذِينَ أَشْرَكُوا ۖ وَلَتَجِدَنَّ أَقْرَبَهُمْ مَوَدَّةً لِلَّذِينَ آمَنُوا الَّذِينَ قَالُوا إِنَّا نَصَارَىٰ ۚ ذَٰلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ وَرُهْبَانًا وَأَنَّهُمْ لَا يَسْتَكْبِرُونَ",
+    "latin": "Latjidannan asyaddan naasi ‘adaawatan lilladziina aamanuul-yahuuda walladziina asyrakuu wa latjidanna aqrabahum mawaddatan lilladziina aamanuu alladziina qaaluu innaa nashaaraa, dzaalika bi-anna minhum qissisiina wa ruhbaanan wa annahum laa yastakbiruun",
+    "arti": "Pasti engkau dapati bahwa orang yang paling keras permusuhannya terhadap orang beriman adalah orang Yahudi dan orang musyrik. Dan engkau dapati orang yang paling dekat kasih sayangnya kepada orang beriman adalah orang-orang yang berkata, “Sesungguhnya kami orang Nasrani,” karena di antara mereka terdapat para pendeta dan rahib, dan karena mereka tidak sombong."
+  },
+  {
+    "nomor": 83,
+    "arab": "وَإِذَا سَمِعُوا مَا أُنْزِلَ إِلَى الرَّسُولِ تَرَىٰ أَعْيُنَهُمْ تَفِيضُ مِنَ الدَّمْعِ مِمَّا عَرَفُوا مِنَ الْحَقِّ ۖ يَقُولُونَ رَبَّنَا آمَنَّا فَاكْتُبْنَا مَعَ الشَّاهِدِينَ",
+    "latin": "Wa idzaa sami'uu maa unzila ilar-rasuuli tara a’yunahum tafiidhu minad-dam’i mimmaa ‘arafuu minal-haqqi yaquuluuna rabbanaa aamannaa faktubnaa ma‘asy-syaahidiin",
+    "arti": "Apabila mereka mendengar apa yang diturunkan kepada Rasul, engkau akan melihat mata mereka bercucuran air mata karena kebenaran yang mereka ketahui. Mereka berkata, “Ya Tuhan kami, kami telah beriman. Maka catatlah kami bersama orang-orang yang menjadi saksi (kebenaran).”"
+  },
+  {
+    "nomor": 84,
+    "arab": "وَمَا لَنَا لَا نُؤْمِنُ بِاللَّهِ وَمَا جَاءَنَا مِنَ الْحَقِّ وَنَطْمَعُ أَنْ يُدْخِلَنَا رَبُّنَا مَعَ الْقَوْمِ الصَّالِحِينَ",
+    "latin": "Wa maa lanaa laa nu’minu billaahi wa maa jaa-anaa minal-haqqi wa nathma'u an yudkhilanaa rabbunaa ma‘al-qawmish-shaalihiin",
+    "arti": "Mengapa kami tidak beriman kepada Allah dan kepada kebenaran yang datang kepada kami, padahal kami ingin Tuhan kami memasukkan kami bersama kaum yang saleh?"
+  },
+  {
+    "nomor": 85,
+    "arab": "فَأَثَابَهُمُ اللَّهُ بِمَا قَالُوا جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا ۚ وَذَٰلِكَ جَزَاءُ الْمُحْسِنِينَ",
+    "latin": "Fa atsaa bahumullaahu bimaa qaaluu jannaatin tajrii min tahtihaal-anhaar khaalidiina fiihaa wa dzaalika jazaa-ul-muhsiniin",
+    "arti": "Maka Allah memberi mereka balasan atas apa yang mereka katakan, berupa surga yang mengalir di bawahnya sungai-sungai, mereka kekal di dalamnya. Itulah balasan bagi orang-orang yang berbuat kebaikan."
+  },
+  {
+    "nomor": 86,
+    "arab": "وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَٰئِكَ أَصْحَابُ الْجَحِيمِ",
+    "latin": "Walladziina kafaruu wa kadzdzabuu bi-aayaatinaa ulaa-ika ash-haabul-jahiim",
+    "arti": "Dan orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itulah para penghuni neraka."
+  },
+  {
+    "nomor": 87,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ وَلَا تَعْتَدُوا ۚ إِنَّ اللَّهَ لَا يُحِبُّ الْمُعْتَدِينَ",
+    "latin": "Yaa ayyuhalladziina aamanuu laa tuharrimuu thayyibaati maa ahallallaahu lakum wa laa ta’taduu, innallaaha laa yuhibbul-mu'tadiin",
+    "arti": "Wahai orang-orang yang beriman! Janganlah kamu mengharamkan apa yang baik yang telah Allah halalkan bagimu, dan janganlah kamu melampaui batas. Sesungguhnya Allah tidak menyukai orang-orang yang melampaui batas."
+  },
+  {
+    "nomor": 88,
+    "arab": "وَكُلُوا مِمَّا رَزَقَكُمُ اللَّهُ حَلَالًا طَيِّبًا ۚ وَاتَّقُوا اللَّهَ الَّذِي أَنْتُمْ بِهِ مُؤْمِنُونَ",
+    "latin": "Wa kuluu mimmaa razaqakumullaahu halaalan thayyiban wattaqullaahalladzii antum bihii mu'minuun",
+    "arti": "Makanlah dari rezeki yang telah Allah berikan kepadamu yang halal dan baik, dan bertakwalah kepada Allah yang kepada-Nya kamu beriman."
+  },
+  {
+    "nomor": 89,
+    "arab": "لَا يُؤَاخِذُكُمُ اللَّهُ بِاللَّغْوِ فِي أَيْمَانِكُمْ وَلَٰكِنْ يُؤَاخِذُكُمْ بِمَا عَقَّدْتُمُ الْأَيْمَانَ ۖ فَكَفَّارَتُهُ إِطْعَامُ عَشَرَةِ مَسَاكِينَ ... (ayat panjang)",
+    "latin": "Laa yu-aakhidzukumullaahu bil-laghwi fii aymaanikum wa laakin yu-aakhidzukum bimaa ‘aqqadtumul-aymaan ...",
+    "arti": "Allah tidak menghukum kamu disebabkan sumpah-sumpahmu yang tidak disengaja, tetapi Dia menghukummu karena sumpah yang kamu sengaja mengikatnya. Maka kafaratnya ialah memberi makan sepuluh orang miskin ... (lanjutan hukum kafarat)"
+  },
+  {
+    "nomor": 90,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِنَّمَا الْخَمْرُ وَالْمَيْسِرُ ...",
+    "latin": "Yaa ayyuhalladziina aamanuu innamal-khamru wal-maysiru ...",
+    "arti": "Wahai orang-orang yang beriman! Sesungguhnya (meminum) khamar, berjudi, ... adalah perbuatan keji dari perbuatan setan, maka jauhilah agar kamu beruntung."
+  },
+  {
+    "nomor": 91,
+    "arab": "إِنَّمَا يُرِيدُ الشَّيْطَانُ أَنْ يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ ...",
+    "latin": "Innamaa yuriidusys-syaythaanu an yuuqi'a bainakumul-‘adaawata ...",
+    "arti": "Sesungguhnya setan bermaksud menimbulkan permusuhan dan kebencian ... maka berhentilah kamu."
+  },
+  {
+    "nomor": 92,
+    "arab": "وَأَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَاحْذَرُوا ...",
+    "latin": "Wa athii'ullaaha wa athii'ur-rasuula wahdza ruu ...",
+    "arti": "Taatilah Allah dan taatilah Rasul, dan berhati-hatilah. Jika kamu berpaling, maka ketahuilah bahwa tugas Rasul hanya menyampaikan dengan jelas."
+  },
+  {
+    "nomor": 93,
+    "arab": "لَيْسَ عَلَى الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ...",
+    "latin": "Laisa ‘alalladziina aamanuu wa ‘amilush-shaalihaati ...",
+    "arti": "Tidak ada dosa bagi orang yang beriman dan beramal saleh terhadap apa yang telah mereka makan (sebelum pengharaman khamar) ..."
+  },
+  {
+    "nomor": 94,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَيَبْلُوَنَّكُمُ اللَّهُ بِشَيْءٍ ...",
+    "latin": "Yaa ayyuhalladziina aamanuu layabluwannakumullaahu bisyai-in ...",
+    "arti": "Wahai orang-orang yang beriman! Allah pasti mengujimu dengan sesuatu dari buruan yang mudah dijangkau ..."
+  },
+  {
+    "nomor": 95,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَقْتُلُوا الصَّيْدَ ...",
+    "latin": "Yaa ayyuhalladziina aamanuu laa taqtulus-shaida ...",
+    "arti": "Wahai orang-orang yang beriman! Janganlah kamu membunuh binatang buruan ketika sedang ihram ..."
+  },
+  {
+    "nomor": 96,
+    "arab": "أُحِلَّ لَكُمْ صَيْدُ الْبَحْرِ ...",
+    "latin": "Uhilla lakum sha'idul-bahri ...",
+    "arti": "Dihalalkan bagimu binatang buruan laut dan makanan dari laut sebagai kesenangan bagimu ..."
+  },
+  {
+    "nomor": 97,
+    "arab": "جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ ...",
+    "latin": "Ja‘alallaahul-ka‘batal-baytal-haraama ...",
+    "arti": "Allah menjadikan Ka‘bah, rumah yang dihormati, sebagai pegangan bagi manusia ..."
+  },
+  {
+    "nomor": 98,
+    "arab": "اعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ ...",
+    "latin": "I‘lamuu annallaaha syadiidul-‘iqaab ...",
+    "arti": "Ketahuilah bahwa Allah sangat berat siksaan-Nya dan sesungguhnya Allah Maha Pengampun, Maha Penyayang."
+  },
+  {
+    "nomor": 99,
+    "arab": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ ...",
+    "latin": "Maa ‘alar-rasuuli illal-balaagh ...",
+    "arti": "Kewajiban Rasul tidak lain hanyalah menyampaikan. Dan Allah mengetahui apa yang kamu tampakkan dan kamu sembunyikan."
+  },
+  {
+    "nomor": 100,
+    "arab": "قُلْ لَا يَسْتَوِي الْخَبِيثُ وَالطَّيِّبُ ...",
+    "latin": "Qul laa yastawil-khabiitsu wath-thayyib ...",
+    "arti": "Katakanlah, “Tidak sama yang buruk dan yang baik, meskipun banyaknya yang buruk dapat menarikmu. Maka bertakwalah kepada Allah wahai orang-orang yang berakal, agar kamu beruntung.”"
+  },
+  {
+    "nomor": 101,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ ۖ وَإِنْ تَسْأَلُوا عَنْهَا حِينَ يُنَزَّلُ الْقُرْآنُ تُبْدَ لَكُمْ ۚ عَفَا اللَّهُ عَنْهَا ۗ وَاللَّهُ غَفُورٌ حَلِيمٌ",
+    "latin": "Yaa ayyuhalladziina aamanuu laa tas-aluu ‘an asyyaa-a in tubda lakum tasu'kum, wa in tas-aluu 'anhaa hiina yunzalul-Qur'aan tubda lakum, ‘afallaahu ‘anhaa, wallaahu ghafuuru haliim",
+    "arti": "Wahai orang-orang yang beriman! Janganlah kamu menanyakan hal-hal yang jika diterangkan kepadamu akan menyusahkanmu. Jika kamu menanyakannya ketika Al-Qur'an sedang diturunkan, niscaya akan diterangkan kepadamu. Allah telah memaafkan hal yang demikian, dan Allah Maha Pengampun, Maha Penyantun."
+  },
+  {
+    "nomor": 102,
+    "arab": "قَدْ سَأَلَهَا قَوْمٌ مِنْ قَبْلِكُمْ ثُمَّ أَصْبَحُوا بِهَا كَافِرِينَ",
+    "latin": "Qad sa-alahaa qaumum min qablikum tsumma ashbahuu bihaa kaafiriin",
+    "arti": "Sesungguhnya telah ada suatu kaum sebelum kamu yang menanyakan hal-hal itu, kemudian mereka menjadi kafir karenanya."
+  },
+  {
+    "nomor": 103,
+    "arab": "مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلَا سَائِبَةٍ وَلَا وَصِيلَةٍ وَلَا حَامٍ ...",
+    "latin": "Maa ja‘alallaahu min bahii ratin wa laa saa'ibatin wa laa washiilatin wa laa haamin ...",
+    "arti": "Allah tidak pernah mensyariatkan bahirah, sa’ibah, washilah, dan ham ... tetapi orang-orang kafir mengada-adakan kebohongan terhadap Allah."
+  },
+  {
+    "nomor": 104,
+    "arab": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا إِلَىٰ مَا أَنْزَلَ اللَّهُ ...",
+    "latin": "Wa idzaa qiila lahum ta‘alaw ilaa maa anzalallaahu ...",
+    "arti": "Apabila dikatakan kepada mereka, “Marilah mengikuti apa yang telah diturunkan Allah dan mengikuti Rasul,” mereka menjawab, “Cukuplah bagi kami apa yang kami dapati dari nenek moyang kami.” ..."
+  },
+  {
+    "nomor": 105,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا عَلَيْكُمْ أَنْفُسَكُمْ ...",
+    "latin": "Yaa ayyuhalladziina aamanuu ‘alaikum anfusakum ...",
+    "arti": "Wahai orang beriman! Jagalah dirimu; orang yang sesat tidak akan merugikanmu apabila kamu telah mendapat petunjuk ..."
+  },
+  {
+    "nomor": 106,
+    "arab": "يَا أَيُّهَا الَّذِينَ آمَنُوا شَهَادَةُ بَيْنِكُمْ ...",
+    "latin": "Yaa ayyuhalladziina aamanuu syahaadatu bainikum ...",
+    "arti": "Wahai orang-orang beriman! Apabila salah seorang dari kamu menghadapi kematian, sedang dia hendak berwasiat, maka hendaklah persaksiannya dilakukan oleh dua orang yang adil di antara kamu ..."
+  },
+  {
+    "nomor": 107,
+    "arab": "فَإِنْ عُثِرَ عَلَىٰ أَنَّهُمَا اسْتَحَقَّا إِثْمًا ...",
+    "latin": "Fa in 'utsira 'alaa annahuma istahaa itsmaa ...",
+    "arti": "Jika ternyata kedua saksi itu melakukan dosa (dan tidak jujur), maka digantikan oleh dua orang yang lebih berhak ..."
+  },
+  {
+    "nomor": 108,
+    "arab": "ذَٰلِكَ أَدْنَىٰ أَنْ يَأْتُوا بِالشَّهَادَةِ عَلَىٰ وَجْهِهَا ...",
+    "latin": "Dzaalika adnaa an ya'tuu bisy-syahaadati 'alaa wajhihaa ...",
+    "arti": "Demikian itu lebih dekat agar mereka memberikan kesaksian dengan benar, atau mereka takut disanggah oleh sumpah sesudah sumpah mereka."
+  },
+  {
+    "nomor": 109,
+    "arab": "يَوْمَ يَجْمَعُ اللَّهُ الرُّسُلَ فَيَقُولُ مَاذَا أُجِبْتُمْ ...",
+    "latin": "Yawma yajma‘ullaahur-rusula fa yaquulu maadzaa ujibtum ...",
+    "arti": "Pada hari ketika Allah mengumpulkan para rasul lalu Dia bertanya, “Apa jawaban yang kamu terima?” ..."
+  },
+  {
+    "nomor": 110,
+    "arab": "إِذْ قَالَ اللَّهُ يَا عِيسَى ابْنَ مَرْيَمَ اذْكُرْ نِعْمَتِي ...",
+    "latin": "Idz qaala Allaahu yaa ‘iisaabna maryama udzkur ni‘mati ...",
+    "arti": "Ketika Allah berfirman: “Wahai Isa putra Maryam! Ingatlah nikmat-Ku kepadamu dan kepada ibumu...”"
+  },
+  {
+    "nomor": 111,
+    "arab": "وَإِذْ أَوْحَيْتُ إِلَى الْحَوَارِيِّينَ ...",
+    "latin": "Wa idz awhaitu ilal-hawaariyyiina ...",
+    "arti": "Dan ketika Aku mengilhamkan kepada para pengikut setia (Hawariyyun)..."
+  },
+  {
+    "nomor": 112,
+    "arab": "إِذْ قَالَ الْحَوَارِيُّونَ يَا عِيسَى ابْنَ مَرْيَمَ ...",
+    "latin": "Idz qaalal-hawaariyyuuna yaa ‘iisaabna maryama ...",
+    "arti": "Para hawari berkata, “Wahai Isa putra Maryam! Maukah Tuhanmu menurunkan hidangan dari langit kepada kami?”"
+  },
+  {
+    "nomor": 113,
+    "arab": "قَالَ اتَّقُوا اللَّهَ إِنْ كُنْتُمْ مُؤْمِنِينَ",
+    "latin": "Qaala ittaqullaaha in kuntum mu’miniin",
+    "arti": "Isa berkata, “Bertakwalah kepada Allah jika kamu benar-benar beriman.”"
+  },
+  {
+    "nomor": 114,
+    "arab": "قَالَ عِيسَى ابْنُ مَرْيَمَ اللَّهُمَّ رَبَّنَا أَنْزِلْ عَلَيْنَا مَائِدَةً ...",
+    "latin": "Qaala ‘iisaabnu maryam allaahumma rabbanaa anzil ‘alainaa maa-idatan ...",
+    "arti": "Isa putra Maryam berdoa, “Ya Allah Tuhan kami, turunkanlah kepada kami suatu hidangan dari langit...”"
+  },
+  {
+    "nomor": 115,
+    "arab": "قَالَ اللَّهُ إِنِّي مُنَزِّلُهَا عَلَيْكُمْ ...",
+    "latin": "Qaala Allaahu innii munazziluhaa ‘alaikum ...",
+    "arti": "Allah berfirman, “Sesungguhnya Aku akan menurunkannya kepadamu. Tetapi barang siapa yang kafir setelah itu, Aku akan mengazabnya...”"
+  },
+  {
+    "nomor": 116,
+    "arab": "وَإِذْ قَالَ اللَّهُ يَا عِيسَى ابْنَ مَرْيَمَ أَأَنْتَ قُلْتَ ...",
+    "latin": "Wa idz qaala Allaahu yaa ‘iisaabna maryama a-anta qulta ...",
+    "arti": "Dan ketika Allah berfirman, “Wahai Isa putra Maryam! Apakah engkau mengatakan kepada manusia: jadikanlah aku dan ibuku sebagai dua tuhan selain Allah?”"
+  },
+  {
+    "nomor": 117,
+    "arab": "مَا قُلْتُ لَهُمْ إِلَّا مَا أَمَرْتَنِي بِهِ ...",
+    "latin": "Maa qultu lahum illaa maa amartanii bihii ...",
+    "arti": "Isa menjawab, “Aku tidak pernah mengatakan kepada mereka kecuali apa yang Engkau perintahkan kepadaku...”"
+  },
+  {
+    "nomor": 118,
+    "arab": "إِنْ تُعَذِّبْهُمْ فَإِنَّهُمْ عِبَادُكَ ...",
+    "latin": "In tu‘adzdzibhum fa-innahum ‘ibaaduk ...",
+    "arti": "Jika Engkau menyiksa mereka, maka sesungguhnya mereka adalah hamba-Mu; jika Engkau mengampuni mereka, Engkaulah Yang Maha Perkasa, Maha Bijaksana."
+  },
+  {
+    "nomor": 119,
+    "arab": "قَالَ اللَّهُ هَٰذَا يَوْمُ يَنْفَعُ الصَّادِقِينَ صِدْقُهُمْ ...",
+    "latin": "Qaala Allaahu haadzaa yawmu yanfa‘ush-shaadiqiina shidquhum ...",
+    "arti": "Allah berfirman, “Ini adalah hari ketika kejujuran orang-orang yang benar memberi manfaat bagi mereka...”"
+  },
+  {
+    "nomor": 120,
+    "arab": "لِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+    "latin": "Lillaahi mulkus-samaawaati wal-ardhi ...",
+    "arti": "Milik Allah-lah kerajaan langit dan bumi dan apa yang ada di dalamnya. Dia Mahakuasa atas segala sesuatu."
+  }
+  ]
+}

@@ -1,0 +1,800 @@
+[
+  {
+    "nomor": 1,
+    "nama": "Al-Fatihah",
+    "ayat": 7,
+    "arabic": "الفاتحة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 2,
+    "nama": "Al-Baqarah",
+    "ayat": 286,
+    "arabic": "البقرة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 3,
+    "nama": "Ali 'Imran",
+    "ayat": 200,
+    "arabic": "آل عمران",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 4,
+    "nama": "An-Nisa",
+    "ayat": 176,
+    "arabic": "النساء",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 5,
+    "nama": "Al-Ma'idah",
+    "ayat": 120,
+    "arabic": "المائدة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 6,
+    "nama": "Al-An'am",
+    "ayat": 165,
+    "arabic": "الأنعام",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 7,
+    "nama": "Al-A'raf",
+    "ayat": 206,
+    "arabic": "الأعراف",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 8,
+    "nama": "Al-Anfal",
+    "ayat": 75,
+    "arabic": "الأنفال",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 9,
+    "nama": "At-Taubah",
+    "ayat": 129,
+    "arabic": "التوبة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 10,
+    "nama": "Yunus",
+    "ayat": 109,
+    "arabic": "يونس",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 11,
+    "nama": "Hud",
+    "ayat": 123,
+    "arabic": "هود",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 12,
+    "nama": "Yusuf",
+    "ayat": 111,
+    "arabic": "يوسف",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 13,
+    "nama": "Ar-Ra'd",
+    "ayat": 43,
+    "arabic": "الرعد",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 14,
+    "nama": "Ibrahim",
+    "ayat": 52,
+    "arabic": "ابراهيم",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 15,
+    "nama": "Al-Hijr",
+    "ayat": 99,
+    "arabic": "الحجر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 16,
+    "nama": "An-Nahl",
+    "ayat": 128,
+    "arabic": "النحل",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 17,
+    "nama": "Al-Isra",
+    "ayat": 111,
+    "arabic": "الإسراء",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 18,
+    "nama": "Al-Kahf",
+    "ayat": 110,
+    "arabic": "الكهف",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 19,
+    "nama": "Maryam",
+    "ayat": 98,
+    "arabic": "مريم",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 20,
+    "nama": "Taha",
+    "ayat": 135,
+    "arabic": "طه",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 21,
+    "nama": "Al-Anbiya",
+    "ayat": 112,
+    "arabic": "الأنبياء",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 22,
+    "nama": "Al-Hajj",
+    "ayat": 78,
+    "arabic": "الحج",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 23,
+    "nama": "Al-Mu'minun",
+    "ayat": 118,
+    "arabic": "المؤمنون",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 24,
+    "nama": "An-Nur",
+    "ayat": 64,
+    "arabic": "النور",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 25,
+    "nama": "Al-Furqan",
+    "ayat": 77,
+    "arabic": "الفرقان",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 26,
+    "nama": "Asy-Syu'ara",
+    "ayat": 227,
+    "arabic": "الشعراء",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 27,
+    "nama": "An-Naml",
+    "ayat": 93,
+    "arabic": "النمل",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 28,
+    "nama": "Al-Qasas",
+    "ayat": 88,
+    "arabic": "القصص",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 29,
+    "nama": "Al-'Ankabut",
+    "ayat": 69,
+    "arabic": "العنكبوت",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 30,
+    "nama": "Ar-Rum",
+    "ayat": 60,
+    "arabic": "الروم",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 31,
+    "nama": "Luqman",
+    "ayat": 34,
+    "arabic": "لقمان",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 32,
+    "nama": "As-Sajdah",
+    "ayat": 30,
+    "arabic": "السجدة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 33,
+    "nama": "Al-Ahzab",
+    "ayat": 73,
+    "arabic": "الأحزاب",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 34,
+    "nama": "Saba",
+    "ayat": 54,
+    "arabic": "سبإ",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 35,
+    "nama": "Fatir",
+    "ayat": 45,
+    "arabic": "فاطر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 36,
+    "nama": "Yasin",
+    "ayat": 83,
+    "arabic": "يس",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 37,
+    "nama": "As-Saffat",
+    "ayat": 182,
+    "arabic": "الصافات",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 38,
+    "nama": "Sad",
+    "ayat": 88,
+    "arabic": "ص",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 39,
+    "nama": "Az-Zumar",
+    "ayat": 75,
+    "arabic": "الزمر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 40,
+    "nama": "Ghafir",
+    "ayat": 85,
+    "arabic": "غافر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 41,
+    "nama": "Fussilat",
+    "ayat": 54,
+    "arabic": "فصلت",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 42,
+    "nama": "Asy-Syura",
+    "ayat": 53,
+    "arabic": "الشورى",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 43,
+    "nama": "Az-Zukhruf",
+    "ayat": 89,
+    "arabic": "الزخرف",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 44,
+    "nama": "Ad-Dukhan",
+    "ayat": 59,
+    "arabic": "الدخان",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 45,
+    "nama": "Al-Jasiyah",
+    "ayat": 37,
+    "arabic": "الجاثية",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 46,
+    "nama": "Al-Ahqaf",
+    "ayat": 35,
+    "arabic": "الأحقاف",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 47,
+    "nama": "Muhammad",
+    "ayat": 38,
+    "arabic": "محمد",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 48,
+    "nama": "Al-Fath",
+    "ayat": 29,
+    "arabic": "الفتح",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 49,
+    "nama": "Al-Hujurat",
+    "ayat": 18,
+    "arabic": "الحجرات",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 50,
+    "nama": "Qaf",
+    "ayat": 45,
+    "arabic": "ق",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 51,
+    "nama": "Az-Zariyat",
+    "ayat": 60,
+    "arabic": "الذاريات",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 52,
+    "nama": "At-Tur",
+    "ayat": 49,
+    "arabic": "الطور",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 53,
+    "nama": "An-Najm",
+    "ayat": 62,
+    "arabic": "النجم",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 54,
+    "nama": "Al-Qamar",
+    "ayat": 55,
+    "arabic": "القمر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 55,
+    "nama": "Ar-Rahman",
+    "ayat": 78,
+    "arabic": "الرحمن",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 56,
+    "nama": "Al-Waqi'ah",
+    "ayat": 96,
+    "arabic": "الواقعة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 57,
+    "nama": "Al-Hadid",
+    "ayat": 29,
+    "arabic": "الحديد",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 58,
+    "nama": "Al-Mujadalah",
+    "ayat": 22,
+    "arabic": "المجادلة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 59,
+    "nama": "Al-Hasyr",
+    "ayat": 24,
+    "arabic": "الحشر",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 60,
+    "nama": "Al-Mumtahanah",
+    "ayat": 13,
+    "arabic": "الممتحنة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 61,
+    "nama": "As-Saff",
+    "ayat": 14,
+    "arabic": "الصف",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 62,
+    "nama": "Al-Jumu'ah",
+    "ayat": 11,
+    "arabic": "الجمعة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 63,
+    "nama": "Al-Munafiqun",
+    "ayat": 11,
+    "arabic": "المنافقون",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 64,
+    "nama": "At-Tagabun",
+    "ayat": 18,
+    "arabic": "التغابن",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 65,
+    "nama": "At-Talaq",
+    "ayat": 12,
+    "arabic": "الطلاق",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 66,
+    "nama": "At-Tahrim",
+    "ayat": 12,
+    "arabic": "التحريم",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 67,
+    "nama": "Al-Mulk",
+    "ayat": 30,
+    "arabic": "الملك",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 68,
+    "nama": "Al-Qalam",
+    "ayat": 52,
+    "arabic": "القلم",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 69,
+    "nama": "Al-Haqqah",
+    "ayat": 52,
+    "arabic": "الحاقة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 70,
+    "nama": "Al-Ma'arij",
+    "ayat": 44,
+    "arabic": "المعارج",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 71,
+    "nama": "Nuh",
+    "ayat": 28,
+    "arabic": "نوح",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 72,
+    "nama": "Al-Jinn",
+    "ayat": 28,
+    "arabic": "الجن",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 73,
+    "nama": "Al-Muzzammil",
+    "ayat": 20,
+    "arabic": "المزمل",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 74,
+    "nama": "Al-Muddassir",
+    "ayat": 56,
+    "arabic": "المدثر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 75,
+    "nama": "Al-Qiyamah",
+    "ayat": 40,
+    "arabic": "القيامة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 76,
+    "nama": "Al-Insan",
+    "ayat": 31,
+    "arabic": "الانسان",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 77,
+    "nama": "Al-Mursalat",
+    "ayat": 50,
+    "arabic": "المرسلات",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 78,
+    "nama": "An-Naba",
+    "ayat": 40,
+    "arabic": "النبإ",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 79,
+    "nama": "An-Nazi'at",
+    "ayat": 46,
+    "arabic": "النازعات",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 80,
+    "nama": "'Abasa",
+    "ayat": 42,
+    "arabic": "عبس",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 81,
+    "nama": "At-Takwir",
+    "ayat": 29,
+    "arabic": "التكوير",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 82,
+    "nama": "Al-Infitar",
+    "ayat": 19,
+    "arabic": "الإنفطار",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 83,
+    "nama": "Al-Mutaffifin",
+    "ayat": 36,
+    "arabic": "المطففين",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 84,
+    "nama": "Al-Insyiqaq",
+    "ayat": 25,
+    "arabic": "الإنشقاق",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 85,
+    "nama": "Al-Buruj",
+    "ayat": 22,
+    "arabic": "البروج",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 86,
+    "nama": "At-Tariq",
+    "ayat": 17,
+    "arabic": "الطارق",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 87,
+    "nama": "Al-A'la",
+    "ayat": 19,
+    "arabic": "الأعلى",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 88,
+    "nama": "Al-Gasyiyah",
+    "ayat": 26,
+    "arabic": "الغاشية",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 89,
+    "nama": "Al-Fajr",
+    "ayat": 30,
+    "arabic": "الفجر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 90,
+    "nama": "Al-Balad",
+    "ayat": 20,
+    "arabic": "البلد",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 91,
+    "nama": "Asy-Syams",
+    "ayat": 15,
+    "arabic": "الشمس",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 92,
+    "nama": "Al-Lail",
+    "ayat": 21,
+    "arabic": "الليل",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 93,
+    "nama": "Ad-Duha",
+    "ayat": 11,
+    "arabic": "الضحى",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 94,
+    "nama": "Al-Insyirah",
+    "ayat": 8,
+    "arabic": "الشرح",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 95,
+    "nama": "At-Tin",
+    "ayat": 8,
+    "arabic": "التين",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 96,
+    "nama": "Al-'Alaq",
+    "ayat": 19,
+    "arabic": "العلق",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 97,
+    "nama": "Al-Qadr",
+    "ayat": 5,
+    "arabic": "القدر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 98,
+    "nama": "Al-Bayyinah",
+    "ayat": 8,
+    "arabic": "البينة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 99,
+    "nama": "Az-Zalzalah",
+    "ayat": 8,
+    "arabic": "الزلزلة",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 100,
+    "nama": "Al-'Adiyat",
+    "ayat": 11,
+    "arabic": "العاديات",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 101,
+    "nama": "Al-Qari'ah",
+    "ayat": 11,
+    "arabic": "القارعة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 102,
+    "nama": "At-Takasur",
+    "ayat": 8,
+    "arabic": "التكاثر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 103,
+    "nama": "Al-Asr",
+    "ayat": 3,
+    "arabic": "العصر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 104,
+    "nama": "Al-Humazah",
+    "ayat": 9,
+    "arabic": "الهمزة",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 105,
+    "nama": "Al-Fil",
+    "ayat": 5,
+    "arabic": "الفيل",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 106,
+    "nama": "Quraisy",
+    "ayat": 4,
+    "arabic": "قريش",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 107,
+    "nama": "Al-Ma'un",
+    "ayat": 7,
+    "arabic": "الماعون",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 108,
+    "nama": "Al-Kausar",
+    "ayat": 3,
+    "arabic": "الكوثر",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 109,
+    "nama": "Al-Kafirun",
+    "ayat": 6,
+    "arabic": "الكافرون",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 110,
+    "nama": "An-Nasr",
+    "ayat": 3,
+    "arabic": "النصر",
+    "type": "Madaniyah"
+  },
+  {
+    "nomor": 111,
+    "nama": "Al-Lahab",
+    "ayat": 5,
+    "arabic": "اللهب",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 112,
+    "nama": "Al-Ikhlas",
+    "ayat": 4,
+    "arabic": "الإخلاص",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 113,
+    "nama": "Al-Falaq",
+    "ayat": 5,
+    "arabic": "الفلق",
+    "type": "Makkiyah"
+  },
+  {
+    "nomor": 114,
+    "nama": "An-Nas",
+    "ayat": 6,
+    "arabic": "الناس",
+    "type": "Makkiyah"
+  }
+]

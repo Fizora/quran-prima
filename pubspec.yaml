@@ -88,3 +88,8 @@ flutter:
   # see https://flutter.dev/to/font-from-package
   assets:
     - assets/images/
+    - assets/data/
+    - assets/data/surah/
+    - assets/data/surah/1.json
+    - assets/data/surah/2.json
+    - assets/data/surah/3.json

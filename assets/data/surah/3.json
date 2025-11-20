@@ -1,0 +1,1010 @@
+{
+  "nomor": 3,
+  "nama": "Ali Imran",
+  "ayat": [
+    {
+        "nomor": 0,
+      "teks": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+    },
+    {
+      "nomor": 1,
+      "teks": "الۤمّۤ",
+      "latin": "Alif Lām Mīm"
+    },
+    {
+      "nomor": 2,
+      "teks": "اَللّٰهُ لَآ اِلٰهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُۚ",
+      "latin": "Allāhu lā ilāha illā huwa al-ḥayyul-qayyūm(u)."
+    },
+    {
+      "nomor": 3,
+      "teks": "نَزَّلَ عَلَيْكَ الْكِتٰبَ بِالْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِۙ وَاَنْزَلَ التَّوْرٰىةَ وَالْاِنْجِيْلَۙ",
+      "latin": "Nazzala ‘alaikal-kitāba bil-ḥaqqi muṣaddiqal limā baina yadaih(i), wa anzalat-tawrāta wal-injīl(a)."
+    },
+    {
+      "nomor": 4,
+      "teks": "مِنْ قَبْلُ هُدًى لِّلنَّاسِۗ وَاَنْزَلَ الْفُرْقَانَۗ اِنَّ الَّذِيْنَ كَفَرُوْا بِاٰيٰتِ اللّٰهِ لَهُمْ عَذَابٌ شَدِيْدٌۗ وَاللّٰهُ عَزِيْزٌ ذُو انْتِقَامٍۗ",
+      "latin": "Min qablu hudal lin-nās(i), wa anzalal-furqān(a). Inna alladzīna kafarū bi-āyātillāhi lahum ‘adzābun shadīd(un), wallāhu ‘azīz(un) dzū intiqām(in)."
+    },
+    {
+      "nomor": 5,
+      "teks": "اِنَّ اللّٰهَ لَا يَخْفٰى عَلَيْهِ شَيْءٌ فِى الْاَرْضِ وَلَا فِى السَّمَاۤءِ",
+      "latin": "Inna Allāha lā yakhfā ‘alaihi shai'un fil-arḍi wa lā fis-samā’(i)."
+    },
+    {
+      "nomor": 6,
+      "teks": "هُوَ الَّذِيْ يُصَوِّرُكُمْ فِى الْاَرْحَامِ كَيْفَ يَشَاۤءُۗ لَآ اِلٰهَ اِلَّا هُوَ الْعَزِيْزُ الْحَكِيْمُۗ",
+      "latin": "Huwalladzī yuṣawwirukum fil-arḥāmi kaifa yashā’. Lā ilāha illā huwa al-‘azīzul-ḥakīm(u)."
+    },
+    {
+      "nomor": 7,
+      "teks": "هُوَ الَّذِيْٓ اَنْزَلَ عَلَيْكَ الْكِتٰبَۙ مِنْهُ اٰيٰتٌ مُّحْكَمٰتٌ هُنَّ اُمُّ الْكِتٰبِ وَاُخَرُ مُتَشٰبِهٰتٌۗ ...",
+      "latin": "Huwalladzī anzala ‘alaikal-kitāba minhu āyātun muḥkamātun hunna ummal-kitāb wa ukharu mutasyābihāt(un)..."
+    },
+    {
+      "nomor": 8,
+      "teks": "رَبَّنَا لَا تُزِغْ قُلُوْبَنَا بَعْدَ اِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَّدُنْكَ رَحْمَةًۗ اِنَّكَ اَنْتَ الْوَهَّابُۗ",
+      "latin": "Rabbana lā tuzigh qulūbanā ba‘da idh hadaitanā wa hab lanā min ladunka raḥmah. Innaka antal-wahhāb(u)."
+    },
+    {
+      "nomor": 9,
+      "teks": "رَبَّنَآ اِنَّكَ جَامِعُ النَّاسِ لِيَوْمٍ لَّا رَيْبَ فِيْهِۗ اِنَّ اللّٰهَ لَا يُخْلِفُ الْمِيْعَادَ",
+      "latin": "Rabbana innaka jāmi‘un-nāsi liyau min lā raiba fīh(i). Inna Allāha lā yukhliful-mī‘ād(a)."
+    },
+    {
+      "nomor": 10,
+      "teks": "اِنَّ الَّذِيْنَ كَفَرُوْا لَنْ تُغْنِيَ عَنْهُمْ اَمْوَالُهُمْ وَلَآ اَوْلَادُهُمْ مِّنَ اللّٰهِ شَيْـًٔاۗ وَاُولٰۤىِٕكَ هُمْ وَقُوْدُ النَّارِ",
+      "latin": "Innal-ladzīna kafarū lan tughniya ‘anhum amwāluhum wa lā aulādihum minallāhi shai’an. Wa ulā’ika hum waqūdun-nār(i)."
+    },
+    {
+      "nomor": 11,
+      "teks": "كَدَاْبِ اٰلِ فِرْعَوْنَۙ وَالَّذِيْنَ مِنْ قَبْلِهِمْۗ كَذَّبُوْا بِاٰيٰتِنَا فَاَخَذَهُمُ اللّٰهُ بِذُنُوْبِهِمْۗ وَاللّٰهُ شَدِيْدُ الْعِقَابِ",
+      "latin": "Ka da'bi āli fir‘aun(a) walladzīna min qablihim. Kadzabū bi-āyātinā fa akhadzahumullāhu bidzunūbihim. Wallāhu shadīdul-‘iqāb(i)."
+    },
+    {
+      "nomor": 12,
+      "teks": "قُلْ لِّلَّذِيْنَ كَفَرُوْا سَتُغْلَبُوْنَ وَتُحْشَرُوْنَ اِلٰى جَهَنَّمَۚ وَبِئْسَ الْمِهَادُ",
+      "latin": "Qul lilladzīna kafarū satughlabūna wa tuḥsyarūna ilā jahannam(a). Wa bi'sal-mihād(u)."
+    },
+    {
+      "nomor": 13,
+      "teks": "قَدْ كَانَ لَكُمْ اٰيَةٌ فِيْ فِئَتَيْنِ الْتَقَتَاۚ فِئَةٌ تُقَاتِلُ فِيْ سَبِيْلِ اللّٰهِ وَاُخْرٰى كَافِرَةٌۗ ...",
+      "latin": "Qad kāna lakum āyatan fī fi'atai nil-taqatā. Fi'atun tuqātilu fī sabīlillāh(i) wa ukhrā kāfirah..."
+    },
+    {
+      "nomor": 14,
+      "teks": "زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوٰتِ ... وَاللّٰهُ عِنْدَهُ حُسْنُ الْمَآبِ",
+      "latin": "Zuyyina lin-nāsi ḥubbus-syahawāt… wallāhu ‘indahu ḥusnul-ma’āb(i)."
+    },
+    {
+      "nomor": 15,
+      "teks": "قُلْ اَؤُنَبِّئُكُمْ بِخَيْرٍ مِّنْ ذٰلِكُمْۗ لِلَّذِيْنَ اتَّقَوْا عِنْدَ رَبِّهِمْ جَنّٰتٌ ...",
+      "latin": "Qul a'unabbi'ukum bikhairin min dzālikum. Lilladzīnat-taqau ‘inda rabbihim jannāt(un)…"
+    },
+    {
+      "nomor": 16,
+      "teks": "اَلَّذِيْنَ يَقُوْلُوْنَ رَبَّنَآ اِنَّنَآ اٰمَنَّا فَاغْفِرْ لَنَا ذُنُوْبَنَا وَقِنَا عَذَابَ النَّارِ",
+      "latin": "Alladzīna yaqūlūna rabbana innanā āmannā faghfir lanā dzunūbanā wa qinā ‘adzāban-nār(i)."
+    },
+    {
+      "nomor": 17,
+      "teks": "الصّٰبِرِيْنَ وَالصّٰدِقِيْنَ وَالْقٰنِتِيْنَ وَالْمُنْفِقِيْنَ وَالْمُسْتَغْفِرِيْنَ بِالْاَسْحَارِ",
+      "latin": "Aṣ-ṣābirīna waṣ-ṣādiqīna wal-qānitīna wal-munfiqīna wal-mustaghfirīna bil-asḥār(i)."
+    },
+    {
+      "nomor": 18,
+      "teks": "شَهِدَ اللّٰهُ اَنَّهُ لَآ اِلٰهَ اِلَّا هُوَ وَالْمَلٰۤىِٕكَةُ وَاُولُوا الْعِلْمِ ...",
+      "latin": "Shahida Allāhu annahu lā ilāha illā huwa wal-malā’ikatu wa ulul-‘ilm(i)..."
+    },
+    {
+      "nomor": 19,
+      "teks": "اِنَّ الدِّيْنَ عِنْدَ اللّٰهِ الْاِسْلَامُۗ ...",
+      "latin": "Innad-dīna ‘indallāhil-islām(u)..."
+    },
+    {
+      "nomor": 20,
+      "teks": "فَاِنْ حَآجُّوْكَ فَقُلْ اَسْلَمْتُ وَجْهِيَ لِلّٰهِ وَمَنِ اتَّبَعَنِۚ ...",
+      "latin": "Fa in ḥājjūka fa qul aslamtu wajhiya lillāhi wa man ittaba‘an(i)..."
+    },
+    {
+      "nomor": 21,
+      "teks": "اِنَّ الَّذِيْنَ يَكْفُرُوْنَ بِاٰيٰتِ اللّٰهِ وَيَقْتُلُوْنَ النَّبِيّٖنَ بِغَيْرِ حَقٍّ ...",
+      "latin": "Innal-ladzīna yakfurūna bi-āyātillāhi wa yaqtulūnan-nabiyyīna bighairi ḥaqq(in)..."
+    },
+    {
+      "nomor": 22,
+      "teks": "اُولٰۤىِٕكَ الَّذِيْنَ حَبِطَتْ اَعْمَالُهُمْ فِى الدُّنْيَا وَالْاٰخِرَةِۖ وَمَا لَهُمْ مِّنْ نّٰصِرِيْنَ",
+      "latin": "Ulā’ika alladzīna ḥabiṭat a‘māluhum fid-dunyā wal-ākhirah(i), wa mā lahum min nāṣirīn(a)."
+    },
+    {
+      "nomor": 23,
+      "teks": "اَلَمْ تَرَ اِلَى الَّذِيْنَ اُوْتُوا نَصِيْبًا مِّنَ الْكِتٰبِ يُدْعَوْنَ اِلٰى كِتٰبِ اللّٰهِ ...",
+      "latin": "Alam tara ilalladzīna ūtu naṣīban minal-kitābi yud‘auna ilā kitābillāh(i)..."
+    },
+    {
+      "nomor": 24,
+      "teks": "ذٰلِكَ بِاَنَّهُمْ قَالُوْا لَنْ تَمَسَّنَا النَّارُ اِلَّآ اَيَّامًا مَّعْدُوْدٰتٍۗ ...",
+      "latin": "Dzālika bi-annahum qālū lan tamassanān-nāru illā ayyāman ma‘dūdāt(in)..."
+    },
+    {
+      "nomor": 25,
+      "teks": "فَكَيْفَ اِذَا جَمَعْنٰهُمْ لِيَوْمٍ لَّا رَيْبَ فِيْهِۗ وَوُفِّيَتْ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُوْنَ",
+      "latin": "Fa kaifa idzā jama‘nāhum liyau min lā raiba fīh(i), wa wuffiyat kullu nafsin mā kasabat wa hum lā yuẓlamūn(a)."
+    },
+    {
+      "nomor": 26,
+      "teks": "قُلِ اللّٰهُمَّ مٰلِكَ الْمُلْكِ تُؤْتِى الْمُلْكَ مَنْ تَشَاۤءُ ...",
+      "latin": "Qulillāhumma mālikal-mulk(i), tu’tīl-mulka man tashā’(u)..."
+    },
+    {
+      "nomor": 27,
+      "teks": "تُوْلِجُ الَّيْلَ فِى النَّهَارِ وَتُوْلِجُ النَّهَارَ فِى الَّيْلِ ...",
+      "latin": "Tūlijul-laila fin-nahāri wa tūlijun-nahāra fil-lail(i)..."
+    },
+    {
+      "nomor": 28,
+      "teks": "لَا يَتَّخِذِ الْمُؤْمِنُوْنَ الْكٰفِرِيْنَ اَوْلِيَاۤءَ ...",
+      "latin": "Lā yattakhidhl-mu’minūnal-kāfirīna auliyā’a..."
+    },
+    {
+      "nomor": 29,
+      "teks": "قُلْ اِنْ تُخْفُوْا مَا فِىْ صُدُوْرِكُمْ اَوْ تُبْدُوْهُ يَعْلَمْهُ اللّٰهُ ...",
+      "latin": "Qul in tukhfū mā fī ṣudūrikum au tubdūhu ya‘lamhullāh(u)..."
+    },
+    {
+      "nomor": 30,
+      "teks": "يَوْمَ تَجِدُ كُلُّ نَفْسٍ مَّا عَمِلَتْ مِنْ خَيْرٍ مُّحْضَرًا ...",
+      "latin": "Yauma tajidu kullu nafsin mā ‘amilat min khairin muḥḍarā..."
+    },
+    {
+      "nomor": 31,
+      "teks": "قُلْ اِنْ كُنْتُمْ تُحِبُّوْنَ اللّٰهَ فَاتَّبِعُوْنِيْ يُحْبِبْكُمُ اللّٰهُ وَيَغْفِرْ لَكُمْ ذُنُوْبَكُمْۗ وَاللّٰهُ غَفُوْرٌ رَّحِيْمٌ",
+      "latin": "Qul in kuntum tuḥibbūnallāha fattabi‘ūnī yuḥbibkumullāhu wa yagfir lakum dzunūbakum. Wallāhu ghafūrun raḥīm(un)."
+    },
+    {
+      "nomor": 32,
+      "teks": "قُلْ اَطِيْعُوا اللّٰهَ وَالرَّسُوْلَۚ فَاِنْ تَوَلَّوْا فَاِنَّ اللّٰهَ لَا يُحِبُّ الْكٰفِرِيْنَ",
+      "latin": "Qul aṭī‘ullāha war-rasūl(a). Fa in tawallau fa innallāha lā yuḥibbul-kāfirīn(a)."
+    },
+    {
+      "nomor": 33,
+      "teks": "اِنَّ اللّٰهَ اصْطَفٰى اٰدَمَ وَنُوْحًا وَّاٰلَ اِبْرٰهِيْمَ وَاٰلَ عِمْرٰنَ عَلَى الْعٰلَمِيْنَ",
+      "latin": "Inna Allāha iṣṭafā Ādama wa Nūḥan wa āla Ibrāhīma wa āla ‘Imrāna ‘alal-‘ālamīn(a)."
+    },
+    {
+      "nomor": 34,
+      "teks": "ذُرِّيَّةًۢ بَعْضُهَا مِنْۢ بَعْضٍۗ وَاللّٰهُ سَمِيْعٌ عَلِيْمٌ",
+      "latin": "Dzurriyyatan ba‘ḍuhā min ba‘ḍ(in). Wallāhu samī‘un ‘alīm(un)."
+    },
+    {
+      "nomor": 35,
+      "teks": "اِذْ قَالَتِ امْرَاَتُ عِمْرٰنَ رَبِّ اِنِّيْ نَذَرْتُ لَكَ مَا فِيْ بَطْنِيْ مُحَرَّرًا ...",
+      "latin": "Idz qālati imra’atu ‘Imrān(a), rabbi innī nadzartu laka mā fī baṭnī muḥarrarā..."
+    },
+    {
+      "nomor": 36,
+      "teks": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ اِنِّيْ وَضَعْتُهَآ اُنْثٰى ...",
+      "latin": "Falammā waḍa‘athā qālat rabbi innī waḍa‘tuhā unthā..."
+    },
+    {
+      "nomor": 37,
+      "teks": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُوْلٍ حَسَنٍ وَّاَنْۢبَتَهَا نَبَاتًا حَسَنًا ...",
+      "latin": "Fataqabbalahā rabbuhā biqabūlin ḥasan(in), wa anbat'hā nabātan ḥasanā..."
+    },
+    {
+      "nomor": 38,
+      "teks": "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُۗ قَالَ رَبِّ هَبْ لِيْ مِنْ لَّدُنْكَ ذُرِّيَّةً طَيِّبَةًۗ اِنَّكَ سَمِيْعُ الدُّعَاۤءِ",
+      "latin": "Hunālika da‘ā Zakariyyā rabbah(u). Qāla rabbi hab lī min ladunka dzurriyyatan ṭayyibah. Innaka samī‘ud-du‘ā’(i)."
+    },
+    {
+      "nomor": 39,
+      "teks": "فَنَادَتْهُ الْمَلٰۤىِٕكَةُ وَهُوَ قَآئِمٌ يُّصَلِّيْ فِي الْمِحْرَابِ ...",
+      "latin": "Fa nādat-hul-malā’ikatu wa huwa qā’imun yuṣallī fil-miḥrāb(i)..."
+    },
+    {
+      "nomor": 40,
+      "teks": "قَالَ رَبِّ اَنّٰى يَكُوْنُ لِيْ غُلٰمٌ وَّقَدْ بَلَغَنِيَ الْكِبَرُ وَامْرَاَتِيْ عَاقِرٌۗ قَالَ كَذٰلِكَ اللّٰهُ يَفْعَلُ مَا يَشَاۤءُ",
+      "latin": "Qāla rabbi annā yakūnu lī ghulāmun wa qad balaghaniyal-kibar(u) wamra’atī ‘āqir(un). Qāla kadhālika Allāhu yaf‘alu mā yashā’(u)."
+    },
+    {
+      "nomor": 41,
+      "teks": "قَالَ رَبِّ اجْعَلْ لِيْ ءَايَةًۖ قَالَ آيَتُكَ اَلَّا تُكَلِّمَ النَّاسَ ثَلٰثَةَ اَيَّامٍ اِلَّا رَمْزًاۗ ...",
+      "latin": "Qāla rabbi ija‘al lī āyatan. Qāla āyatuka allā tukallima an-nāsa thalāthata ayyāmin illā ramz(an)..."
+    },
+    {
+      "nomor": 42,
+      "teks": "وَّاذْكُرْ فِي الْكِتٰبِ مَرْيَمَ اِنَّهَا اِمْرَاَةٌ صَدِّيْقَةٌۗ ...",
+      "latin": "Wa udhkur fil-kitābi Maryama innahā imra’atun ṣaddīqah..."
+    },
+    {
+      "nomor": 43,
+      "teks": "وَاذْكُرْ اذْ قَالَتِ الْمَلٰۤىِٕكَةُ يٰمَرْيَمُ اِنَّ اللّٰهَ اصْطَفٰكِ وَطَهَّرَكِ ...",
+      "latin": "Wa udhkur idh qālatil-malā’ikatu yā Maryamu inna Allāha iṣṭafāki wa ṭahharaki..."
+    },
+    {
+      "nomor": 44,
+      "teks": "وَاذْكُرْ فِي الْكِتٰبِ اِسْمَ عِيْسٰى ابْنِ مَرْيَمَ ...",
+      "latin": "Wa udhkur fil-kitābi isma ‘Īsā ibni Maryam..."
+    },
+    {
+      "nomor": 45,
+      "teks": "قَالَتِ الْمَلٰۤىِٕكَةُ يٰمَرْيَمُ اِنَّ اللّٰهَ يُبَشِّرُكِ بِكَلِمَةٍ مِّنْهُ اسْمُهُ الْمَسِيْحُ عِيْسٰى ابْنُ مَرْيَمَ ...",
+      "latin": "Qālatil-malā’ikatu yā Maryamu inna Allāha yubashshiruki bikalimatin minhu ismuhu al-Masīḥu ‘Īsā ibnu Maryam..."
+    },
+    {
+      "nomor": 46,
+      "teks": "وَيَكُوْنُ رَسُوْلًا اِلى بَنِيٓ إِسْرَائِيْلَ ...",
+      "latin": "Wa yakūnu rasūlan ilā banī Isrā’īl..."
+    },
+    {
+      "nomor": 47,
+      "teks": "قَالَتْ رَبِّ اَنَّى يَكُوْنُ لِيْ غُلٰمٌ وَلَمْ يَمْسَسْنِيْ بَشَرٌۗ قَالَ كَذٰلِكِ اللّٰهُ يَخْلُقُ مَا يَشَاۤءُ",
+      "latin": "Qālat rabbi annā yakūnu lī ghulāmun wa lam yamsasni bashar(un). Qāla kadhāliki Allāhu yakhluqu mā yashā’(u)."
+    },
+    {
+      "nomor": 48,
+      "teks": "وَيُعَلِّمُهُ الْكِتٰبَ وَالْحِكْمَةَ وَالتَّوْرٰةَ وَالْاِنْجِيْلَ",
+      "latin": "Wa yu‘allimuhul-kitāba wal-ḥikmata wat-tawrāta wal-injīl(a)."
+    },
+    {
+      "nomor": 49,
+      "teks": "وَيَجْعَلُهُ رَسُوْلًا اِلى بَنِيٓ إِسْرَائِيْلَ ...",
+      "latin": "Wa yaj‘aluhu rasūlan ilā banī Isrā’īl..."
+    },
+    {
+      "nomor": 50,
+      "teks": "وَيُبْشِّرُ بِرَسُوْلٍ يَأْتِي مِنْ بَعْدِيْ اسْمُهُ اَحْمَدُ ...",
+      "latin": "Wa yubashshir bi-rasūlin ya’tī min ba‘di ismuhu Aḥmad..."
+    },
+    {
+      "nomor": 51,
+      "teks": "وَمَا أَمَرْتُكُمْ إِلَّا لِتَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ ...",
+      "latin": "Wa mā amartukum illā li ta‘budū Allāha mukhliṣīna lahu ad-dīn(a)..."
+    },
+    {
+      "nomor": 52,
+      "teks": "فَلَمَّا أَحَسَّ عِيسَى مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنصَارِي إِلَى اللَّهِ ...",
+      "latin": "Falammā aḥassa ‘Īsā minhumul-kufra qāla man anṣārī ilallāh..."
+    },
+    {
+      "nomor": 53,
+      "teks": "وَمَا أَمَرْنَاهُمْ إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ ...",
+      "latin": "Wa mā amarnāhum illā li ya‘budū Allāha mukhliṣīna lahu ad-dīn(a)..."
+    },
+    {
+      "nomor": 54,
+      "teks": "فَكَيْفَ إِذَا جَمَعَنا بَنِي إِسْرَائِيلَ لِيَوْمٍ لَّا رَيْبَ فِيهِ ...",
+      "latin": "Fa kaifa idhā jama‘nā banī Isrā’īl liyawmin lā raiba fīh..."
+    },
+    {
+      "nomor": 55,
+      "teks": "وَإِذْ قَالَ اللَّهُ يَا عِيسَى إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ ...",
+      "latin": "Wa idh qāla Allāhu yā ‘Īsā innī mutawaffīka wa rāfi‘uka ilayya..."
+    },
+    {
+      "nomor": 56,
+      "teks": "وَأُصَلِّى عَلَيْكَ وَأُبَارِكُ لَكَ أَيْنَ مَا كُنتَ ...",
+      "latin": "Wa uṣallī ‘alayka wa ubāriku laka ayna mā kunta..."
+    },
+    {
+      "nomor": 57,
+      "teks": "وَأَخْلُقُ لَكَ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ ...",
+      "latin": "Wa akhluqu laka minat-tīn kahay‘atil-ṭayr..."
+    },
+    {
+      "nomor": 58,
+      "teks": "فَأَنْفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ ...",
+      "latin": "Fa anfuk fīhi fayakūnu ṭayran bi-idhni Allāh..."
+    },
+    {
+      "nomor": 59,
+      "teks": "وَأُبْرِئُ الْأَكْمَهَ وَالْأَبْرَصَ وَأُحْيِي الْمَوْتَى بِإِذْنِ اللَّهِ ...",
+      "latin": "Wa ubril-akmah wal-abrasa wa uḥyil-mawtā bi-idhni Allāh..."
+    },
+    {
+      "nomor": 60,
+      "teks": "وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمْ ...",
+      "latin": "Wa unabbi’ukum bimā ta’kulūna wa mā tadadkhirūna fī buyūtikum..."
+    },
+    {
+      "nomor": 61,
+      "teks": "فَمَنْ حَاجَّكَ فِيهِ مِنْ بَعْدِ مَا جَاءَكَ مِنَ الْعِلْمِ فَقُلْ تَعَالَوْا نَدْعُ أَبْنَاءَنَا وَأَبْنَاءَكُمْ وَنِسَاءَنَا وَنِسَاءَكُمْ ...",
+      "latin": "Fa man ḥājjaka fīhi min ba‘di mā jā’aka minal-‘ilmi fa qul ta‘ālaw nad‘u abnā’anā wa abnā’akum wa nisā’anā wa nisā’akum..."
+    },
+    {
+      "nomor": 62,
+      "teks": "اِنَّ الَّذِينَ آمَنُوا وَالَّذِينَ هَادُوا وَالنَّصَارَى وَالصَّابِئِينَ ...",
+      "latin": "Innal-ladzīna āmanū walladzīna hādū wannasārā waṣ-ṣābi’īn..."
+    },
+    {
+      "nomor": 63,
+      "teks": "ذَلِكَ بِأَنَّهُمْ قَالُوا لَا نُؤْمِنُ إِلَّا بِمَا أُنزِلَ إِلَيْنَا ...",
+      "latin": "Dzālika bi-annahum qālū lā nu’minu illā bimā unzila ilaynā..."
+    },
+    {
+      "nomor": 64,
+      "teks": "وَلَوْ أَنَّهُمْ إِلَى اللَّهِ رَجَعُوا لَكَانَ خَيْرًا لَهُمْ ...",
+      "latin": "Wa law annahum ilallāhi raja‘ū lakāna khayran lahum..."
+    },
+    {
+      "nomor": 65,
+      "teks": "وَلَقَدْ كَتَبْنَا فِي الزَّبُورِ مِنْ بَعْدِ الذِّكْرِ ...",
+      "latin": "Wa laqad katabnā fī az-zabūr min ba‘diz-dzikri..."
+    },
+    {
+      "nomor": 66,
+      "teks": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "Wa lillāhi mulkus-samāwāti wal-arḍ..."
+    },
+    {
+      "nomor": 67,
+      "teks": "هُوَ الَّذِي أَرْسَلَ رَسُولَهُ بِالْهُدَى وَدِينِ الْحَقِّ ...",
+      "latin": "Huwa alladhī arsala rasūlahu bil-hudā wa dīnal-ḥaqq..."
+    },
+    {
+      "nomor": 68,
+      "teks": "وَلَوْ شَاءَ اللَّهُ مَا تَفَرَّقُوا ...",
+      "latin": "Wa law shā’a Allāhu mā tafarraqū..."
+    },
+    {
+      "nomor": 69,
+      "teks": "وَإِنَّ الَّذِينَ كَفَرُوا بِآيَاتِ اللَّهِ ...",
+      "latin": "Wa inna alladzīna kafarū bi-āyāti Allāh..."
+    },
+    {
+      "nomor": 70,
+      "teks": "وَلَقَدْ آتَيْنَا بَنِي إِسْرَائِيلَ الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ ...",
+      "latin": "Wa laqad ātaynā banī Isrā’īlil-kitāba wal-ḥukma wannubūwah..."
+    },
+    {
+      "nomor": 71,
+      "teks": "لَا تَقُوْلُوا ثَلَاثَةٌۗ اِقْلُوْاۤ اَللّٰهُ وَاحِدٌۗ سُبْحٰنَهُۥٓ اَنْ يَكُوْنَ لَهُۥ وَلَدٌۗ لَّهُۥ مَا فِي السَّمٰوٰتِ وَمَا فِي الْاَرْضِۗ وَكَفٰى بِاللّٰهِ وَكِيْلًا",
+      "latin": "Lā taqūlū thalāthah. Iqlū Allāhu wāḥid. Subḥānahu an yakūna lahu walad. Lahu mā fis-samāwāti wa mā fil-arḍ. Wa kafā billāhi wakīl(an)."
+    },
+    {
+      "nomor": 72,
+      "teks": "الَّذِيْنَ قَالُوْا اِنَّ اللّٰهَ ثَالِثُ ثَلَاثَةٍۗ مَا لَهُم بِهٖ مِنْ عِلْمٍۗ ...",
+      "latin": "Alladzīna qālū inna Allāha thālithu thalāthah. Mā lahum bihi min ‘ilm(in)..."
+    },
+    {
+      "nomor": 73,
+      "teks": "سُبْحٰنَ اللّٰهِۗ اَنْ يَكُوْنَ لَهُۥ وَلَدٌۗ لَّهُۥ مَا فِي السَّمٰوٰتِ وَمَا فِي الْاَرْضِۗ وَكَفٰى بِاللّٰهِ وَكِيْلًا",
+      "latin": "Subḥānallāhi an yakūna lahu walad. Lahu mā fis-samāwāti wa mā fil-arḍ. Wa kafā billāhi wakīl(an)."
+    },
+    {
+      "nomor": 74,
+      "teks": "لَقَدْ فَسَقَ الَّذِيْنَ قَالُوْا اِنَّ اللّٰهَ ثَالِثُ ثَلَاثَةٍۗ ...",
+      "latin": "Laqad fasaqal-ladzīna qālū inna Allāha thālithu thalāthah..."
+    },
+    {
+      "nomor": 75,
+      "teks": "مَا كَانَ لَنَآ اَن نَّؤْمِنَ بِاللّٰهِ وَمَآ اَوْلَدْنَآ ...",
+      "latin": "Mā kāna lanā an nu’mina billāhi wa mā awladnā..."
+    },
+    {
+      "nomor": 76,
+      "teks": "قُلْ اِنَّمَا يُحْشَرُ لِكُلِّ نَفْسٍ بِمَا كَسَبَتْ ...",
+      "latin": "Qul innamā yuḥsharu likulli nafsin bimā kasabat..."
+    },
+    {
+      "nomor": 77,
+      "teks": "فَصْلٌ مِّنَ اللَّهِ وَمَا كَانَ لِلَّذِيْنَ كَفَرُوا مِنْ اُوْلِي النِّعْمَةِ ...",
+      "latin": "Faṣlun minal-lāh wa mā kāna lilladzīna kafarū min ūli an-ni‘mah..."
+    },
+    {
+      "nomor": 78,
+      "teks": "وَاجْتَنَبُوْا فَاسِقِيْنَ كَثِيْرًا ...",
+      "latin": "Wa ajtanibū fāsiqīn kathīran..."
+    },
+    {
+      "nomor": 79,
+      "teks": "وَلاَ تَقُوْلُوا لِمَا يَفْعَلُ ٱلَّذِيْنَ كَفَرُوا سَتُصِيبُنَا ...",
+      "latin": "Wa lā taqūlū limā yaf‘alu alladzīna kafarū satuṣībunā..."
+    },
+    {
+      "nomor": 80,
+      "teks": "قُلْ يٰأَهْلَ الْكِتٰبِ لِمَ تَكْفُرُوْنَ بِآيَاتِ اللّٰهِ ...",
+      "latin": "Qul yā ahl al-kitābi lima takfurūna bi-āyāti Allāh..."
+    },
+     {
+      "nomor": 81,
+      "teks": "وَإِذْ أَخَذَ اللَّهُ مِيثَاقَ النَّبِيِّيْنَ لَقَالَ لَكُمْ مَا آتَيْتُكُمْ مِنْ كِتَابٍ وَحِكْمَةٍ ...",
+      "latin": "Wa idh akhazal-lāhu mīthāqan an-nabiyyīn laqāla lakum mā ātaytukum min kitābin wa ḥikmah..."
+    },
+    {
+      "nomor": 82,
+      "teks": "فَمَنْ أَكْفَرَ بَعْدَ ذَلِكَ فَأُو۟لَٰٓئِكَ هُمُ الْفَاسِقُونَ",
+      "latin": "Fa man akfara ba‘da dhālika fa ulā’ika humul-fāsiqūn."
+    },
+    {
+      "nomor": 83,
+      "teks": "أَفَلَمْ يَسِيرُوا فِي الْأَرْضِ فَتَكُونَ لَهُمْ قُلُوبٌ يَعْقِلُونَ بِهَا أَوْ آذَانٌ يَسْمَعُونَ بِهَا ...",
+      "latin": "Afalam yasīru fil-arḍi fatakūna lahum qulūbun ya‘qilūna bihā aw ādhān(y) yasma‘ūna bihā..."
+    },
+    {
+      "nomor": 84,
+      "teks": "وَقَالُوا لَن نَّؤْمِنَ لَكَ حَتَّى تُفْلِتَنَا مِمَّنْ كَفَرَ ...",
+      "latin": "Wa qālū lan nu’mina laka ḥattā tufliṭanā mimman kafara..."
+    },
+    {
+      "nomor": 85,
+      "teks": "وَمَا أَمَرْنَا إِلَّا لِنَعْبُدَ اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ ...",
+      "latin": "Wa mā amarnā illā li na‘budallāha mukhliṣīna lahu ad-dīn..."
+    },
+    {
+      "nomor": 86,
+      "teks": "وَقَالُوا لَن نُّؤْمِنَ بِهِ حَتَّى يُنْزِلَ عَلَيْنَا كَمَا أَنْزَلَ عَلَى الَّذِينَ مِنْ قَبْلِنَا ...",
+      "latin": "Wa qālū lan nu’mina bihi ḥattā yunżila ‘alaynā kamā unzila ‘alal-ladzīna min qablina..."
+    },
+    {
+      "nomor": 87,
+      "teks": "قُلْ بِسْمِ اللَّهِ أَتُقَالُ عَنْهُ بِالْحَقِّ ...",
+      "latin": "Qul bismillāhi atuqālu ‘anhu bil-ḥaqq..."
+    },
+    {
+      "nomor": 88,
+      "teks": "وَمَنْ يُكَفِّرْ بِآيَاتِ اللَّهِ فَإِنَّ اللَّهَ سَرِيعُ الْحِسَابِ",
+      "latin": "Wa man yukaffir bi-āyāti Allāh fa innallāha sarī‘ul-ḥisāb."
+    },
+    {
+      "nomor": 89,
+      "teks": "فَذُو الْفَضْلِ مِنَ اللَّهِ وَمَنْ يُؤْمِن بِاللَّهِ وَيَعْمَلْ صَالِحًا ...",
+      "latin": "Fa dhul-fadli minallāh wa man yu’min billāh wa ya‘mal ṣāliḥan..."
+    },
+    {
+      "nomor": 90,
+      "teks": "وَتَخْلَفُوا وَصْيَتَهُمْ وَيَرِثُوا الْأَرْضَ وَمَا كَانُوا يَعْمَلُونَ",
+      "latin": "Wa takhlafū waṣyatahum wa yarithul-arḍa wa mā kānū ya‘malūn."
+    },
+     {
+      "nomor": 91,
+      "teks": "لَّن تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ ...",
+      "latin": "Lan tanālul-birra ḥattā tunfiqū mimma tuḥibbūn..."
+    },
+    {
+      "nomor": 92,
+      "teks": "لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ ...",
+      "latin": "Lan tanālul-birra ḥattā tunfiqū mimma tuḥibbūn..."
+    },
+    {
+      "nomor": 93,
+      "teks": "كُلَّمَآ أُخِذَتْ مِيثَاقُهُمْ فَرُدُّوا ...",
+      "latin": "Kullamā ukhidhat mīthāquhum faruddū..."
+    },
+    {
+      "nomor": 94,
+      "teks": "لَا يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ ...",
+      "latin": "Lā yaḥsabanna alladhīna kafarū annamā numli lahum khayr..."
+    },
+    {
+      "nomor": 95,
+      "teks": "إِنَّمَا الْمُؤْمِنُونَ الَّذِينَ آمَنُوا بِاللَّهِ وَرَسُولِهِ ...",
+      "latin": "Innamal-mu’minūna alladhīna āmanū billāhi wa rasūlihi..."
+    },
+    {
+      "nomor": 96,
+      "teks": "إِنَّمَا يَسْتَجِيبُ الَّذِي يَسْمَعُ اللَّهَ ...",
+      "latin": "Innamā yastajību alladhī yasma‘u Allāh..."
+    },
+    {
+      "nomor": 97,
+      "teks": "وَإِذَا قُلْتُمْ فَاعْمَلُوا صَالِحًا وَتَوَكَّلُوا عَلَى اللَّهِ ...",
+      "latin": "Wa idhā qultum fa‘malū ṣāliḥan wa tawakkalū ‘alallāh..."
+    },
+    {
+      "nomor": 98,
+      "teks": "وَلَا تَقُولُوا لِمَا يَفْعَلُ الَّذِينَ كَفَرُوا سَنُصِيبُهُمْ ...",
+      "latin": "Wa lā taqūlū limā yaf‘alu alladhīna kafarū sanuṣībuhum..."
+    },
+    {
+      "nomor": 99,
+      "teks": "قُلْ لِلْمُؤْمِنِينَ يَغْفِرُوا لِلْمُؤْمِنِينَ ...",
+      "latin": "Qul lil-mu’minīna yaghfirū lil-mu’minīna..."
+    },
+    {
+      "nomor": 100,
+      "teks": "وَلَا تَكُونُوا كَالَّذِينَ نَسُوا اللَّهَ فَأَنْسَاهُمْ أَنْفُسَهُمْ ...",
+      "latin": "Wa lā takūnū kalladhīna nasū Allāha fa ansāhum anfusahum..."
+    },
+    {
+      "nomor": 101,
+      "teks": "وَلَا تَكُونُوا كَالَّذِينَ نَسُوا اللَّهَ فَأَنْسَاهُمْ أَنْفُسَهُمْ ...",
+      "latin": "Wa lā takūnū kalladhīna nasū Allāha fa ansāhum anfusahum..."
+    },
+    {
+      "nomor": 102,
+      "teks": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ ...",
+      "latin": "Yā ayyuhalladhīna āmanū ittaqū Allāha ḥaqq tuqātih..."
+    },
+    {
+      "nomor": 103,
+      "teks": "وَلَا تَبْتَغُوا الْفَسَادَ فِي الْأَرْضِ ...",
+      "latin": "Wa lā tabtaghū al-fasāda fil-arḍ..."
+    },
+    {
+      "nomor": 104,
+      "teks": "وَأَنذِرْهُمْ يَوْمَ يَأْتِي رَسُولُ اللَّهِ ...",
+      "latin": "Wa anzhirhum yawma ya’ti rasūlullāh..."
+    },
+    {
+      "nomor": 105,
+      "teks": "وَمَا أَرْسَلْنَا مِنْ رَسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ اللَّهِ ...",
+      "latin": "Wa mā arsalnā min rasūlin illā liyuṭā‘a bi-idhni Allāh..."
+    },
+    {
+      "nomor": 106,
+      "teks": "فَمَنْ أَعْرَضَ فَإِنَّمَا يُؤْمِنُ لَهُ وَمَنْ أَطَاعَ فَلَهُ ...",
+      "latin": "Fa man a‘raḍa fa innamā yu’minu lahu wa man aṭā‘a falahu..."
+    },
+    {
+      "nomor": 107,
+      "teks": "وَمَا أَرْسَلْنَاكَ إِلَّا كَافَّةً لِلنَّاسِ ...",
+      "latin": "Wa mā arsalnākā illā kāffatan linnās..."
+    },
+    {
+      "nomor": 108,
+      "teks": "قُلْ يَا أَهْلَ الْكِتَابِ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ ...",
+      "latin": "Qul yā ahl al-kitābi limā takfurūna bi-āyāti Allāh..."
+    },
+    {
+      "nomor": 109,
+      "teks": "وَقَدْ جَاءَتْكُمْ رَسُولٌ مِّنْ أَنْفُسِكُمْ ...",
+      "latin": "Wa qad jā’atkum rasūlum min anfusikum..."
+    },
+    {
+      "nomor": 110,
+      "teks": "وَقَالَ اللَّهُ لَكُمْ وَلِيُّكُمْ ...",
+      "latin": "Wa qāla Allāhu lakum waliyyukum..."
+    },
+    {
+      "nomor": 111,
+      "teks": "لَنْ يَضُرُّوكُمْ إِلَّا أَذًى ...",
+      "latin": "Lan yaḍurrūkum illā adhā..."
+    },
+    {
+      "nomor": 112,
+      "teks": "لَا يَحْزُنكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ ...",
+      "latin": "Lā yaḥzunka alladhīna yusāri‘ūna fil-kufr..."
+    },
+    {
+      "nomor": 113,
+      "teks": "وَلَا يَزَالُوْنَ فِيْ كُفْرِهِمْ ...",
+      "latin": "Wa lā yazālūna fī kufrihim..."
+    },
+    {
+      "nomor": 114,
+      "teks": "وَلَا تَحْسَبَنَّ الَّذِينَ يَبْخَلُونَ ...",
+      "latin": "Wa lā taḥsabanna alladhīna yabkhalūn..."
+    },
+    {
+      "nomor": 115,
+      "teks": "وَمَنْ يَعْمَلْ صَالِحًا فَلَهُ نَفْسُهُ ...",
+      "latin": "Wa man ya‘mal ṣāliḥan falahu nafsuhu..."
+    },
+    {
+      "nomor": 116,
+      "teks": "وَلَا تَحْسَبَنَّ الَّذِينَ يُسْرِفُونَ فِي الْأَرْضِ ...",
+      "latin": "Wa lā taḥsabanna alladhīna yusrifūna fil-arḍ..."
+    },
+    {
+      "nomor": 117,
+      "teks": "وَاللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ ...",
+      "latin": "Wallāhu lā yuḥibbu kulla mukhtālin fakhūr..."
+    },
+    {
+      "nomor": 118,
+      "teks": "وَلَا تَقُولُوا لِمَنْ أَهْلَكْنَاهُ ...",
+      "latin": "Wa lā taqūlū liman ahlaknāhu..."
+    },
+    {
+      "nomor": 119,
+      "teks": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "Wa lillāhi mulkus-samāwāti wal-arḍ..."
+    },
+    {
+      "nomor": 120,
+      "teks": "فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ ...",
+      "latin": "Faṣbir inna wa‘da Allāhi ḥaqq..."
+    },
+    {
+      "nomor": 121,
+      "teks": "فَاصْبِرْ إِنَّ وَعْدَ اللَّهِ حَقٌّ ...",
+      "latin": "Faṣbir inna wa‘da Allāhi ḥaqq..."
+    },
+    {
+      "nomor": 122,
+      "teks": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا ...",
+      "latin": "Wa lā tahinū wa lā taḥzanū..."
+    },
+    {
+      "nomor": 123,
+      "teks": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا ...",
+      "latin": "Wa lā tahinū wa lā taḥzanū..."
+    },
+    {
+      "nomor": 124,
+      "teks": "وَلَقَدْ مَنَّ اللَّهُ عَلَى الْمُؤْمِنِينَ ...",
+      "latin": "Wa laqad manna Allāhu ‘alal-mu’minīna..."
+    },
+    {
+      "nomor": 125,
+      "teks": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَابْتَغُوا إِلَيْهِ الْوَسِيلَةَ ...",
+      "latin": "Yā ayyuhalladhīna āmanū ittaqū Allāha wabtaghū ilayhil-wasilatah..."
+    },
+    {
+      "nomor": 126,
+      "teks": "وَإِذْ تَقُولُ لِلَّذِيْنَ كَفَرُوْا لَن تُغْلَبُوا ...",
+      "latin": "Wa idh taqūlu lilladhīna kafarū lan tughlabū..."
+    },
+    {
+      "nomor": 127,
+      "teks": "بَلَىٰٓ إِنَّ رَبِّيْ مَعِيْۗ سَيَهْدِيْنِىْ",
+      "latin": "Balā inna rabbī ma‘ī. Sayahdīnī."
+    },
+    {
+      "nomor": 128,
+      "teks": "فَفَتَحْنَا لَهُمْ أَبْوَابَ السَّمَاۤءِ بِمَا رَحْمَةٍ مِّنَّا وَفَجَّرْنَا لَهُمْ عُيُوْنًاۗ ...",
+      "latin": "Fa fataḥnā lahum abwābas-samā’i bimā raḥmatin minnā wa fajjarnā lahum ‘uyūnan..."
+    },
+    {
+      "nomor": 129,
+      "teks": "وَقَالَ الَّذِيْنَ كَفَرُوْا لَوْلَا نُزِّلَ عَلَيْهِ آيَةٌ مِّنْ رَّبِّهِۦۤۗ ...",
+      "latin": "Wa qāla alladhīna kafarū lawlā nuzzila ‘alayhi āyatun min rabbihi..."
+    },
+    {
+      "nomor": 130,
+      "teks": "فَكَذَّبُوْا بِالْحَقِّ لَمَّا جَآءَهُمْۗ فَسَوْفَ يَأْتِيهِمْ ...",
+      "latin": "Fa kadhdhabū bil-ḥaqqi lammā jā’ahum. Fa sawfa ya’tīhim..."
+    },
+    {
+      "nomor": 131,
+      "teks": "وَاتَّقُوا النَّارَ الَّتِي أُعِدَّتْ لِلْكَافِرِينَ ...",
+      "latin": "Wa ittaqū an-nāra allatī u‘iddat lil-kāfirīn..."
+    },
+    {
+      "nomor": 132,
+      "teks": "وَأْمُرُوا أَهْلَكُمْ بِالصَّلَاةِ وَاصْطَبِرُوا عَلَيْهَا ...",
+      "latin": "Wa amrū ahlakum biṣ-ṣalāh wa iṣṭabirū ‘alayhā..."
+    },
+    {
+      "nomor": 133,
+      "teks": "وَسَارِعُوا إِلَى مَغْفِرَةٍ مِن رَبِّكُمْ ...",
+      "latin": "Wa sāri‘ū ilā maghfiratin min rabbikum..."
+    },
+    {
+      "nomor": 134,
+      "teks": "الَّذِينَ يُنفِقُونَ فِي السَّرَّاءِ وَالضَّرَّاءِ ...",
+      "latin": "Alladhīna yunfiqūna fis-sarrā’i wa ḍ-ḍarrā’i..."
+    },
+    {
+      "nomor": 135,
+      "teks": "وَالَّذِينَ صَبَرُوا وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ ...",
+      "latin": "Walladhīna ṣabarū wa ‘alā rabbihim yatawakkalūn..."
+    },
+    {
+      "nomor": 136,
+      "teks": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ...",
+      "latin": "Walladhīna āmanū wa ‘amiluṣ-ṣāliḥāt..."
+    },
+    {
+      "nomor": 137,
+      "teks": "فَأُو۟لَٰئِكَ أَصْحَابُ الْجَنَّةِ ...",
+      "latin": "Fa ulā’ika aṣḥābul-jannah..."
+    },
+    {
+      "nomor": 138,
+      "teks": "مَا يُبْدِلُ اللَّهُ نِعْمَتَهُ وَفَضْلَهُ ...",
+      "latin": "Mā yubaddilu Allāhu ni‘matahu wa faḍlahu..."
+    },
+    {
+      "nomor": 139,
+      "teks": "فَصْبِرُوا إِنَّ وَعْدَ اللَّهِ حَقٌّ ...",
+      "latin": "Faṣbirū inna wa‘da Allāhi ḥaqq..."
+    },
+    {
+      "nomor": 140,
+      "teks": "وَلَا تَقُولُوا لِمَنْ قُتِلَ فِي سَبِيلِ اللَّهِ أَمْوَاتٌ ...",
+      "latin": "Wa lā taqūlū liman qutila fī sabīlillāh amwāt..."
+    },
+    {
+      "nomor": 141,
+      "teks": "بَلْ أَحْيَاءٌ وَلَكِن لَا تَشْعُرُونَ ...",
+      "latin": "Bal aḥyā’ walākin lā tash‘urūn..."
+    },
+    {
+      "nomor": 142,
+      "teks": "وَلَا تَقُولُوا لِلَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتٌ ...",
+      "latin": "Wa lā taqūlū lilladhīna qutilū fī sabīlillāh amwāt..."
+    },
+    {
+      "nomor": 143,
+      "teks": "بَلْ أَحْيَاءٌ وَلَكِن لَا تَشْعُرُونَ ...",
+      "latin": "Bal aḥyā’ walākin lā tash‘urūn..."
+    },
+    {
+      "nomor": 144,
+      "teks": "وَمَا كَانَ لِنَفْسٍ أَنْ تَمُوتَ إِلَّا بِإِذْنِ اللَّهِ ...",
+      "latin": "Wa mā kāna linafsin an tamūt illā bi-idhni Allāh..."
+    },
+    {
+      "nomor": 145,
+      "teks": "وَمَنْ يُؤْمِنْ بِاللَّهِ وَيَعْمَلْ صَالِحًا ...",
+      "latin": "Wa man yu’min billāh wa ya‘mal ṣāliḥan..."
+    },
+    {
+      "nomor": 146,
+      "teks": "وَلَوْ كَانُوا يُؤْمِنُونَ بِاللَّهِ وَالرَّسُولِ ...",
+      "latin": "Wa law kānū yu’minūna billāh wa ar-rasūl..."
+    },
+    {
+      "nomor": 147,
+      "teks": "فَصْبِرُوا إِنَّ وَعْدَ اللَّهِ حَقٌّ ...",
+      "latin": "Faṣbirū inna wa‘da Allāhi ḥaqq..."
+    },
+    {
+      "nomor": 148,
+      "teks": "وَلَا يَحْزُنكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ ...",
+      "latin": "Wa lā yaḥzunka alladhīna yusāri‘ūna fil-kufr..."
+    },
+    {
+      "nomor": 149,
+      "teks": "وَلَوْ تَكْفُرُوا لَإِنْفُقُوا فِي سَبِيلِ اللَّهِ ...",
+      "latin": "Wa law takfurū la infiqū fī sabīlillāh..."
+    },
+    {
+      "nomor": 150,
+      "teks": "فَاصْبِرُوا وَصَابِرُوا وَرَابِطُوا ...",
+      "latin": "Faṣbirū wa ṣābirū wa rābiṭū..."
+    },
+    {
+      "nomor": 151,
+      "teks": "سَنُلْقِي فِي قُلُوبِ الَّذِينَ كَفَرُوا الرُّعْبَ ...",
+      "latin": "Sanulqī fī qulūbil-ladhīna kafarur-ru‘ba..."
+    },
+    {
+      "nomor": 152,
+      "teks": "وَلَقَدْ نَصَرَكُمُ اللَّهُ بِبَدْرٍ وَلَكِنْ بَعْدَ ذَلِكَ ...",
+      "latin": "Wa laqad naṣarakumullāhu bibadrin wa lakin ba‘da dhālika..."
+    },
+    {
+      "nomor": 153,
+      "teks": "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ...",
+      "latin": "Yā ayyuhalladhīna āmanū ista‘īnū biṣ-ṣabri wa aṣ-ṣalāh..."
+    },
+    {
+      "nomor": 154,
+      "teks": "وَلَا تَقُولُوا لِمَنْ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتٌ ...",
+      "latin": "Wa lā taqūlū liman qutila fī sabīlillāh amwāt..."
+    },
+    {
+      "nomor": 155,
+      "teks": "وَلَقَدْ اصْطَفَيْنَا بَعْدَكُم مِّنَ النَّبِيِّيْنَ ...",
+      "latin": "Wa laqad iṣṭafaynā ba‘dakum minan-nabiyyīn..."
+    },
+    {
+      "nomor": 156,
+      "teks": "وَأَصْبِرُوا وَصَابِرُوا وَرَابِطُوا ...",
+      "latin": "Wa aṣbirū wa ṣābirū wa rābiṭū..."
+    },
+    {
+      "nomor": 157,
+      "teks": "وَالَّذِينَ يُقَتَّلُونَ فِي سَبِيلِ اللَّهِ فَسَيَهْدِيهِمْ ...",
+      "latin": "Walladhīna yuqattalūna fī sabīlillāh fasayahdīhim..."
+    },
+    {
+      "nomor": 158,
+      "teks": "وَلَا تَحْسَبَنَّ الَّذِينَ قُتِلُوا فِي سَبِيلِ اللَّهِ أَمْوَاتًا ...",
+      "latin": "Wa lā taḥsabanna alladhīna qutilū fī sabīlillāh amwāt..."
+    },
+    {
+      "nomor": 159,
+      "teks": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ ...",
+      "latin": "Wa mā arsalnākā illā raḥmatan lil-‘ālamīn..."
+    },
+    {
+      "nomor": 160,
+      "teks": "فَسَنُكْفِيكَ الَّذِينَ كَفَرُوا وَنَجْعَلُ الَّذِينَ آمَنُوا ...",
+      "latin": "Fa sanukfīka alladhīna kafarū wa naj‘alul-ladhīna āmanū..."
+    },
+    {
+      "nomor": 161,
+      "teks": "مَا يَفْعَلُ اللَّهُ لِيُظْلِمَ نَفْسًا ...",
+      "latin": "Mā yaf‘alu Allāhu liyuẓlima nafsan..."
+    },
+    {
+      "nomor": 162,
+      "teks": "أَلَا إِنَّ أَوْلِيَاءَ اللَّهِ لَا خَوْفٌ عَلَيْهِمْ ...",
+      "latin": "Alā inna awliyā’ Allāh lā khawfun ‘alayhim..."
+    },
+    {
+      "nomor": 163,
+      "teks": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ...",
+      "latin": "Walladhīna āmanū wa ‘amiluṣ-ṣāliḥāt..."
+    },
+    {
+      "nomor": 164,
+      "teks": "قَدْ أَفْلَحَ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ ...",
+      "latin": "Qad aflahal-ladhīna āmanū wa ‘amiluṣ-ṣāliḥāt..."
+    },
+    {
+      "nomor": 165,
+      "teks": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "Wa lillāhi mulkus-samāwāti wal-arḍ..."
+    },
+    {
+      "nomor": 166,
+      "teks": "وَإِن تُقَاتِلُوا فِي سَبِيلِ اللَّهِ فَاعْلَمُوا ...",
+      "latin": "Wa in tuqātilū fī sabīlillāh fa‘lamū..."
+    },
+    {
+      "nomor": 167,
+      "teks": "وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا ...",
+      "latin": "Wa man yaqtul mu’minan muta‘ammidan..."
+    },
+    {
+      "nomor": 168,
+      "teks": "وَلَا تَقْتُلُوا أَوْلَادَكُمْ مِنْ إِمْلَاقٍ ...",
+      "latin": "Wa lā taqtulū awlādakum min imlāq..."
+    },
+    {
+      "nomor": 169,
+      "teks": "وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا ...",
+      "latin": "Wa man yaqtul mu’minan muta‘ammidan..."
+    },
+    {
+      "nomor": 170,
+      "teks": "وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ...",
+      "latin": "Wallāhu ‘alā kulli shay’in qadīr..."
+    },
+    {
+      "nomor": 171,
+      "teks": "الَّذِينَ يَسْتَمِعُونَ قَوْلًا فَيَتَّبِعُونَ أَحْسَنَهُ ...",
+      "latin": "Alladhīna yastami‘ūna qawlan fayattabi‘ū aḥsanah..."
+    },
+    {
+      "nomor": 172,
+      "teks": "وَالَّذِينَ صَبَرُوا وَعَلَى رَبِّهِمْ يَتَوَكَّلُونَ ...",
+      "latin": "Walladhīna ṣabarū wa ‘alā rabbihim yatawakkalūn..."
+    },
+    {
+      "nomor": 173,
+      "teks": "وَمَا كَانَ لَنَا أَنْ نَكُونَ فِيْ أَرْضِ الْكُفْرِ ...",
+      "latin": "Wa mā kāna lanā an nakūna fī arḍil-kufr..."
+    },
+    {
+      "nomor": 174,
+      "teks": "وَلَا يَحْسَبَنَّ الَّذِينَ يَبْخَلُونَ ...",
+      "latin": "Wa lā yaḥsabanna alladhīna yabkhalūn..."
+    },
+    {
+      "nomor": 175,
+      "teks": "الَّذِينَ يُنفِقُونَ أَمْوَالَهُمْ فِي سَبِيلِ اللَّهِ ...",
+      "latin": "Alladhīna yunfiqūna amwālahum fī sabīlillāh..."
+    },
+    {
+      "nomor": 176,
+      "teks": "مَا أَصَابَكَ مِنْ حَسَنَةٍ فَمِنَ اللَّهِ ...",
+      "latin": "Mā aṣābaka min ḥasanatin famina Allāh..."
+    },
+    {
+      "nomor": 177,
+      "teks": "وَمَا أَصَابَكُمْ مِنْ سَيِّئَةٍ فَمِنْ نَفْسِكُمْ ...",
+      "latin": "Wa mā aṣābakum min sayyi’atin famin nafsikum..."
+    },
+    {
+      "nomor": 178,
+      "teks": "وَلِلَّهِ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "Wa lillāhi mulkus-samāwāti wal-arḍ..."
+    },
+    {
+      "nomor": 179,
+      "teks": "وَالَّذِينَ يَكْتُبُونَ أَمْوَالَهُمْ بِالْأَيْدِي ...",
+      "latin": "Walladhīna yaktubūna amwālahum bil-aydī..."
+    },
+    {
+      "nomor": 180,
+      "teks": "وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ ...",
+      "latin": "Wa lillāhi mā fis-samāwāti wal-arḍ..."
+    },
+    {
+      "nomor": 181,
+      "teks": "وَمَا أَصَابَكُمْ مِنْ مُصِيبَةٍ فَبِمَا كَسَبَتْ أَيْدِيكُمْ ...",
+      "latin": "Wa mā aṣābakum min muṣībahin fabimā kasabat aydīkumu..."
+    },
+    {
+      "nomor": 182,
+      "teks": "وَمَنْ يَعْمَلْ صَالِحًا فَلَنُحْيِيَنَّهُ ...",
+      "latin": "Wa man ya‘mal ṣāliḥan falanuḥyīnah..."
+    },
+    {
+      "nomor": 183,
+      "teks": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ ...",
+      "latin": "Yā ayyuhalladhīna āmanū kutiba ‘alaykum aṣ-ṣiyām..."
+    },
+    {
+      "nomor": 184,
+      "teks": "أَيَّامًا مَّعْدُودَاتٍ ...",
+      "latin": "Ayyāman ma‘dūdāt..."
+    },
+    {
+      "nomor": 185,
+      "teks": "لِيَعْلَمَ اللَّهُ الَّذِينَ يَتَّقُونَ ...",
+      "latin": "Liya‘lama Allāhu alladhīna yattaqūn..."
+    },
+    {
+      "nomor": 186,
+      "teks": "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ...",
+      "latin": "Wa idhā sa’ālaka ‘ibādī ‘annī fa innī qarīb..."
+    },
+    {
+      "nomor": 187,
+      "teks": "يَسْتَعْفِفُونَ عَنِ الْمَفَاسِدِ ...",
+      "latin": "Yasta‘fifūna ‘anil-mafāsid..."
+    },
+    {
+      "nomor": 188,
+      "teks": "وَلَا تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ ...",
+      "latin": "Wa lā ta’kulū amwālakum baynakum bil-bāṭil..."
+    },
+    {
+      "nomor": 189,
+      "teks": "وَلَا تُسْرِفُوا ...",
+      "latin": "Wa lā tusrifū..."
+    },
+    {
+      "nomor": 190,
+      "teks": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ ...",
+      "latin": "Wa aqīmū aṣ-ṣalāh wa ātū az-zakāh..."
+    },
+    {
+      "nomor": 191,
+      "teks": "وَلَا تَقْرَبُوا الْفَوَاحِشَ ...",
+      "latin": "Wa lā taqrabū al-fawāḥish..."
+    },
+    {
+      "nomor": 192,
+      "teks": "وَأَطِيعُوا اللَّهَ وَالرَّسُولَ ...",
+      "latin": "Wa aṭī‘ū Allāha war-rasūl..."
+    },
+    {
+      "nomor": 193,
+      "teks": "وَاتَّقُوا اللَّهَ وَاعْلَمُوا أَنَّ اللَّهَ شَدِيدُ الْعِقَابِ ...",
+      "latin": "Wa ittaqū Allāha wa i‘lamū anna Allāha shadīdul-‘iqāb..."
+    },
+    {
+      "nomor": 194,
+      "teks": "وَلَا تَقُولُوا لِمَنْ يُمِيتُكُمْ ...",
+      "latin": "Wa lā taqūlū liman yumītukum..."
+    },
+    {
+      "nomor": 195,
+      "teks": "وَأَنْفِقُوا فِي سَبِيلِ اللَّهِ ...",
+      "latin": "Wa anfiqū fī sabīlillāh..."
+    },
+    {
+      "nomor": 196,
+      "teks": "وَاصْبِرُوا وَمَا صَبْرُكُمْ إِلَّا بِاللَّهِ ...",
+      "latin": "Wa ṣbirū wa mā ṣabrukum illā billāh..."
+    },
+    {
+      "nomor": 197,
+      "teks": "وَلَا تَقُولُوا لِمَنْ قُتِلَ فِي سَبِيلِ اللَّهِ أَمْوَاتٌ ...",
+      "latin": "Wa lā taqūlū liman qutila fī sabīlillāh amwāt..."
+    },
+    {
+      "nomor": 198,
+      "teks": "بَلْ أَحْيَاءٌ وَلَكِن لَا تَشْعُرُونَ ...",
+      "latin": "Bal aḥyā’ walākin lā tash‘urūn..."
+    },
+    {
+      "nomor": 199,
+      "teks": "وَأَنزَلْنَا عَلَيْكُمُ الْكِتَابَ ...",
+      "latin": "Wa anzalnā ‘alaykumul-kitāb..."
+    },
+    {
+      "nomor": 200,
+      "teks": "فَاصْبِرُوا وَصَابِرُوا وَرَابِطُوا ...",
+      "latin": "Faṣbirū wa ṣābirū wa rābiṭū..."
+    }
+  ]
+}

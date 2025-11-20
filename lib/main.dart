@@ -1,4 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:quran_prima/pages/baca_quran.dart';
+// import 'package:quran_prima/pages/ayat_page.dart';
+import 'package:quran_prima/pages/terakhir_baca.dart';
+import 'package:quran_prima/pages/pencarian.dart';
+import 'package:quran_prima/pages/jadwal_sholat.dart';
+import 'package:quran_prima/pages/pengaturan.dart';
 
 void main() {
   runApp(const QuranPrimaApp());
@@ -10,7 +16,7 @@ class QuranPrimaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Qur’an Prima',
+      title: 'Qur\'an Prima',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
@@ -38,32 +44,68 @@ class QuranHomePage extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset(
-            'assets/images/quran_bg.jpg', // gambar
-            fit: BoxFit.cover,
-          ),
+          Image.asset('assets/images/quran_bg.jpg', fit: BoxFit.cover),
           Container(color: Colors.black.withOpacity(0.5)),
-          // Konten di tengah
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Logo atau tulisan Qur'an di atas
-                Image.asset(
-                  'assets/images/Logo.png', //Logo aplikasi smk pgri
-                  height: 100,
-                ),
+                Image.asset('assets/images/Logo.png', height: 100),
                 const SizedBox(height: 40),
-                // Tombol-tombol navigasi
                 ...menuItems.map(
                   (label) => Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8.0),
                     child: SizedBox(
-                      width: 250, // lebar konsisten
-                      height: 48, // tinggi konsisten
+                      width: 250,
+                      height: 48,
                       child: OutlinedButton(
                         onPressed: () {
-                          // nanti tambahin navigasi sesuai fitur
+                          switch (label) {
+                            case "BACA QUR'AN":
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const BacaQuranPage(),
+                                ),
+                              );
+                              break;
+
+                            case "TERAKHIR BACA":
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const TerakhirBacaPage(),
+                                ),
+                              );
+                              break;
+
+                            case "PENCARIAN":
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const PencarianPage(),
+                                ),
+                              );
+                              break;
+
+                            case "JADWAL SHOLAT":
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const JadwalSholatPage(),
+                                ),
+                              );
+                              break;
+
+                            case "PENGATURAN":
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => const PengaturanPage(),
+                                ),
+                              );
+                              break;
+                          }
                         },
                         style: OutlinedButton.styleFrom(
                           side: const BorderSide(

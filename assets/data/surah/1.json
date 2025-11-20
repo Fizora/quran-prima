@@ -1,11 +1,6 @@
 {
   "nomor": 1,
   "nama": "Al-Fatihah",
-  "nama_latin": "Al-Fatihah",
-  "jumlah_ayat": 7,
-  "tempat_turun": "Mekah",
-  "arti": "Pembukaan",
-  "deskripsi": "Surah Al-Fatihah adalah surah pertama dalam Al-Qur'an dan terdiri dari 7 ayat. Surah ini disebut juga Ummul Qur'an (induk Al-Qur'an) karena mengandung inti dari seluruh ajaran Al-Qur'an.",
   "ayat": [
     {
       "nomor": 1,

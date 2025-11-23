@@ -39,6 +39,24 @@ class DataService {
     }
   }
 
+   static Future<List<dynamic>> loadAyatList(int surahNumber) async {
+    // Contoh data dummy - ganti dengan data real dari API atau local
+    await Future.delayed(const Duration(milliseconds: 500));
+
+    List<Map<String, dynamic>> dummyAyat = [];
+
+    for (int i = 1; i <= 10; i++) {
+      dummyAyat.add({
+        'nomor': i,
+        'arabic': 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+        'latin': 'Bismillāhir raḥmānir raḥīm',
+        'translation': 'Dengan nama Allah Yang Maha Pengasih, Maha Penyayang.',
+      });
+    }
+
+    return dummyAyat;
+  }
+
   Future<Map<String, dynamic>> loadSurahData(int surahNumber) async {
     try {
       // PERBAIKAN: Gunakan path yang benar tanpa 'surah_' prefix

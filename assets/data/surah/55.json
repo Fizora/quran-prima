@@ -1,0 +1,396 @@
+{
+  "nomor": 55,
+  "nama": "Ar-Rahman",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "الرَّحْمَٰنُ",
+      "arti": "(Allah) Yang Maha Pengasih,"
+    },
+    {
+      "nomor": 2,
+      "arab": "عَلَّمَ الْقُرْآنَ",
+      "arti": "Yang telah mengajarkan Al-Qur'an."
+    },
+    {
+      "nomor": 3,
+      "arab": "خَلَقَ الْإِنسَانَ",
+      "arti": "Dia menciptakan manusia."
+    },
+    {
+      "nomor": 4,
+      "arab": "عَلَّمَهُ الْبَيَانَ",
+      "arti": "Mengajarnya pandai berbicara."
+    },
+    {
+      "nomor": 5,
+      "arab": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
+      "arti": "Matahari dan bulan beredar menurut perhitungan."
+    },
+    {
+      "nomor": 6,
+      "arab": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
+      "arti": "Dan tumbuh-tumbuhan dan pepohonan, keduanya tunduk (kepada-Nya)."
+    },
+    {
+      "nomor": 7,
+      "arab": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+      "arti": "Dan langit telah ditinggikan-Nya dan Dia ciptakan keseimbangan,"
+    },
+    {
+      "nomor": 8,
+      "arab": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
+      "arti": "agar kamu jangan merusak keseimbangan itu,"
+    },
+    {
+      "nomor": 9,
+      "arab": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
+      "arti": "dan tegakkanlah keseimbangan itu dengan adil dan janganlah kamu mengurangi keseimbangan itu."
+    },
+    {
+      "nomor": 10,
+      "arab": "وَالأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+      "arti": "Dan bumi telah dibentangkan-Nya untuk makhluk(-Nya),"
+    },
+    {
+      "nomor": 11,
+      "arab": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
+      "arti": "di dalamnya ada buah-buahan dan pohon kurma yang mempunyai kelopak mayang,"
+    },
+    {
+      "nomor": 12,
+      "arab": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
+      "arti": "dan biji-bijian yang berkulit dan bunga-bunga yang harum baunya."
+    },
+    {
+      "nomor": 13,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 14,
+      "arab": "خَلَقَ الْإِنسَانَ مِن صَلْصَالٍ كَالْفَخَّارِ",
+      "arti": "Dia menciptakan manusia dari tanah kering seperti tembikar,"
+    },
+    {
+      "nomor": 15,
+      "arab": "وَخَلَقَ الْجَانَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "arti": "dan Dia menciptakan jin dari nyala api tanpa asap."
+    },
+    {
+      "nomor": 16,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 17,
+      "arab": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
+      "arti": "Tuhan (yang memelihara) dua timur dan Tuhan (yang memelihara) dua barat."
+    },
+    {
+      "nomor": 18,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 19,
+      "arab": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "arti": "Dia membiarkan dua laut mengalir yang keduanya kemudian bertemu,"
+    },
+    {
+      "nomor": 20,
+      "arab": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+      "arti": "antara keduanya ada batas yang tidak dilampaui masing-masing."
+    },
+    {
+      "nomor": 21,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 22,
+      "arab": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
+      "arti": "Dari keduanya keluar mutiara dan marjan."
+    },
+    {
+      "nomor": 23,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 24,
+      "arab": "وَلَهُ الْجَوَارِ الْمُنشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
+      "arti": "Dan milik-Nya kapal-kapal yang berlayar di lautan bagaikan gunung-gunung."
+    },
+    {
+      "nomor": 25,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّkumَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 26,
+      "arab": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "arti": "Semua yang ada di bumi itu akan binasa,"
+    },
+    {
+      "nomor": 27,
+      "arab": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
+      "arti": "tetapi wajah Tuhanmu yang memiliki kebesaran dan kemuliaan tetap kekal."
+    },
+    {
+      "nomor": 28,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 29,
+      "arab": "يَسْأَلُهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
+      "arti": "Apa yang di langit dan di bumi selalu meminta kepada-Nya. Setiap waktu Dia dalam kesibukan."
+    },
+    {
+      "nomor": 30,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 31,
+      "arab": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
+      "arti": "Kami akan memberi perhatian sepenuhnya kepadamu, wahai manusia dan jin!"
+    },
+    {
+      "nomor": 32,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 33,
+      "arab": "يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَانٍ",
+      "arti": "Wahai golongan jin dan manusia! Jika kamu sanggup menembus (melintasi) penjuru langit dan bumi, maka tembuslah. Kamu tidak akan mampu menembusnya kecuali dengan kekuatan (dari Allah)."
+    },
+    {
+      "nomor": 34,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 35,
+      "arab": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ",
+      "arti": "Kepada kamu (jin dan manusia) dilepaskan nyala api dan cairan tembaga, maka kamu tidak dapat menyelamatkan diri (daripadanya)."
+    },
+    {
+      "nomor": 36,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 37,
+      "arab": "فَإِذَا انشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ",
+      "arti": "Maka apabila langit terbelah dan menjadi merah mawar seperti kilapan minyak."
+    },
+    {
+      "nomor": 38,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 39,
+      "arab": "فَيَوْمَئِذٍ لَّا يُسْأَلُ عَن ذَنبِهِ إِنسٌ وَلَا جَانٌّ",
+      "arti": "Pada hari itu manusia dan jin tidak ditanya tentang dosanya."
+    },
+    {
+      "nomor": 40,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 41,
+      "arab": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ",
+      "arti": "Orang-orang yang berdosa dikenal dengan tanda-tandanya, lalu direnggut ubun-ubun dan kakinya."
+    },
+    {
+      "nomor": 42,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 43,
+      "arab": "هَٰذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
+      "arti": "Inilah neraka Jahanam yang didustakan oleh orang-orang berdosa."
+    },
+    {
+      "nomor": 44,
+      "arab": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ",
+      "arti": "Mereka berkeliling di antaranya dan di antara air mendidih yang memuncak panasnya."
+    },
+    {
+      "nomor": 45,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 46,
+      "arab": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+      "arti": "Dan bagi siapa yang takut akan saat menghadap Tuhannya ada dua surga."
+    },
+    {
+      "nomor": 47,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 48,
+      "arab": "ذَوَاتَا أَفْنَانٍ",
+      "arti": "Kedua surga itu mempunyai pohon-pohonan dan buah-buahan."
+    },
+    {
+      "nomor": 49,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 50,
+      "arab": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+      "arti": "Di dalam kedua surga itu ada dua mata air yang mengalir."
+    },
+    {
+      "nomor": 51,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّkumَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 52,
+      "arab": "فِيهِمَا مِن كُلِّ فَاكِهَةٍ زَوْجَانِ",
+      "arti": "Di dalam kedua surga itu terdapat segala macam buah-buahan yang berpasangan."
+    },
+    {
+      "nomor": 53,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 54,
+      "arab": "مُتَّكِئِينَ عَلَىٰ فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى الْجَنَّتَينِ دَانٍ",
+      "arti": "Mereka bersandar di atas permadani yang bagian dalamnya dari sutera tebal. Dan buah-buahan di kedua surga itu dapat (dipetik) dari dekat."
+    },
+    {
+      "nomor": 55,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 56,
+      "arab": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+      "arti": "Di dalam surga itu ada bidadari-bidadari yang sopan menundukkan pandangannya, tidak pernah disentuh oleh manusia sebelum mereka (penghuni-penghuni surga yang menjadi suami mereka) dan tidak pula oleh jin."
+    },
+    {
+      "nomor": 57,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 58,
+      "arab": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ",
+      "arti": "Seakan-akan bidadari itu permata yakut dan marjan."
+    },
+    {
+      "nomor": 59,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 60,
+      "arab": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
+      "arti": "Tidak ada balasan untuk kebaikan selain kebaikan (pula)."
+    },
+    {
+      "nomor": 61,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 62,
+      "arab": "وَمِن دُونِهِمَا جَنَّتَانِ",
+      "arti": "Dan selain dari dua surga itu ada dua surga lagi."
+    },
+    {
+      "nomor": 63,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 64,
+      "arab": "مُدْهَامَّتَانِ",
+      "arti": "Kedua surga itu (kelihatan) hijau tua warnanya."
+    },
+    {
+      "nomor": 65,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 66,
+      "arab": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+      "arti": "Di dalam kedua surga itu ada dua mata air yang memancar."
+    },
+    {
+      "nomor": 67,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 68,
+      "arab": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+      "arti": "Di dalam keduanya ada (macam-macam) buah-buahan dan kurma serta delima."
+    },
+    {
+      "nomor": 69,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 70,
+      "arab": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ",
+      "arti": "Di dalam surga-surga itu ada bidadari-bidadari yang baik-baik dan jelita."
+    },
+    {
+      "nomor": 71,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 72,
+      "arab": "حُورٌ مَّقْصُورَاتٌ فِي الْخِيَامِ",
+      "arti": "(Bidadari-bidadari) yang jelita, putih bersih, dipingit dalam rumah."
+    },
+    {
+      "nomor": 73,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 74,
+      "arab": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+      "arti": "Mereka tidak pernah disentuh oleh manusia sebelum mereka (penghuni-penghuni surga yang menjadi suami mereka) dan tidak pula oleh jin."
+    },
+    {
+      "nomor": 75,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 76,
+      "arab": "مُتَّكِئِينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ",
+      "arti": "Mereka bersandar pada bantal-bantal yang hijau dan permadani-permadani yang indah."
+    },
+    {
+      "nomor": 77,
+      "arab": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "arti": "Maka nikmat Tuhanmu yang manakah yang kamu dustakan?"
+    },
+    {
+      "nomor": 78,
+      "arab": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+      "arti": "Mahasuci nama Tuhanmu yang memiliki kebesaran dan karunia."
+    }
+  ]
+}

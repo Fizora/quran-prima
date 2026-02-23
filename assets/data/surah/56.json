@@ -1,0 +1,486 @@
+{
+  "nomor": 56,
+  "nama": "Al-Waqi'ah",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "إِذَا وَقَعَتِ الْوَاقِعَةُ",
+      "arti": "Apabila terjadi hari Kiamat,"
+    },
+    {
+      "nomor": 2,
+      "arab": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+      "arti": "tidak seorang pun dapat berdusta tentang kejadiannya."
+    },
+    {
+      "nomor": 3,
+      "arab": "خَافِضَةٌ رَّافِعَةٌ",
+      "arti": "(Kejadian itu) merendahkan (satu golongan) dan meninggikan (golongan yang lain),"
+    },
+    {
+      "nomor": 4,
+      "arab": "إِذَا رُجَّتِ الْأَرْضُ رَجًّا",
+      "arti": "apabila bumi diguncangkan sedahsyat-dahsyatnya,"
+    },
+    {
+      "nomor": 5,
+      "arab": "وَبُسَّتِ الْجِبَالُ بَسًّا",
+      "arti": "dan gunung-gunung dihancurkan sehancur-hancurnya,"
+    },
+    {
+      "nomor": 6,
+      "arab": "فَكَانَتْ هَبَاءً مُّنبَثًّا",
+      "arti": "maka jadilah ia debu yang beterbangan,"
+    },
+    {
+      "nomor": 7,
+      "arab": "وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً",
+      "arti": "dan kamu menjadi tiga golongan,"
+    },
+    {
+      "nomor": 8,
+      "arab": "فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ",
+      "arti": "yaitu golongan kanan. Alangkah mulianya golongan kanan itu,"
+    },
+    {
+      "nomor": 9,
+      "arab": "وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ",
+      "arti": "dan golongan kiri. Alangkah sengsaranya golongan kiri itu,"
+    },
+    {
+      "nomor": 10,
+      "arab": "وَالسَّابِقُونَ السَّابِقُونَ",
+      "arti": "dan orang-orang yang paling dahulu (beriman), merekalah yang paling dahulu (masuk surga)."
+    },
+    {
+      "nomor": 11,
+      "arab": "أُولَٰئِكَ الْمُقَرَّبُونَ",
+      "arti": "Mereka itulah orang yang dekat (kepada Allah),"
+    },
+    {
+      "nomor": 12,
+      "arab": "فِي جَنَّاتِ النَّعِيمِ",
+      "arti": "berada dalam surga kenikmatan."
+    },
+    {
+      "nomor": 13,
+      "arab": "ثُلَّةٌ مِّنَ الْأَوَّلِينَ",
+      "arti": "Segolongan besar dari orang-orang yang terdahulu,"
+    },
+    {
+      "nomor": 14,
+      "arab": "وَقَلِيلٌ مِّنَ الْآخِرِينَ",
+      "arti": "dan segolongan kecil dari orang-orang yang kemudian."
+    },
+    {
+      "nomor": 15,
+      "arab": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
+      "arti": "Mereka berada di atas dipan yang bertahtakan emas dan permata,"
+    },
+    {
+      "nomor": 16,
+      "arab": "مُتَّكِئِينَ عَلَيْهَا مُتَقَابِلِينَ",
+      "arti": "sambil bersandar di atasnya berhadap-hadapan."
+    },
+    {
+      "nomor": 17,
+      "arab": "يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُّخَلَّدُونَ",
+      "arti": "Mereka dikelilingi oleh anak-anak muda yang tetap muda,"
+    },
+    {
+      "nomor": 18,
+      "arab": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
+      "arti": "dengan membawa gelas, cerek, dan sloki (piala) berisi minuman yang diambil dari air yang mengalir,"
+    },
+    {
+      "nomor": 19,
+      "arab": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+      "arti": "mereka tidak pening karenanya dan tidak pula mabuk,"
+    },
+    {
+      "nomor": 20,
+      "arab": "وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُونَ",
+      "arti": "dan buah-buahan dari apa yang mereka pilih,"
+    },
+    {
+      "nomor": 21,
+      "arab": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
+      "arti": "dan daging burung dari apa yang mereka inginkan."
+    },
+    {
+      "nomor": 22,
+      "arab": "وَحُورٌ عِينٌ",
+      "arti": "Dan ada bidadari-bidadari yang bermata jeli,"
+    },
+    {
+      "nomor": 23,
+      "arab": "كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ",
+      "arti": "laksana mutiara yang tersimpan baik."
+    },
+    {
+      "nomor": 24,
+      "arab": "جَزَاءً بِمَا كَانُوا يَعْمَلُونَ",
+      "arti": "Sebagai balasan atas apa yang telah mereka kerjakan."
+    },
+    {
+      "nomor": 25,
+      "arab": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+      "arti": "Di dalamnya mereka tidak mendengar perkataan yang sia-sia dan tidak pula perkataan yang menimbulkan dosa,"
+    },
+    {
+      "nomor": 26,
+      "arab": "إِلَّا قِيلًا سَلَامًا سَلَامًا",
+      "arti": "akan tetapi mereka mendengar ucapan salam."
+    },
+    {
+      "nomor": 27,
+      "arab": "وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ",
+      "arti": "Dan golongan kanan, alangkah bahagianya golongan kanan itu."
+    },
+    {
+      "nomor": 28,
+      "arab": "فِي سِدْرٍ مَّخْضُودٍ",
+      "arti": "Berada di antara pohon bidara yang tidak berduri,"
+    },
+    {
+      "nomor": 29,
+      "arab": "وَلَهُ دُونَ الْأَخْرِضِ",
+      "arti": "dan pohon pisang yang bersusun-susun (buahnya),"
+    },
+    {
+      "nomor": 30,
+      "arab": "وَظِلٍّ مَّمْدُودٍ",
+      "arti": "dan naungan yang terbentang luas,"
+    },
+    {
+      "nomor": 31,
+      "arab": "وَمَاءٍ مَّسْكُوبٍ",
+      "arti": "dan air yang tercurah,"
+    },
+    {
+      "nomor": 32,
+      "arab": "وَفَاكِهَةٍ كَثِيرَةٍ",
+      "arti": "dan buah-buahan yang banyak,"
+    },
+    {
+      "nomor": 33,
+      "arab": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+      "arti": "yang tidak berhenti (berbuah) dan tidak terlarang mengambilnya,"
+    },
+    {
+      "nomor": 34,
+      "arab": "وَفُرُشٍ مَّرْفُوعَةٍ",
+      "arti": "dan kasur-kasur yang tebal lagi empuk."
+    },
+    {
+      "nomor": 35,
+      "arab": "إِنَّا أَنشَأْنَاهُنَّ إِنشَاءً",
+      "arti": "Sesungguhnya Kami menciptakan mereka (bidadari-bidadari) secara langsung,"
+    },
+    {
+      "nomor": 36,
+      "arab": "فَجَعَلْنَاهُنَّ أَبْكَارًا",
+      "arti": "lalu Kami jadikan mereka perawan-perawan,"
+    },
+    {
+      "nomor": 37,
+      "arab": "عُرُبًا أَتْرَابًا",
+      "arti": "yang penuh cinta dan sebaya umurnya,"
+    },
+    {
+      "nomor": 38,
+      "arab": "لِّأَصْحَابِ الْيَمِينِ",
+      "arti": "untuk golongan kanan,"
+    },
+    {
+      "nomor": 39,
+      "arab": "ثُلَّةٌ مِّنَ الْأَوَّلِينَ",
+      "arti": "segolongan besar dari orang-orang yang terdahulu,"
+    },
+    {
+      "nomor": 40,
+      "arab": "وَثُلَّةٌ مِّنَ الْآخِرِينَ",
+      "arti": "dan segolongan besar pula dari orang-orang yang kemudian."
+    },
+    {
+      "nomor": 41,
+      "arab": "وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ",
+      "arti": "Dan golongan kiri, alangkah sengsaranya golongan kiri itu."
+    },
+    {
+      "nomor": 42,
+      "arab": "فِي سَمُومٍ وَحَمِيمٍ",
+      "arti": "Mereka berada dalam angin yang sangat panas dan air yang mendidih,"
+    },
+    {
+      "nomor": 43,
+      "arab": "وَظِلٍّ مِّن يَحْمُومٍ",
+      "arti": "dan dalam naungan asap yang hitam."
+    },
+    {
+      "nomor": 44,
+      "arab": "لَّا بَارِدٍ وَلَا كَرِيمٍ",
+      "arti": "Tidak sejuk dan tidak menyenangkan."
+    },
+    {
+      "nomor": 45,
+      "arab": "إِنَّهُمْ كَانُوا قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+      "arti": "Sesungguhnya mereka sebelum itu (dahulu) hidup bermewah-mewah,"
+    },
+    {
+      "nomor": 46,
+      "arab": "وَكَانُوا يُصِرُّونَ عَلَى الْحِنثِ الْعَظِيمِ",
+      "arti": "dan mereka terus-menerus mengerjakan dosa yang besar,"
+    },
+    {
+      "nomor": 47,
+      "arab": "وَكَانُوا يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَإِنَّا لَمَبْعُوثُونَ",
+      "arti": "dan mereka berkata, \"Apabila kami telah mati dan menjadi tanah dan tulang-belulang, apakah kami benar-benar akan dibangkitkan kembali?"
+    },
+    {
+      "nomor": 48,
+      "arab": "أَوَآبَاؤُنَا الْأَوَّلُونَ",
+      "arti": "Apakah nenek moyang kami yang terdahulu (juga akan dibangkitkan)?\""
+    },
+    {
+      "nomor": 49,
+      "arab": "قُلْ إِنَّ الْأَوَّلِينَ وَالْآخِرِينَ",
+      "arti": "Katakanlah (Muhammad), \"Sesungguhnya orang-orang yang terdahulu dan yang kemudian,"
+    },
+    {
+      "nomor": 50,
+      "arab": "لَمَجْمُوعُونَ إِلَىٰ مِيقَاتِ يَوْمٍ مَّعْلُومٍ",
+      "arti": "benar-benar akan dikumpulkan pada waktu tertentu pada hari yang diketahui.\""
+    },
+    {
+      "nomor": 51,
+      "arab": "ثُمَّ إِنَّكُمْ أَيُّهَا الضَّالُّونَ الْمُكَذِّبُونَ",
+      "arti": "Kemudian sesungguhnya kamu, wahai orang-orang yang sesat lagi mendustakan,"
+    },
+    {
+      "nomor": 52,
+      "arab": "لَآكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+      "arti": "benar-benar akan memakan pohon zaqqum,"
+    },
+    {
+      "nomor": 53,
+      "arab": "فَمَالِئُونَ مِنْهَا الْبُطُونَ",
+      "arti": "dan akan memenuhi perutmu dengannya."
+    },
+    {
+      "nomor": 54,
+      "arab": "فَشَارِبُونَ عَلَيْهِ مِنَ الْحَمِيمِ",
+      "arti": "Kemudian sesudah itu kamu akan meminum air yang sangat panas."
+    },
+    {
+      "nomor": 55,
+      "arab": "فَشَارِبُونَ شُرْبَ الْهِيمِ",
+      "arti": "Maka kamu meminum seperti unta yang sangat haus minum."
+    },
+    {
+      "nomor": 56,
+      "arab": "هَٰذَا نُزُلُهُمْ يَوْمَ الدِّينِ",
+      "arti": "Itulah hidangan untuk mereka pada hari pembalasan."
+    },
+    {
+      "nomor": 57,
+      "arab": "نَحْنُ خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ",
+      "arti": "Kami yang telah menciptakan kamu, maka mengapa kamu tidak membenarkan (hari berbangkit)?"
+    },
+    {
+      "nomor": 58,
+      "arab": "أَفَرَأَيْتُم مَّا تُمْنُونَ",
+      "arti": "Maka apakah kamu memperhatikan tentang air mani yang kamu pancarkan?"
+    },
+    {
+      "nomor": 59,
+      "arab": "أَأَنتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ",
+      "arti": "Kamukah yang menciptakannya, ataukah Kami yang menciptakannya?"
+    },
+    {
+      "nomor": 60,
+      "arab": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "arti": "Kami telah menentukan kematian di antara kamu, dan Kami tidak akan dapat dikalahkan,"
+    },
+    {
+      "nomor": 61,
+      "arab": "عَلَىٰ أَن نُّبَدِّلَ أَمْثَالَكُمْ وَنُنشِئَكُمْ فِي مَا لَا تَعْلَمُونَ",
+      "arti": "untuk menggantikan kamu dengan orang-orang yang seperti kamu (di dunia) dan menciptakan kamu kembali dalam keadaan yang tidak kamu ketahui."
+    },
+    {
+      "nomor": 62,
+      "arab": "وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+      "arti": "Dan sungguh, kamu telah mengetahui penciptaan yang pertama, mengapa kamu tidak mengambil pelajaran?"
+    },
+    {
+      "nomor": 63,
+      "arab": "أَفَرَأَيْتُم مَّا تَحْرُثُونَ",
+      "arti": "Maka apakah kamu memperhatikan tentang yang kamu tanam?"
+    },
+    {
+      "nomor": 64,
+      "arab": "أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ",
+      "arti": "Kamukah yang menumbuhkannya ataukah Kami yang menumbuhkan?"
+    },
+    {
+      "nomor": 65,
+      "arab": "لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْلْتُمْ تَفَكَّهُونَ",
+      "arti": "Jika Kami kehendaki, niscaya Kami hancurkan sampai menjadi kering; maka kamu akan heran tercengang,"
+    },
+    {
+      "nomor": 66,
+      "arab": "إِنَّا لَمُغْرَمُونَ",
+      "arti": "(sambil berkata), \"Sungguh, kami benar-benar menderita kerugian,"
+    },
+    {
+      "nomor": 67,
+      "arab": "بَلْ نَحْنُ مَحْرُومُونَ",
+      "arti": "bahkan kami menjadi orang-orang yang tidak mendapat hasil apa-apa.\""
+    },
+    {
+      "nomor": 68,
+      "arab": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+      "arti": "Maka apakah kamu memperhatikan air yang kamu minum?"
+    },
+    {
+      "nomor": 69,
+      "arab": "أَأَنتُمْ أَنزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنزِلُونَ",
+      "arti": "Kamukah yang menurunkannya dari awan ataukah Kami yang menurunkannya?"
+    },
+    {
+      "nomor": 70,
+      "arab": "لَوْ نَشَاءُ جَعَلْنَاهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+      "arti": "Jika Kami menghendaki, niscaya Kami jadikan dia asin, mengapa kamu tidak bersyukur?"
+    },
+    {
+      "nomor": 71,
+      "arab": "أَفَرَأَيْتُمُ النَّارَ الَّذِي تُورُونَ",
+      "arti": "Maka apakah kamu memperhatikan tentang api yang kamu nyalakan (dengan kayu)?"
+    },
+    {
+      "nomor": 72,
+      "arab": "أَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنشِئُونَ",
+      "arti": "Kamukah yang menjadikan pohon itu ataukah Kami yang menjadikannya?"
+    },
+    {
+      "nomor": 73,
+      "arab": "نَحْنُ جَعَلْنَاهَا تَذْكِرَةً وَمَتَاعًا لِّلْمُقْوِينَ",
+      "arti": "Kami menjadikannya (api itu) untuk peringatan dan bahan yang berguna bagi musafir."
+    },
+    {
+      "nomor": 74,
+      "arab": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+      "arti": "Maka bertasbihlah dengan (menyebut) nama Tuhanmu yang Mahabesar."
+    },
+    {
+      "nomor": 75,
+      "arab": "فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ",
+      "arti": "Maka Aku bersumpah dengan tempat beredarnya bintang-bintang."
+    },
+    {
+      "nomor": 76,
+      "arab": "وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+      "arti": "Dan sesungguhnya itu benar-benar sumpah yang besar sekiranya kamu mengetahui."
+    },
+    {
+      "nomor": 77,
+      "arab": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
+      "arti": "Dan sesungguhnya (Al-Qur'an) ini benar-benar suatu peringatan yang mulia."
+    },
+    {
+      "nomor": 78,
+      "arab": "فِي كِتَابٍ مَّكْنُونٍ",
+      "arti": "dalam Kitab yang terpelihara (Lauh Mahfuzh),"
+    },
+    {
+      "nomor": 79,
+      "arab": "لَّا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ",
+      "arti": "tidak ada yang menyentuhnya selain hamba-hamba yang disucikan."
+    },
+    {
+      "nomor": 80,
+      "arab": "تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ",
+      "arti": "Diturunkan dari Tuhan seluruh alam."
+    },
+    {
+      "nomor": 81,
+      "arab": "أَفَبِهَٰذَا الْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+      "arti": "Maka apakah kamu menganggap remeh saja (Al-Qur'an) ini?"
+    },
+    {
+      "nomor": 82,
+      "arab": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+      "arti": "Dan kamu jadikan rezeki yang kamu terima (dari Allah) justru untuk mendustakan(-Nya)."
+    },
+    {
+      "nomor": 83,
+      "arab": "فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ",
+      "arti": "Maka mengapa ketika nyawa sampai di kerongkongan,"
+    },
+    {
+      "nomor": 84,
+      "arab": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ",
+      "arti": "padahal kamu ketika itu melihat,"
+    },
+    {
+      "nomor": 85,
+      "arab": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَٰكِن لَّا تُبْصِرُونَ",
+      "arti": "dan Kami lebih dekat kepadanya daripada kamu, tetapi kamu tidak melihat,"
+    },
+    {
+      "nomor": 86,
+      "arab": "فَلَوْلَا إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+      "arti": "maka mengapa jika kamu tidak dikuasai (oleh Allah),"
+    },
+    {
+      "nomor": 87,
+      "arab": "تَرْجِعُونَهَا إِن كُنتُمْ صَادِقِينَ",
+      "arti": "kamu tidak mengembalikan nyawa itu (kepada tempatnya) jika kamu orang yang benar?"
+    },
+    {
+      "nomor": 88,
+      "arab": "فَأَمَّا إِن كَانَ مِنَ الْمُقَرَّبِينَ",
+      "arti": "Maka adapun jika dia (orang yang mati) termasuk orang yang didekatkan (kepada Allah),"
+    },
+    {
+      "nomor": 89,
+      "arab": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّةُ نَعِيمٍ",
+      "arti": "maka dia memperoleh ketenteraman dan rezeki serta surga kenikmatan."
+    },
+    {
+      "nomor": 90,
+      "arab": "وَأَمَّا إِن كَانَ مِنْ أَصْحَابِ الْيَمِينِ",
+      "arti": "Dan adapun jika dia termasuk golongan kanan,"
+    },
+    {
+      "nomor": 91,
+      "arab": "فَسَلَامٌ لَّكَ مِنْ أَصْحَابِ الْيَمِينِ",
+      "arti": "maka keselamatanlah bagimu karena kamu dari golongan kanan."
+    },
+    {
+      "nomor": 92,
+      "arab": "وَأَمَّا إِن كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ",
+      "arti": "Dan adapun jika dia termasuk orang yang mendustakan lagi sesat,"
+    },
+    {
+      "nomor": 93,
+      "arab": "فَنُزُلٌ مِّنْ حَمِيمٍ",
+      "arti": "maka dia mendapat hidangan air yang mendidih,"
+    },
+    {
+      "nomor": 94,
+      "arab": "وَتَصْلِيَةُ جَحِيمٍ",
+      "arti": "dan dibakar di dalam neraka."
+    },
+    {
+      "nomor": 95,
+      "arab": "إِنَّ هَٰذَا لَهُوَ حَقُّ الْيَقِينِ",
+      "arti": "Sungguh, ini benar-benar keyakinan yang benar."
+    },
+    {
+      "nomor": 96,
+      "arab": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+      "arti": "Maka bertasbihlah dengan (menyebut) nama Tuhanmu yang Mahabesar."
+    }
+  ]
+}

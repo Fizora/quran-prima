@@ -1,0 +1,41 @@
+{
+  "nomor": 107,
+  "nama": "Al-Ma'un",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
+      "arti": "Tahukah kamu (orang) yang mendustakan agama?"
+    },
+    {
+      "nomor": 2,
+      "arab": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
+      "arti": "Maka itulah orang yang menghardik anak yatim,"
+    },
+    {
+      "nomor": 3,
+      "arab": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
+      "arti": "dan tidak mendorong (orang) untuk memberi makan orang miskin."
+    },
+    {
+      "nomor": 4,
+      "arab": "فَوَيْلٌ لِّلْمُصَلِّينَ",
+      "arti": "Maka celakalah orang yang salat,"
+    },
+    {
+      "nomor": 5,
+      "arab": "الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "arti": "(yaitu) orang-orang yang lalai terhadap salatnya,"
+    },
+    {
+      "nomor": 6,
+      "arab": "الَّذِينَ هُمْ يُرَاءُونَ",
+      "arti": "yang berbuat riya,"
+    },
+    {
+      "nomor": 7,
+      "arab": "وَيَمْنَعُونَ الْمَاعُونَ",
+      "arti": "dan enggan (memberikan) bantuan."
+    }
+  ]
+}

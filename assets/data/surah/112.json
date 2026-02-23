@@ -1,0 +1,26 @@
+{
+  "nomor": 112,
+  "nama": "Al-Ikhlas",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "arti": "Katakanlah (Muhammad), “Dialah Allah, Yang Maha Esa."
+    },
+    {
+      "nomor": 2,
+      "arab": "اللَّهُ الصَّمَدُ",
+      "arti": "Allah tempat meminta segala sesuatu."
+    },
+    {
+      "nomor": 3,
+      "arab": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "arti": "(Allah) tidak beranak dan tidak pula diperanakkan."
+    },
+    {
+      "nomor": 4,
+      "arab": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+      "arti": "Dan tidak ada sesuatu yang setara dengan Dia.”"
+    }
+  ]
+}

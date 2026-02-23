@@ -1,0 +1,36 @@
+{
+  "nomor": 109,
+  "nama": "Al-Kafirun",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+      "arti": "Katakanlah (Muhammad), \"Wahai orang-orang kafir!"
+    },
+    {
+      "nomor": 2,
+      "arab": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
+      "arti": "Aku tidak akan menyembah apa yang kamu sembah,"
+    },
+    {
+      "nomor": 3,
+      "arab": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "arti": "dan kamu bukan penyembah apa yang aku sembah,"
+    },
+    {
+      "nomor": 4,
+      "arab": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+      "arti": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
+    },
+    {
+      "nomor": 5,
+      "arab": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "arti": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah."
+    },
+    {
+      "nomor": 6,
+      "arab": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+      "arti": "Untukmu agamamu, dan untukku agamaku.\""
+    }
+  ]
+}

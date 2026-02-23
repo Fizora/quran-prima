@@ -1,0 +1,21 @@
+{
+  "nomor": 110,
+  "nama": "An-Nashr",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+      "arti": "Apabila telah datang pertolongan Allah dan kemenangan,"
+    },
+    {
+      "nomor": 2,
+      "arab": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
+      "arti": "dan engkau melihat manusia masuk agama Allah dengan berbondong-bondong,"
+    },
+    {
+      "nomor": 3,
+      "arab": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
+      "arti": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "nomor": 77,
+  "nama": "Al-Mursalat",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "وَالْمُرْسَلَاتِ عُرْفًا",
+      "arti": "Demi (malaikat-malaikat) yang diutus untuk membawa kebaikan,"
+    },
+    {
+      "nomor": 2,
+      "arab": "فَالْعَاصِفَاتِ عَصْفًا",
+      "arti": "dan (malaikat-malaikat) yang terbang dengan kencang,"
+    },
+    {
+      "nomor": 3,
+      "arab": "وَالنَّاشِرَاتِ نَشْرًا",
+      "arti": "dan (malaikat-malaikat) yang menyebarkan (rahmat Tuhannya) dengan seluas-luasnya,"
+    },
+    {
+      "nomor": 4,
+      "arab": "فَالْفَارِقَاتِ فَرْقًا",
+      "arti": "dan (malaikat-malaikat) yang membedakan (antara yang hak dan batil) dengan sejelas-jelasnya,"
+    },
+    {
+      "nomor": 5,
+      "arab": "فَالْمُلْقِيَاتِ ذِكْرًا",
+      "arti": "dan (malaikat-malaikat) yang menyampaikan wahyu,"
+    },
+    {
+      "nomor": 6,
+      "arab": "عُذْرًا أَوْ نُذْرًا",
+      "arti": "untuk menolak alasan-alasan atau memberi peringatan,"
+    },
+    {
+      "nomor": 7,
+      "arab": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
+      "arti": "sesungguhnya apa yang dijanjikan kepadamu pasti terjadi."
+    },
+    {
+      "nomor": 8,
+      "arab": "فَإِذَا النُّجُومُ طُمِسَتْ",
+      "arti": "Maka apabila bintang-bintang dihapuskan,"
+    },
+    {
+      "nomor": 9,
+      "arab": "وَإِذَا السَّمَاءُ فُرِجَتْ",
+      "arti": "dan apabila langit dibelah,"
+    },
+    {
+      "nomor": 10,
+      "arab": "وَإِذَا الْجِبَالُ نُسِفَتْ",
+      "arti": "dan apabila gunung-gunung dihancurkan menjadi debu,"
+    },
+    {
+      "nomor": 11,
+      "arab": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
+      "arti": "dan apabila rasul-rasul telah ditetapkan waktu (mereka)."
+    },
+    {
+      "nomor": 12,
+      "arab": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
+      "arti": "(Niscaya dikatakan kepada mereka), \"Sampai hari apakah ditangguhkan (mengazab orang-orang kafir itu)?\""
+    },
+    {
+      "nomor": 13,
+      "arab": "لِيَوْمِ الْفَصْلِ",
+      "arti": "Sampai hari keputusan."
+    },
+    {
+      "nomor": 14,
+      "arab": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
+      "arti": "Dan tahukah kamu apakah hari keputusan itu?"
+    },
+    {
+      "nomor": 15,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 16,
+      "arab": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
+      "arti": "Bukankah Kami telah membinasakan orang-orang dahulu?"
+    },
+    {
+      "nomor": 17,
+      "arab": "فَنُتْبِعُهُمُ الْآخِرِينَ",
+      "arti": "Lalu Kami ikutkan (pula) orang-orang yang datang kemudian."
+    },
+    {
+      "nomor": 18,
+      "arab": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
+      "arti": "Demikianlah Kami berbuat terhadap orang-orang yang berdosa."
+    },
+    {
+      "nomor": 19,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 20,
+      "arab": "أَلَمْ نَخْلُقكُّم مِّن مَّاءٍ مَّهِينٍ",
+      "arti": "Bukankah Kami menciptakan kamu dari air yang hina (mani)?"
+    },
+    {
+      "nomor": 21,
+      "arab": "فَجَعَلْنَاهُ فِي قَرَارٍ مَّكِينٍ",
+      "arti": "Kemudian Kami letakkan dia dalam tempat yang kokoh (rahim),"
+    },
+    {
+      "nomor": 22,
+      "arab": "إِلَىٰ قَدَرٍ مَّعْلُومٍ",
+      "arti": "sampai waktu yang ditentukan,"
+    },
+    {
+      "nomor": 23,
+      "arab": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
+      "arti": "lalu Kami tentukan (bentuknya), maka Kami-lah sebaik-baik yang menentukan."
+    },
+    {
+      "nomor": 24,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 25,
+      "arab": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
+      "arti": "Bukankah Kami menjadikan bumi (tempat) berkumpul,"
+    },
+    {
+      "nomor": 26,
+      "arab": "أَحْيَاءً وَأَمْوَاتًا",
+      "arti": "bagi yang hidup dan yang mati?"
+    },
+    {
+      "nomor": 27,
+      "arab": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُم مَّاءً فُرَاتًا",
+      "arti": "dan Kami jadikan padanya gunung-gunung yang tinggi, dan Kami beri minum kamu dengan air tawar?"
+    },
+    {
+      "nomor": 28,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 29,
+      "arab": "انطَلِقُوا إِلَىٰ مَا كُنتُم بِهِ تُكَذِّبُونَ",
+      "arti": "(Dikatakan kepada orang-orang kafir), \"Pergilah kamu mendapatkan azab yang dahulu kamu dustakan."
+    },
+    {
+      "nomor": 30,
+      "arab": "انطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
+      "arti": "Pergilah kamu mendapatkan naungan (asap neraka) yang mempunyai tiga cabang,"
+    },
+    {
+      "nomor": 31,
+      "arab": "لَّا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
+      "arti": "yang tidak melindungi dan tidak pula menolak nyala api neraka.\""
+    },
+    {
+      "nomor": 32,
+      "arab": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
+      "arti": "Sesungguhnya neraka itu melontarkan bunga api sebesar dan setinggi istana,"
+    },
+    {
+      "nomor": 33,
+      "arab": "كَأَنَّهُ جِمَالَةٌ صُفْرٌ",
+      "arti": "seakan-akan iring-iringan unta yang kuning."
+    },
+    {
+      "nomor": 34,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 35,
+      "arab": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+      "arti": "Ini adalah hari, yang mereka tidak dapat berbicara (pada hari itu),"
+    },
+    {
+      "nomor": 36,
+      "arab": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "arti": "dan tidak diizinkan kepada mereka mengemukakan alasan, sehingga mereka (dapat) minta maaf."
+    },
+    {
+      "nomor": 37,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 38,
+      "arab": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
+      "arti": "Ini adalah hari keputusan; (pada hari ini) Kami mengumpulkan kamu dan orang-orang yang terdahulu."
+    },
+    {
+      "nomor": 39,
+      "arab": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+      "arti": "Jika kamu mempunyai tipu daya, maka lakukanlah tipu dayamu itu terhadap-Ku."
+    },
+    {
+      "nomor": 40,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 41,
+      "arab": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
+      "arti": "Sesungguhnya orang-orang yang bertakwa berada dalam naungan (yang teduh) dan (di sekitar) mata-mata air,"
+    },
+    {
+      "nomor": 42,
+      "arab": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
+      "arti": "dan buah-buahan yang mereka sukai."
+    },
+    {
+      "nomor": 43,
+      "arab": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "arti": "(Dikatakan kepada mereka), \"Makan dan minumlah dengan enak sebagai balasan dari apa yang telah kamu kerjakan.\""
+    },
+    {
+      "nomor": 44,
+      "arab": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
+      "arti": "Demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
+    },
+    {
+      "nomor": 45,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 46,
+      "arab": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+      "arti": "(Dikatakan kepada orang-orang kafir), \"Makan dan bersenang-senanglah kamu (di dunia dalam waktu) yang pendek; sesungguhnya kamu adalah orang-orang yang berdosa.\""
+    },
+    {
+      "nomor": 47,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 48,
+      "arab": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
+      "arti": "Dan apabila dikatakan kepada mereka, \"Rukuklah,\" mereka tidak mau rukuk."
+    },
+    {
+      "nomor": 49,
+      "arab": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+      "arti": "Celakalah pada hari itu bagi orang-orang yang mendustakan!"
+    },
+    {
+      "nomor": 50,
+      "arab": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+      "arti": "Maka kepada perkataan apakah selain Al-Qur'an ini mereka akan beriman?"
+    }
+  ]
+}

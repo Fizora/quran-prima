@@ -1,0 +1,46 @@
+{
+  "nomor": 102,
+  "nama": "At-Takatsur",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "أَلْهَاكُمُ التَّكَاثُرُ",
+      "arti": "Bermegah-megahan telah melalaikan kamu,"
+    },
+    {
+      "nomor": 2,
+      "arab": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
+      "arti": "sampai kamu masuk ke dalam kubur."
+    },
+    {
+      "nomor": 3,
+      "arab": "كَلَّا سَوْفَ تَعْلَمُونَ",
+      "arti": "Sekali-kali tidak! Kelak kamu akan mengetahui (akibat perbuatanmu itu),"
+    },
+    {
+      "nomor": 4,
+      "arab": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+      "arti": "dan sekali-kali tidak! Kelak kamu akan mengetahui."
+    },
+    {
+      "nomor": 5,
+      "arab": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
+      "arti": "Sekali-kali tidak! Sekiranya kamu mengetahui dengan pasti,"
+    },
+    {
+      "nomor": 6,
+      "arab": "لَتَرَوُنَّ الْجَحِيمَ",
+      "arti": "niscaya kamu benar-benar akan melihat neraka Jahim,"
+    },
+    {
+      "nomor": 7,
+      "arab": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
+      "arti": "kemudian kamu benar-benar akan melihatnya dengan mata kepala sendiri,"
+    },
+    {
+      "nomor": 8,
+      "arab": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+      "arti": "kemudian kamu benar-benar akan ditanya pada hari itu tentang kenikmatan (yang kamu megah-megahkan di dunia itu)."
+    }
+  ]
+}

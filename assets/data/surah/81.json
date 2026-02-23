@@ -1,0 +1,151 @@
+{
+  "nomor": 81,
+  "nama": "At-Takwir",
+  "ayat": [
+    {
+      "nomor": 1,
+      "arab": "إِذَا الشَّمْسُ كُوِّرَتْ",
+      "arti": "Apabila matahari digulung,"
+    },
+    {
+      "nomor": 2,
+      "arab": "وَإِذَا النُّجُومُ انكَدَرَتْ",
+      "arti": "dan apabila bintang-bintang berjatuhan,"
+    },
+    {
+      "nomor": 3,
+      "arab": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
+      "arti": "dan apabila gunung-gunung dihancurkan,"
+    },
+    {
+      "nomor": 4,
+      "arab": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
+      "arti": "dan apabila unta-unta yang bunting ditinggalkan (tidak diperdulikan),"
+    },
+    {
+      "nomor": 5,
+      "arab": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
+      "arti": "dan apabila binatang-binatang liar dikumpulkan,"
+    },
+    {
+      "nomor": 6,
+      "arab": "وَإِذَا الْبِحَارُ سُجِّرَتْ",
+      "arti": "dan apabila lautan dijadikan meluap,"
+    },
+    {
+      "nomor": 7,
+      "arab": "وَإِذَا النُّفُوسُ زُوِّجَتْ",
+      "arti": "dan apabila roh-roh dipertemukan (dengan tubuh),"
+    },
+    {
+      "nomor": 8,
+      "arab": "وَإِذَا الْمَوْءُودَةُ سُئِلَتْ",
+      "arti": "dan apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya,"
+    },
+    {
+      "nomor": 9,
+      "arab": "بِأَيِّ ذَنبٍ قُتِلَتْ",
+      "arti": "karena dosa apakah dia dibunuh,"
+    },
+    {
+      "nomor": 10,
+      "arab": "وَإِذَا الصُّحُفُ نُشِرَتْ",
+      "arti": "dan apabila catatan-catatan (amal perbuatan manusia) dibuka,"
+    },
+    {
+      "nomor": 11,
+      "arab": "وَإِذَا السَّمَاءُ كُشِطَتْ",
+      "arti": "dan apabila langit dilenyapkan,"
+    },
+    {
+      "nomor": 12,
+      "arab": "وَإِذَا الْجَحِيمُ سُعِّرَتْ",
+      "arti": "dan apabila neraka Jahim dinyalakan,"
+    },
+    {
+      "nomor": 13,
+      "arab": "وَإِذَا الْجَنَّةُ أُزْلِفَتْ",
+      "arti": "dan apabila surga didekatkan,"
+    },
+    {
+      "nomor": 14,
+      "arab": "عَلِمَتْ نَفْسٌ مَّا أَحْضَرَتْ",
+      "arti": "maka setiap jiwa akan mengetahui apa yang telah dikerjakannya."
+    },
+    {
+      "nomor": 15,
+      "arab": "فَلَا أُقْسِمُ بِالْخُنَّسِ",
+      "arti": "Aku bersumpah demi bintang-bintang,"
+    },
+    {
+      "nomor": 16,
+      "arab": "الْجَوَارِ الْكُنَّسِ",
+      "arti": "yang beredar dan terbenam,"
+    },
+    {
+      "nomor": 17,
+      "arab": "وَاللَّيْلِ إِذَا عَسْعَسَ",
+      "arti": "demi malam apabila telah hampir meninggalkan gelapnya,"
+    },
+    {
+      "nomor": 18,
+      "arab": "وَالصُّبْحِ إِذَا تَنَفَّسَ",
+      "arti": "dan demi subuh apabila fajarnya mulai menyingsing,"
+    },
+    {
+      "nomor": 19,
+      "arab": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "arti": "sesungguhnya (Al-Qur'an) itu benar-benar firman (Allah yang dibawa oleh) utusan yang mulia (Jibril),"
+    },
+    {
+      "nomor": 20,
+      "arab": "ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ",
+      "arti": "yang mempunyai kekuatan, yang mempunyai kedudukan tinggi di sisi (Allah) yang memiliki 'Arsy,"
+    },
+    {
+      "nomor": 21,
+      "arab": "مُّطَاعٍ ثَمَّ أَمِينٍ",
+      "arti": "yang ditaati di sana (di alam malaikat) lagi dipercaya."
+    },
+    {
+      "nomor": 22,
+      "arab": "وَمَا صَاحِبُكُم بِمَجْنُونٍ",
+      "arti": "Dan temanmu (Muhammad) itu bukanlah orang gila."
+    },
+    {
+      "nomor": 23,
+      "arab": "وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
+      "arti": "Dan sungguh, dia (Muhammad) telah melihatnya (Jibril) di ufuk yang terang."
+    },
+    {
+      "nomor": 24,
+      "arab": "وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ",
+      "arti": "Dan dia (Muhammad) bukanlah seorang yang bakhil (kikir) untuk menerangkan yang gaib."
+    },
+    {
+      "nomor": 25,
+      "arab": "وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَجِيمٍ",
+      "arti": "Dan (Al-Qur'an) itu bukanlah perkataan setan yang terkutuk,"
+    },
+    {
+      "nomor": 26,
+      "arab": "فَأَيْنَ تَذْهَبُونَ",
+      "arti": "maka ke manakah kamu akan pergi?"
+    },
+    {
+      "nomor": 27,
+      "arab": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ",
+      "arti": "(Al-Qur'an) itu tidak lain adalah peringatan bagi seluruh alam,"
+    },
+    {
+      "nomor": 28,
+      "arab": "لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ",
+      "arti": "(yaitu) bagi siapa di antara kamu yang menghendaki menempuh jalan yang lurus."
+    },
+    {
+      "nomor": 29,
+      "arab": "وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ",
+      "arti": "Dan kamu tidak dapat menghendaki (menempuh jalan itu) kecuali apabila dikehendaki Allah, Tuhan seluruh alam."
+    }
+  ]
+}

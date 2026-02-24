@@ -7,13 +7,11 @@ import '../services/font_size_service.dart';
 class AyatPage extends StatefulWidget {
   final String surahName;
   final int surahNumber;
-  final String displayMode; // 'ayat-only' atau 'ayat-translation'
 
   const AyatPage({
     super.key,
     required this.surahName,
     required this.surahNumber,
-    this.displayMode = 'ayat-translation',
   });
 
   @override
@@ -26,6 +24,7 @@ class _AyatPageState extends State<AyatPage> {
   String errorMessage = '';
   final ScrollController _scrollController = ScrollController();
   double _ayatFontSize = FontSizeService.defaultAyatFontSize;
+  String _displayMode = 'ayat-translation'; // Default: ayat+terjemahan
 
   // Konstanta untuk line height teks Arab (dinaikkan agar lebih renggang)
   static const double _arabicLineHeight = 2.0;
@@ -105,78 +104,118 @@ class _AyatPageState extends State<AyatPage> {
       backgroundColor: Colors.white,
       elevation: 0,
       iconTheme: const IconThemeData(color: Colors.black54),
-    );
-  }
-
-  Widget _buildAyatOnlyCompact(List<dynamic> ayatList) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      child: Directionality(
-        textDirection: TextDirection.rtl,
-        child: Column(
-          children: [
-            // Basmalah - centered
-            if (ayatList.isNotEmpty &&
-                (ayatList[0] as Map<String, dynamic>)['nomor'] == 0) ...[
-              RichText(
-                textAlign: TextAlign.center,
-                text: TextSpan(
-                  text: (ayatList[0] as Map<String, dynamic>)['arab'],
-                  style: GoogleFonts.amiriQuran(
-                    fontSize: _ayatFontSize + 6,
-                    height: _arabicLineHeight, // menggunakan konstanta
+      actions: [
+        Padding(
+          padding: const EdgeInsets.only(right: 12.0),
+          child: Center(
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text(
+                  'Terjemahan',
+                  style: TextStyle(
+                    fontSize: 12,
                     fontWeight: FontWeight.w500,
                     color: Colors.black87,
                   ),
                 ),
-              ),
-              const SizedBox(height: 16),
-            ],
-            // Ayat lainnya - mengalir dari kanan ke kiri
-            RichText(
-              textAlign: TextAlign.right,
-              text: TextSpan(
-                children: [
-                  for (int i = 0; i < ayatList.length; i++) ...[
-                    // Skip basmalah karena sudah ditampilkan di atas
-                    if ((ayatList[i] as Map<String, dynamic>)['nomor'] !=
-                        0) ...[
-                      TextSpan(
-                        text: (ayatList[i] as Map<String, dynamic>)['arab'],
-                        style: GoogleFonts.amiriQuran(
-                          fontSize: _ayatFontSize,
-                          height: _arabicLineHeight, // menggunakan konstanta
-                          fontWeight: FontWeight.w500,
-                          color: Colors.black87,
-                        ),
+                const SizedBox(width: 6),
+                GestureDetector(
+                  onTap: () {
+                    setState(() {
+                      _displayMode = _displayMode == 'ayat-translation'
+                          ? 'ayat-only'
+                          : 'ayat-translation';
+                    });
+                  },
+                  child: Container(
+                    width: 42,
+                    height: 24,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(12),
+                      color: _displayMode == 'ayat-translation'
+                          ? Colors.green
+                          : Colors.grey[300],
+                    ),
+                    child: AnimatedPositioned(
+                      duration: const Duration(milliseconds: 300),
+                      child: Stack(
+                        children: [
+                          AnimatedPositioned(
+                            duration: const Duration(milliseconds: 300),
+                            left: _displayMode == 'ayat-translation' ? 1 : 19,
+                            top: 1,
+                            child: Container(
+                              width: 22,
+                              height: 22,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(11),
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
-                      TextSpan(
-                        text:
-                            ' ۝${_convertToArabicNumber((ayatList[i] as Map<String, dynamic>)['nomor'])} ',
-                        style: TextStyle(
-                          fontSize: _ayatFontSize - 4,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.green[700],
-                          height: _arabicLineHeight, // samakan dengan teks Arab
-                        ),
-                      ),
-                    ],
-                  ],
-                ],
-              ),
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         ),
-      ),
+      ],
     );
   }
 
   Widget _buildAyatItem(Map<String, dynamic> ayat, int index) {
     bool isBasmalah = ayat['nomor'] == 0;
 
-    // Mode 'ayat-only' - handled separately with compact flow
-    if (widget.displayMode == 'ayat-only') {
-      return const SizedBox.shrink(); // Tidak digunakan, gunakan _buildAyatOnlyCompact
+    // Untuk mode 'ayat-only' - tampilkan hanya ayat
+    if (_displayMode == 'ayat-only') {
+      return Container(
+        color: Colors.white,
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            if (isBasmalah) const SizedBox(height: 8),
+
+            // Arabic Text dengan nomor ayat inline
+            RichText(
+              textAlign: isBasmalah ? TextAlign.center : TextAlign.right,
+              textDirection: TextDirection.rtl,
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: ayat['arab'],
+                    style: GoogleFonts.amiriQuran(
+                      fontSize: isBasmalah
+                          ? _ayatFontSize + 6
+                          : _ayatFontSize,
+                      height: _arabicLineHeight,
+                      fontWeight: FontWeight.w500,
+                      color: Colors.black87,
+                    ),
+                  ),
+                  if (!isBasmalah) ...[
+                    TextSpan(
+                      text: ' ۝${_convertToArabicNumber(ayat['nomor'])} ',
+                      style: TextStyle(
+                        fontSize: _ayatFontSize - 4,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.green[700],
+                        height: _arabicLineHeight,
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+
+            if (isBasmalah) const SizedBox(height: 8),
+          ],
+        ),
+      );
     }
 
     // Mode 'ayat-translation' - card view dengan terjemahan
@@ -422,16 +461,7 @@ class _AyatPageState extends State<AyatPage> {
 
     final List<dynamic> ayatList = surahData!['ayat'];
 
-    // Mode 'ayat-only' menggunakan layout compact yang mengalir
-    if (widget.displayMode == 'ayat-only') {
-      return SingleChildScrollView(
-        controller: _scrollController,
-        physics: const BouncingScrollPhysics(),
-        padding: const EdgeInsets.only(top: 4, bottom: 20),
-        child: _buildAyatOnlyCompact(ayatList),
-      );
-    }
-
+    // Gunakan ListView builder untuk kedua mode
     return ListView.builder(
       controller: _scrollController,
       physics: const BouncingScrollPhysics(),

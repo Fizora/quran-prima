@@ -89,59 +89,14 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
   }
 
   void _navigateToSurah(Map<String, dynamic> surah) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: const Text(
-            'Pilih Mode Tampilan',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
-          content: const Text(
-            'Bagaimana Anda ingin menampilkan ayat?',
-            style: TextStyle(fontSize: 14),
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
-          ),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => AyatPage(
-                      surahName: surah['nama'],
-                      surahNumber: surah['nomor'],
-                      displayMode: 'ayat-only',
-                    ),
-                  ),
-                );
-              },
-              style: TextButton.styleFrom(foregroundColor: Colors.green),
-              child: const Text('Ayat Saja'),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (_) => AyatPage(
-                      surahName: surah['nama'],
-                      surahNumber: surah['nomor'],
-                      displayMode: 'ayat-translation',
-                    ),
-                  ),
-                );
-              },
-              style: TextButton.styleFrom(foregroundColor: Colors.green),
-              child: const Text('Ayat + Terjemahan'),
-            ),
-          ],
-        );
-      },
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => AyatPage(
+          surahName: surah['nama'],
+          surahNumber: surah['nomor'],
+        ),
+      ),
     );
   }
 

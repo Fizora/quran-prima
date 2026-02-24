@@ -13,7 +13,7 @@ import 'package:quran_prima/services/location_service.dart';
 void main() {
   runApp(const QuranPrimaApp());
 }
-// 
+//
 class QuranPrimaApp extends StatefulWidget {
   const QuranPrimaApp({super.key});
 
@@ -196,10 +196,13 @@ class QuranHomePage extends StatelessWidget {
     required String label,
     required IconData icon,
     required VoidCallback onTap,
+    required bool isSmallScreen,
   }) {
     return Container(
-      width: 300,
-      margin: const EdgeInsets.symmetric(vertical: 8),
+      margin: EdgeInsets.symmetric(
+        vertical: isSmallScreen ? 6 : 8,
+        horizontal: isSmallScreen ? 12 : 0,
+      ),
       child: Material(
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
@@ -209,25 +212,29 @@ class QuranHomePage extends StatelessWidget {
           onTap: onTap,
           borderRadius: BorderRadius.circular(12),
           child: Container(
-            padding: const EdgeInsets.all(16),
+            padding: EdgeInsets.all(isSmallScreen ? 12 : 16),
             child: Row(
               children: [
                 Container(
-                  width: 40,
-                  height: 40,
+                  width: isSmallScreen ? 32 : 40,
+                  height: isSmallScreen ? 32 : 40,
                   decoration: BoxDecoration(
                     color: Colors.green[50],
                     borderRadius: BorderRadius.circular(10),
                     border: Border.all(color: Colors.green[100]!),
                   ),
-                  child: Icon(icon, color: Colors.green[700], size: 20),
+                  child: Icon(
+                    icon,
+                    color: Colors.green[700],
+                    size: isSmallScreen ? 16 : 20,
+                  ),
                 ),
-                const SizedBox(width: 16),
+                SizedBox(width: isSmallScreen ? 12 : 16),
                 Expanded(
                   child: Text(
                     label,
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: isSmallScreen ? 13 : 16,
                       fontWeight: FontWeight.w600,
                       color: Colors.green[800],
                     ),
@@ -236,7 +243,7 @@ class QuranHomePage extends StatelessWidget {
                 Icon(
                   Icons.arrow_forward_ios_rounded,
                   color: Colors.green[400],
-                  size: 16,
+                  size: isSmallScreen ? 14 : 16,
                 ),
               ],
             ),
@@ -258,43 +265,93 @@ class QuranHomePage extends StatelessWidget {
       {"label": "PENGATURAN", "icon": Icons.settings_rounded},
     ];
 
+    // Responsive values berdasarkan ukuran layar
+    final size = MediaQuery.of(context).size;
+    final isSmallScreen = size.height < 700;
+    final isExtraSmallScreen = size.height < 600;
+
+    final logoHeight = isSmallScreen ? 70.0 : 100.0;
+    final titleFontSize = isSmallScreen ? 22.0 : 28.0;
+    final subtitleFontSize = isSmallScreen ? 12.0 : 14.0;
+    final topSpacing = isSmallScreen ? 16.0 : 24.0;
+    final itemSpacing = isSmallScreen ? 16.0 : 40.0;
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              // Logo dan Judul
-              Image.asset('assets/images/logo.png', height: 100),
-              const SizedBox(height: 24),
-              Text(
-                'Qur\'an Prima',
-                style: TextStyle(
-                  fontSize: 28,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.green[700],
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: BoxConstraints(
+              minHeight: size.height - MediaQuery.of(context).padding.top,
+            ),
+            child: IntrinsicHeight(
+              child: Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Logo dan Judul
+                    SizedBox(height: isExtraSmallScreen ? 8 : 12),
+                    Image.asset(
+                      'assets/images/logo.png',
+                      height: logoHeight,
+                      errorBuilder: (context, error, stackTrace) {
+                        return Container(
+                          height: logoHeight,
+                          width: logoHeight,
+                          decoration: BoxDecoration(
+                            color: Colors.green[50],
+                            shape: BoxShape.circle,
+                          ),
+                          child: Icon(
+                            Icons.menu_book_rounded,
+                            size: logoHeight * 0.6,
+                            color: Colors.green[700],
+                          ),
+                        );
+                      },
+                    ),
+                    SizedBox(height: topSpacing * 0.6),
+                    Text(
+                      'Qur\'an Prima',
+                      style: TextStyle(
+                        fontSize: titleFontSize,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.green[700],
+                      ),
+                    ),
+                    SizedBox(height: topSpacing * 0.3),
+                    Text(
+                      'Baca dan Pelajari Al-Qur\'an',
+                      style: TextStyle(
+                        fontSize: subtitleFontSize,
+                        color: Colors.grey[600],
+                      ),
+                    ),
+
+                    SizedBox(height: itemSpacing * 0.6),
+
+                    // Menu Items (vertikal) - Responsive width
+                    SizedBox(
+                      width: size.width > 400 ? 300 : size.width * 0.85,
+                      child: Column(
+                        children: menuItems.map(
+                          (item) => _buildMenuButton(
+                            label: item['label'] as String,
+                            icon: item['icon'] as IconData,
+                            onTap: () {
+                              _navigateToPage(context, item['label'] as String);
+                            },
+                            isSmallScreen: isSmallScreen,
+                          ),
+                        ).toList(),
+                      ),
+                    ),
+
+                    SizedBox(height: isSmallScreen ? 16 : 24),
+                  ],
                 ),
               ),
-              const SizedBox(height: 8),
-              Text(
-                'Baca dan Pelajari Al-Qur\'an',
-                style: TextStyle(fontSize: 14, color: Colors.grey[600]),
-              ),
-
-              const SizedBox(height: 40),
-
-              // Menu Items (vertikal)
-              ...menuItems.map(
-                (item) => _buildMenuButton(
-                  label: item['label'] as String,
-                  icon: item['icon'] as IconData,
-                  onTap: () {
-                    _navigateToPage(context, item['label'] as String);
-                  },
-                ),
-              ),
-            ],
+            ),
           ),
         ),
       ),

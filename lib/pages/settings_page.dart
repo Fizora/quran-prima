@@ -264,7 +264,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               child: Text(
                                 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
                                 textAlign: TextAlign.right,
-                                style: GoogleFonts.notoNaskhArabic(
+                                style: GoogleFonts.amiriQuran(
                                   fontSize: _ayatFontSize,
                                   color: Colors.green[900],
                                 ),

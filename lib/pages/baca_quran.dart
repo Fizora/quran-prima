@@ -21,222 +21,13 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
   bool isLoading = true;
   double _normalFontSize = FontSizeService.defaultNormalFontSize;
 
-  // Tab state
-  int selectedTab = 0; // 0 = Surah, 1 = Juz
+  // 🔒 Fitur Juz disembunyikan – semua kode terkait Juz dikomentari
+  // int selectedTab = 0; // Tidak digunakan lagi
 
-  // Juz data
-  final List<Map<String, dynamic>> juzList = [
-    {
-      'juz': 1,
-      'surah_start': 1,
-      'ayah_start': 1,
-      'surah_end': 1,
-      'ayah_end': 141,
-    },
-    {
-      'juz': 2,
-      'surah_start': 1,
-      'ayah_start': 142,
-      'surah_end': 2,
-      'ayah_end': 252,
-    },
-    {
-      'juz': 3,
-      'surah_start': 2,
-      'ayah_start': 253,
-      'surah_end': 3,
-      'ayah_end': 92,
-    },
-    {
-      'juz': 4,
-      'surah_start': 3,
-      'ayah_start': 93,
-      'surah_end': 4,
-      'ayah_end': 23,
-    },
-    {
-      'juz': 5,
-      'surah_start': 4,
-      'ayah_start': 24,
-      'surah_end': 4,
-      'ayah_end': 147,
-    },
-    {
-      'juz': 6,
-      'surah_start': 4,
-      'ayah_start': 148,
-      'surah_end': 5,
-      'ayah_end': 81,
-    },
-    {
-      'juz': 7,
-      'surah_start': 5,
-      'ayah_start': 82,
-      'surah_end': 6,
-      'ayah_end': 110,
-    },
-    {
-      'juz': 8,
-      'surah_start': 6,
-      'ayah_start': 111,
-      'surah_end': 7,
-      'ayah_end': 87,
-    },
-    {
-      'juz': 9,
-      'surah_start': 7,
-      'ayah_start': 88,
-      'surah_end': 8,
-      'ayah_end': 40,
-    },
-    {
-      'juz': 10,
-      'surah_start': 8,
-      'ayah_start': 41,
-      'surah_end': 9,
-      'ayah_end': 92,
-    },
-    {
-      'juz': 11,
-      'surah_start': 9,
-      'ayah_start': 93,
-      'surah_end': 11,
-      'ayah_end': 5,
-    },
-    {
-      'juz': 12,
-      'surah_start': 11,
-      'ayah_start': 6,
-      'surah_end': 12,
-      'ayah_end': 52,
-    },
-    {
-      'juz': 13,
-      'surah_start': 12,
-      'ayah_start': 53,
-      'surah_end': 14,
-      'ayah_end': 52,
-    },
-    {
-      'juz': 14,
-      'surah_start': 15,
-      'ayah_start': 1,
-      'surah_end': 16,
-      'ayah_end': 128,
-    },
-    {
-      'juz': 15,
-      'surah_start': 17,
-      'ayah_start': 1,
-      'surah_end': 18,
-      'ayah_end': 74,
-    },
-    {
-      'juz': 16,
-      'surah_start': 18,
-      'ayah_start': 75,
-      'surah_end': 21,
-      'ayah_end': 29,
-    },
-    {
-      'juz': 17,
-      'surah_start': 21,
-      'ayah_start': 30,
-      'surah_end': 23,
-      'ayah_end': 118,
-    },
-    {
-      'juz': 18,
-      'surah_start': 24,
-      'ayah_start': 1,
-      'surah_end': 25,
-      'ayah_end': 20,
-    },
-    {
-      'juz': 19,
-      'surah_start': 25,
-      'ayah_start': 21,
-      'surah_end': 27,
-      'ayah_end': 55,
-    },
-    {
-      'juz': 20,
-      'surah_start': 27,
-      'ayah_start': 56,
-      'surah_end': 29,
-      'ayah_end': 45,
-    },
-    {
-      'juz': 21,
-      'surah_start': 29,
-      'ayah_start': 46,
-      'surah_end': 33,
-      'ayah_end': 30,
-    },
-    {
-      'juz': 22,
-      'surah_start': 33,
-      'ayah_start': 31,
-      'surah_end': 36,
-      'ayah_end': 27,
-    },
-    {
-      'juz': 23,
-      'surah_start': 36,
-      'ayah_start': 28,
-      'surah_end': 39,
-      'ayah_end': 31,
-    },
-    {
-      'juz': 24,
-      'surah_start': 39,
-      'ayah_start': 32,
-      'surah_end': 41,
-      'ayah_end': 46,
-    },
-    {
-      'juz': 25,
-      'surah_start': 41,
-      'ayah_start': 47,
-      'surah_end': 45,
-      'ayah_end': 37,
-    },
-    {
-      'juz': 26,
-      'surah_start': 46,
-      'ayah_start': 1,
-      'surah_end': 51,
-      'ayah_end': 30,
-    },
-    {
-      'juz': 27,
-      'surah_start': 51,
-      'ayah_start': 31,
-      'surah_end': 57,
-      'ayah_end': 29,
-    },
-    {
-      'juz': 28,
-      'surah_start': 58,
-      'ayah_start': 1,
-      'surah_end': 66,
-      'ayah_end': 12,
-    },
-    {
-      'juz': 29,
-      'surah_start': 67,
-      'ayah_start': 1,
-      'surah_end': 77,
-      'ayah_end': 50,
-    },
-    {
-      'juz': 30,
-      'surah_start': 78,
-      'ayah_start': 1,
-      'surah_end': 114,
-      'ayah_end': 6,
-    },
-  ];
+  /*
+  // Data Juz (tidak digunakan)
+  final List<Map<String, dynamic>> juzList = [ ... ];
+  */
 
   @override
   void initState() {
@@ -269,8 +60,6 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
   }
 
   void _onSearchChanged() {
-    if (selectedTab != 0) return; // Hanya untuk tab Surah
-
     final query = searchCtrl.text.toLowerCase().trim();
     setState(() {
       isSearching = query.isNotEmpty;
@@ -330,9 +119,7 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
                   ),
                 );
               },
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.green,
-              ),
+              style: TextButton.styleFrom(foregroundColor: Colors.green),
               child: const Text('Ayat Saja'),
             ),
             TextButton(
@@ -349,9 +136,7 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
                   ),
                 );
               },
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.green,
-              ),
+              style: TextButton.styleFrom(foregroundColor: Colors.green),
               child: const Text('Ayat + Terjemahan'),
             ),
           ],
@@ -374,82 +159,7 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
       backgroundColor: Colors.white,
       elevation: 1,
       iconTheme: const IconThemeData(color: Colors.black87),
-      bottom: PreferredSize(
-        preferredSize: const Size.fromHeight(50),
-        child: Container(
-          color: Colors.white,
-          child: Row(
-            children: [
-              Expanded(
-                child: GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      selectedTab = 0;
-                      searchCtrl.clear();
-                      isSearching = false;
-                    });
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(vertical: 12),
-                    decoration: BoxDecoration(
-                      border: Border(
-                        bottom: BorderSide(
-                          color: selectedTab == 0
-                              ? Colors.green
-                              : Colors.transparent,
-                          width: 3,
-                        ),
-                      ),
-                    ),
-                    child: Text(
-                      'Surah',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                        color: selectedTab == 0 ? Colors.green : Colors.grey,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      selectedTab = 1;
-                      searchCtrl.clear();
-                      isSearching = false;
-                    });
-                  },
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(vertical: 12),
-                    decoration: BoxDecoration(
-                      border: Border(
-                        bottom: BorderSide(
-                          color: selectedTab == 1
-                              ? Colors.green
-                              : Colors.transparent,
-                          width: 3,
-                        ),
-                      ),
-                    ),
-                    child: Text(
-                      'Juz',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w600,
-                        color: selectedTab == 1 ? Colors.green : Colors.grey,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
+      // 🔒 Tab Juz dihilangkan – hanya menampilkan judul saja
     );
   }
 
@@ -564,7 +274,7 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
                 // Arabic Text
                 Text(
                   surah["arabic"],
-                  style: GoogleFonts.notoNaskhArabic(
+                  style: GoogleFonts.amiriQuran(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
@@ -630,119 +340,24 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
     );
   }
 
-  Widget _buildJuzItem(Map<String, dynamic> juz) {
-    final juzNumber = juz['juz'];
-    final startSurah = juz['surah_start'];
-    final startAyah = juz['ayah_start'];
-    final endSurah = juz['surah_end'];
-
-    // Get surah name from surahList
-    String startSurahName = '';
-    if (surahList.isNotEmpty && startSurah <= surahList.length) {
-      startSurahName = surahList[startSurah - 1]['nama'] ?? 'Unknown';
-    }
-
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-      child: Material(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(12),
-        elevation: 1,
-        shadowColor: Colors.black.withOpacity(0.1),
-        child: InkWell(
-          onTap: () {
-            // Navigate to first surah of juz
-            _navigateToSurah({'nama': startSurahName, 'nomor': startSurah});
-          },
-          borderRadius: BorderRadius.circular(12),
-          child: Container(
-            padding: const EdgeInsets.all(16),
-            child: Row(
-              children: [
-                // Number Badge
-                Container(
-                  width: 50,
-                  height: 50,
-                  decoration: BoxDecoration(
-                    color: Colors.green[50],
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.green[100]!),
-                  ),
-                  child: Center(
-                    child: Text(
-                      juzNumber.toString(),
-                      style: TextStyle(
-                        color: Colors.green[700],
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18,
-                      ),
-                    ),
-                  ),
-                ),
-                const SizedBox(width: 16),
-
-                // Details
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Juz $juzNumber',
-                        style: TextStyle(
-                          fontWeight: FontWeight.w600,
-                          fontSize: _normalFontSize,
-                          color: Colors.black87,
-                        ),
-                      ),
-                      const SizedBox(height: 4),
-                      Text(
-                        'MULAI DI: ${startSurahName.toUpperCase()} AYAT $startAyah',
-                        style: TextStyle(
-                          color: Colors.grey[600],
-                          fontSize: _normalFontSize - 2,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-
-                // Arrow Icon
-                Icon(
-                  Icons.arrow_forward_ios_rounded,
-                  color: Colors.grey[400],
-                  size: 16,
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildJuzList() {
-    return ListView.builder(
-      physics: const BouncingScrollPhysics(),
-      itemCount: juzList.length,
-      itemBuilder: (context, index) {
-        return _buildJuzItem(juzList[index]);
-      },
-    );
-  }
+  // 🔒 Fungsi untuk Juz dikomentari agar tidak digunakan
+  /*
+  Widget _buildJuzItem(Map<String, dynamic> juz) { ... }
+  Widget _buildJuzList() { ... }
+  */
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[50],
       appBar: _buildAppBar(),
-      body: selectedTab == 0
-          ? Column(
-              children: [
-                _buildSearchField(),
-                Expanded(child: _buildSurahList()),
-              ],
-            )
-          : _buildJuzList(),
+      // Selalu tampilkan daftar Surah (tanpa tab Juz)
+      body: Column(
+        children: [
+          _buildSearchField(),
+          Expanded(child: _buildSurahList()),
+        ],
+      ),
     );
   }
 }

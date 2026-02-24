@@ -44,14 +44,10 @@ class _QuranPrimaAppState extends State<QuranPrimaApp> {
       future: _fontThemeFuture,
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
-          return MaterialApp(
-            home: Scaffold(
-              body: Center(
-                child: CircularProgressIndicator(
-                  valueColor: AlwaysStoppedAnimation<Color>(Colors.green),
-                ),
-              ),
-            ),
+          // Tampilkan loading screen kustom
+          return const MaterialApp(
+            debugShowCheckedModeBanner: false,
+            home: LoadingScreen(),
           );
         }
 
@@ -69,6 +65,69 @@ class _QuranPrimaAppState extends State<QuranPrimaApp> {
           debugShowCheckedModeBanner: false,
         );
       },
+    );
+  }
+}
+
+/// Loading screen kustom dengan logo, beta version, dan credit
+class LoadingScreen extends StatelessWidget {
+  const LoadingScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Spacer(), // Mendorong konten ke tengah vertikal
+            // Logo di tengah
+            Image.asset(
+              'assets/images/logo.png',
+              height: 100,
+              // Fallback jika gambar tidak ditemukan (misal di development)
+              errorBuilder: (context, error, stackTrace) {
+                return Container(
+                  height: 100,
+                  width: 100,
+                  decoration: BoxDecoration(
+                    color: Colors.green[50],
+                    shape: BoxShape.circle,
+                  ),
+                  child: Icon(
+                    Icons.menu_book_rounded,
+                    size: 60,
+                    color: Colors.green[700],
+                  ),
+                );
+              },
+            ),
+            const SizedBox(height: 16),
+
+            // Beta version
+            Text(
+              'beta version 0.1',
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.grey[600],
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+
+            const Spacer(), // Mendorong teks credit ke bawah
+            // Credit di bagian paling bawah
+            Padding(
+              padding: const EdgeInsets.only(bottom: 20.0),
+              child: Text(
+                'Development By XII PPLG - Support By SMK PGRI 05 Jember',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 12, color: Colors.grey[500]),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -145,7 +204,7 @@ class QuranHomePage extends StatelessWidget {
         color: Colors.white,
         borderRadius: BorderRadius.circular(12),
         elevation: 2,
-        shadowColor: Color.fromRGBO(0, 0, 0, 0.1),
+        shadowColor: const Color.fromRGBO(0, 0, 0, 0.1),
         child: InkWell(
           onTap: onTap,
           borderRadius: BorderRadius.circular(12),

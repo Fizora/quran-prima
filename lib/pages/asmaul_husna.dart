@@ -756,7 +756,7 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
               alignment: Alignment.center,
               child: Text(
                 asma["arabic"],
-                style: GoogleFonts.notoNaskhArabic(
+                style: GoogleFonts.amiriQuran(
                   fontSize: _ayatFontSize + 8,
                   fontWeight: FontWeight.bold,
                   color: Colors.green[800],

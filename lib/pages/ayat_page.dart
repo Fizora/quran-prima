@@ -27,6 +27,9 @@ class _AyatPageState extends State<AyatPage> {
   final ScrollController _scrollController = ScrollController();
   double _ayatFontSize = FontSizeService.defaultAyatFontSize;
 
+  // Konstanta untuk line height teks Arab (dinaikkan agar lebih renggang)
+  static const double _arabicLineHeight = 2.0;
+
   // Helper untuk convert angka normal ke angka Arab
   String _convertToArabicNumber(int number) {
     const arabicNumbers = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
@@ -100,7 +103,7 @@ class _AyatPageState extends State<AyatPage> {
         ],
       ),
       backgroundColor: Colors.white,
-    elevation: 0,
+      elevation: 0,
       iconTheme: const IconThemeData(color: Colors.black54),
     );
   }
@@ -119,9 +122,9 @@ class _AyatPageState extends State<AyatPage> {
                 textAlign: TextAlign.center,
                 text: TextSpan(
                   text: (ayatList[0] as Map<String, dynamic>)['arab'],
-                  style: GoogleFonts.notoNaskhArabic(
+                  style: GoogleFonts.amiriQuran(
                     fontSize: _ayatFontSize + 6,
-                    height: 1.8,
+                    height: _arabicLineHeight, // menggunakan konstanta
                     fontWeight: FontWeight.w500,
                     color: Colors.black87,
                   ),
@@ -136,23 +139,25 @@ class _AyatPageState extends State<AyatPage> {
                 children: [
                   for (int i = 0; i < ayatList.length; i++) ...[
                     // Skip basmalah karena sudah ditampilkan di atas
-                    if ((ayatList[i] as Map<String, dynamic>)['nomor'] != 0) ...[
+                    if ((ayatList[i] as Map<String, dynamic>)['nomor'] !=
+                        0) ...[
                       TextSpan(
                         text: (ayatList[i] as Map<String, dynamic>)['arab'],
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
-                          height: 1.8,
+                          height: _arabicLineHeight, // menggunakan konstanta
                           fontWeight: FontWeight.w500,
                           color: Colors.black87,
                         ),
                       ),
                       TextSpan(
-                        text: ' ۝${_convertToArabicNumber((ayatList[i] as Map<String, dynamic>)['nomor'])} ',
+                        text:
+                            ' ۝${_convertToArabicNumber((ayatList[i] as Map<String, dynamic>)['nomor'])} ',
                         style: TextStyle(
                           fontSize: _ayatFontSize - 4,
                           fontWeight: FontWeight.w600,
                           color: Colors.green[700],
-                          height: 1.8,
+                          height: _arabicLineHeight, // samakan dengan teks Arab
                         ),
                       ),
                     ],
@@ -196,9 +201,11 @@ class _AyatPageState extends State<AyatPage> {
                   children: [
                     TextSpan(
                       text: ayat['arab'],
-                      style: GoogleFonts.notoNaskhArabic(
-                        fontSize: isBasmalah ? _ayatFontSize + 6 : _ayatFontSize,
-                        height: 1.6,
+                      style: GoogleFonts.amiriQuran(
+                        fontSize: isBasmalah
+                            ? _ayatFontSize + 6
+                            : _ayatFontSize,
+                        height: _arabicLineHeight, // dinaikkan dari 1.6
                         fontWeight: FontWeight.w500,
                         color: Colors.black87,
                       ),
@@ -210,7 +217,7 @@ class _AyatPageState extends State<AyatPage> {
                           fontSize: _ayatFontSize - 4,
                           fontWeight: FontWeight.w600,
                           color: Colors.green[700],
-                          height: 1.6,
+                          height: _arabicLineHeight, // samakan dengan teks Arab
                         ),
                       ),
                     ],
@@ -260,57 +267,59 @@ class _AyatPageState extends State<AyatPage> {
                 Align(
                   alignment: Alignment.centerRight,
                   child: GestureDetector(
-                      onTap: () async {
-                        await LastReadService.saveLastRead(
-                          surahNumber: widget.surahNumber,
-                          surahName: widget.surahName,
-                          ayahNumber: ayat['nomor'],
-                          ayahText: ayat['arab'],
-                        );
+                    onTap: () async {
+                      await LastReadService.saveLastRead(
+                        surahNumber: widget.surahNumber,
+                        surahName: widget.surahName,
+                        ayahNumber: ayat['nomor'],
+                        ayahText: ayat['arab'],
+                      );
 
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text('Ayat ${_convertToArabicNumber(ayat['nomor'])} disimpan'),
-                            backgroundColor: Colors.green,
-                            duration: const Duration(seconds: 1),
-                            behavior: SnackBarBehavior.floating,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(8),
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: Text(
+                            'Ayat ${_convertToArabicNumber(ayat['nomor'])} disimpan',
+                          ),
+                          backgroundColor: Colors.green,
+                          duration: const Duration(seconds: 1),
+                          behavior: SnackBarBehavior.floating,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 6,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.green.withOpacity(0.1),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: const [
+                          Icon(
+                            Icons.bookmark_add_outlined,
+                            size: 14,
+                            color: Colors.green,
+                          ),
+                          SizedBox(width: 4),
+                          Text(
+                            'Simpan',
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.green,
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
-                        );
-                      },
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 12,
-                          vertical: 6,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.green.withOpacity(0.1),
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: const [
-                            Icon(
-                              Icons.bookmark_add_outlined,
-                              size: 14,
-                              color: Colors.green,
-                            ),
-                            SizedBox(width: 4),
-                            Text(
-                              'Simpan',
-                              style: TextStyle(
-                                fontSize: 12,
-                                color: Colors.green,
-                                fontWeight: FontWeight.w500,
-                              ),
-                            ),
-                          ],
-                        ),
+                        ],
                       ),
                     ),
                   ),
+                ),
               ] else if (isBasmalah) ...[
                 const SizedBox(height: 8),
                 // Translation for basmalah (centered)

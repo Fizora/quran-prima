@@ -52,7 +52,7 @@ class FontThemeService {
         return GoogleFonts.poppinsTextTheme();
       case fontDefault:
       default:
-        return GoogleFonts.notoNaskhArabicTextTheme();
+        return GoogleFonts.interTextTheme();
     }
   }
 
@@ -68,7 +68,7 @@ class FontThemeService {
         return GoogleFonts.poppins().fontFamily ?? 'Poppins';
       case fontDefault:
       default:
-        return 'NotoNaskhArabic';
+        return 'Inter';
     }
   }
 }

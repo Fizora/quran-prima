@@ -81,7 +81,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\n'
                         'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\n'
                         'غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                           height: 2.0,
@@ -122,7 +122,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       const SizedBox(height: 8),
                       Text(
                         'أَسْتَغْفِرُ اللهَ الْعَظِيمِ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                         ),
@@ -167,7 +167,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       const SizedBox(height: 8),
                       Text(
                         'لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ الْعَلِيِّ الْعَظِيمِ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                         ),
@@ -214,7 +214,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         'اللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِ سَيِّدِنَا مُحَمَّدٍ\n'
                         'سَلّاَمٌ عَلَيْهِ كَامِلَةٌ وَسَلَامٌ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ\n'
                         'اَللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِهِ وَصَحْبِهِ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                           height: 2.0,
@@ -260,7 +260,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       const SizedBox(height: 8),
                       Text(
                         'أَسْتَغْفِرُ اللهَ الْعَظِيمِ إِنَّهُ كَانَ غَفَّارًا',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                         ),
@@ -308,7 +308,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         'الَّذِي تَحِلُّ بِهِ الْقُرَى وَتُفَرَّجُ بِهِ الْكُرُبُ وَتُقْضَىٰ بِهِ الْحَوَائِجُ '
                         'وَتَنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِيمِ وَيُسْتَسْقَىٰ الْغَمَامُ بِوَجْهِهِ '
                         'الْكَرِيمِ وَعَلَىٰ آلِهِ وَصَحْبِهِ فِي كُلِّ لَمْحَةٍ وَنَفَسٍ بِعَدَدِ كُلِّ مَعْلُومٍ لَكَ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                           height: 2.0,
@@ -353,7 +353,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       const SizedBox(height: 8),
                       Text(
                         'يَا بَدِيعُ\nحَسْبُنَا اللهُ وَنِعْمَ الْوَكِيلُ',
-                        style: GoogleFonts.notoNaskhArabic(
+                        style: GoogleFonts.amiriQuran(
                           fontSize: _ayatFontSize,
                           color: Colors.green[800],
                           height: 2.0,

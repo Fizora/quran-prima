@@ -756,10 +756,10 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
               alignment: Alignment.center,
               child: Text(
                 asma["arabic"],
-                style: GoogleFonts.amiriQuran(
-                  fontSize: _ayatFontSize + 8,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.green[800],
+                style: TextStyle(
+                  fontFamily: 'Quran12',
+                  fontWeight: FontWeight.w500,
+                  fontSize: _ayatFontSize,
                 ),
                 textAlign: TextAlign.center,
                 textDirection: TextDirection.rtl,

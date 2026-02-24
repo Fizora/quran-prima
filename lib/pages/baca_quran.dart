@@ -92,10 +92,8 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => AyatPage(
-          surahName: surah['nama'],
-          surahNumber: surah['nomor'],
-        ),
+        builder: (_) =>
+            AyatPage(surahName: surah['nama'], surahNumber: surah['nomor']),
       ),
     );
   }
@@ -229,8 +227,8 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
                 // Arabic Text
                 Text(
                   surah["arabic"],
-                  style: GoogleFonts.amiriQuran(
-                    fontSize: 18,
+                  style: TextStyle(
+                    fontFamily: 'Quran12',
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
                   ),

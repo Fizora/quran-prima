@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 import '../services/font_theme_service.dart';
 import 'prayer_notification_settings.dart';

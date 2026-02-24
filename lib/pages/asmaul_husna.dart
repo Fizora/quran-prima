@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'dart:convert';
 import '../services/font_size_service.dart';
 
 class AsmaulHusnaPage extends StatefulWidget {

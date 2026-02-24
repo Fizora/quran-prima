@@ -13,7 +13,7 @@ import 'package:quran_prima/services/location_service.dart';
 void main() {
   runApp(const QuranPrimaApp());
 }
-
+// 
 class QuranPrimaApp extends StatefulWidget {
   const QuranPrimaApp({super.key});
 

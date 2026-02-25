@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../services/last_read_service.dart';
 import 'ayat_page.dart';
 import '../data/surah_data.dart';

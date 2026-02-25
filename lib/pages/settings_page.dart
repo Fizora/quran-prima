@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 import '../services/prayer_notification_service.dart';
 import '../services/audio_service.dart'; // perlu dibuat service ini
@@ -368,7 +367,8 @@ class _SettingsPageState extends State<SettingsPage> {
                               child: Text(
                                 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
                                 textAlign: TextAlign.right,
-                                style: GoogleFonts.amiri(
+                                style: TextStyle(
+                                  fontFamily: 'Quran12',
                                   fontSize: _ayatFontSize,
                                   color: Colors.green[900],
                                 ),

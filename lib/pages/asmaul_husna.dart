@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'dart:convert';
 import '../services/font_size_service.dart';
 
 class AsmaulHusnaPage extends StatefulWidget {
@@ -762,10 +760,10 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
               alignment: Alignment.center,
               child: Text(
                 asma["arabic"],
-                style: GoogleFonts.amiri(
-                  fontSize: _ayatFontSize + 8,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.green[800],
+                style: TextStyle(
+                  fontFamily: 'Quran12',
+                  fontWeight: FontWeight.w500,
+                  fontSize: _ayatFontSize,
                 ),
                 textAlign: TextAlign.center,
                 textDirection: TextDirection.rtl,

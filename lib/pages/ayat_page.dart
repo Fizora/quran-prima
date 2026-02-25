@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../services/data_service.dart';
 import '../services/last_read_service.dart';
 import '../services/font_size_service.dart';
@@ -106,61 +105,69 @@ class _AyatPageState extends State<AyatPage> {
       iconTheme: const IconThemeData(color: Colors.black54),
       actions: [
         Padding(
-          padding: const EdgeInsets.only(right: 12.0),
-          child: Center(
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Text(
-                  'Terjemahan',
-                  style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.black87,
-                  ),
+          padding: const EdgeInsets.only(right: 16.0),
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text(
+                'Terjemahan',
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w500,
+                  color: Colors.black87,
                 ),
-                const SizedBox(width: 6),
-                GestureDetector(
-                  onTap: () {
-                    setState(() {
-                      _displayMode = _displayMode == 'ayat-translation'
-                          ? 'ayat-only'
-                          : 'ayat-translation';
-                    });
-                  },
-                  child: Container(
-                    width: 42,
-                    height: 24,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      color: _displayMode == 'ayat-translation'
-                          ? Colors.green
-                          : Colors.grey[300],
-                    ),
-                    child: AnimatedPositioned(
-                      duration: const Duration(milliseconds: 300),
-                      child: Stack(
-                        children: [
-                          AnimatedPositioned(
-                            duration: const Duration(milliseconds: 300),
-                            left: _displayMode == 'ayat-translation' ? 1 : 19,
-                            top: 1,
-                            child: Container(
-                              width: 22,
-                              height: 22,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(11),
-                                color: Colors.white,
+              ),
+              const SizedBox(width: 8),
+              GestureDetector(
+                onTap: () {
+                  setState(() {
+                    _displayMode = _displayMode == 'ayat-translation'
+                        ? 'ayat-only'
+                        : 'ayat-translation';
+                  });
+                },
+                child: Container(
+                  width: 45,
+                  height: 24,
+                  padding: const EdgeInsets.all(
+                    2,
+                  ), // Memberikan jarak bulatan ke tepi
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                    color: _displayMode == 'ayat-translation'
+                        ? Colors.green
+                        : Colors.grey[400],
+                  ),
+                  child: Stack(
+                    children: [
+                      AnimatedAlign(
+                        duration: const Duration(milliseconds: 250),
+                        curve: Curves.easeInOut,
+                        // Mengatur posisi bulatan (kiri atau kanan)
+                        alignment: _displayMode == 'ayat-translation'
+                            ? Alignment.centerLeft
+                            : Alignment.centerRight,
+                        child: Container(
+                          width: 20,
+                          height: 20,
+                          decoration: const BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.white,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black12,
+                                blurRadius: 2,
+                                spreadRadius: 1,
                               ),
-                            ),
+                            ],
                           ),
-                        ],
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ],
@@ -191,16 +198,21 @@ class _AyatPageState extends State<AyatPage> {
                     style: GoogleFonts.amiri(
                       fontSize: isBasmalah ? _ayatFontSize + 6 : _ayatFontSize,
                       height: _arabicLineHeight,
+                    style: TextStyle(
+                      fontFamily: 'Quran12',
                       fontWeight: FontWeight.w500,
                       color: Colors.black87,
+                      height: _arabicLineHeight,
+                      fontSize: isBasmalah ? _ayatFontSize + 6 : _ayatFontSize,
                     ),
                   ),
                   if (!isBasmalah) ...[
                     TextSpan(
-                      text: ' ۝${_convertToArabicNumber(ayat['nomor'])} ',
+                      text: _convertToArabicNumber(ayat['nomor']),
                       style: TextStyle(
-                        fontSize: _ayatFontSize - 4,
-                        fontWeight: FontWeight.w600,
+                        fontFamily: 'Quran12',
+                        fontSize: _ayatFontSize + 15,
+                        fontWeight: FontWeight.normal,
                         color: Colors.green[700],
                         height: _arabicLineHeight,
                       ),
@@ -239,12 +251,14 @@ class _AyatPageState extends State<AyatPage> {
                     TextSpan(
                       text: ayat['arab'],
                       style: GoogleFonts.amiri(
+                      style: TextStyle(
+                        fontFamily: 'Quran12',
+                        fontWeight: FontWeight.w500,
+                        height: _arabicLineHeight,
                         fontSize: isBasmalah
                             ? _ayatFontSize + 6
                             : _ayatFontSize,
-                        height: _arabicLineHeight, // dinaikkan dari 1.6
-                        fontWeight: FontWeight.w500,
-                        color: Colors.black87,
+                          color: Colors.black87
                       ),
                     ),
                     if (!isBasmalah) ...[
@@ -253,8 +267,12 @@ class _AyatPageState extends State<AyatPage> {
                         style: TextStyle( 
                           fontSize: _ayatFontSize - 4,
                           fontWeight: FontWeight.w600,
+                        style: TextStyle(
+                          fontSize: _ayatFontSize + 10,
+                          fontWeight: FontWeight.normal,
                           color: Colors.green[700],
                           height: _arabicLineHeight, // samakan dengan teks Arab
+                          fontFamily: 'Quran12'
                         ),
                       ),
                     ],

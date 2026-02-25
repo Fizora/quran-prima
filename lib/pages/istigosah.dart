@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 
 class IstigosahPage extends StatefulWidget {
@@ -72,6 +71,23 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n'
+                        'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\n'
+                        'الرَّحْمَٰنِ الرَّحِيمِ\n'
+                        'مَالِكِ يَوْمِ الدِّينِ\n'
+                        'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\n'
+                        'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\n'
+                        'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\n'
+                        'غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          height: 2.0,
+                          color: Colors.green[900],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -120,6 +136,15 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'أَسْتَغْفِرُ اللهَ الْعَظِيمِ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          color: Colors.green[800],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -168,6 +193,15 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ الْعَلِيِّ الْعَظِيمِ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          color: Colors.green[800],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -216,6 +250,18 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'اللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِ سَيِّدِنَا مُحَمَّدٍ\n'
+                        'سَلّاَمٌ عَلَيْهِ كَامِلَةٌ وَسَلَامٌ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ\n'
+                        'اَللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِهِ وَصَحْبِهِ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          height: 2.0,
+                          color: Colors.green[900],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -265,6 +311,15 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'أَسْتَغْفِرُ اللهَ الْعَظِيمِ إِنَّهُ كَانَ غَفَّارًا',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          color: Colors.green[800],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -314,6 +369,19 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'اللَّهُمَّ صَلِّ صَلاَةً كَامِلَةً وَسَلِّمْ سَلاَمًا تَامًّا عَلَىٰ سَيِّدِنَا مُحَمَّدٍ '
+                        'الَّذِي تَحِلُّ بِهِ الْقُرَى وَتُفَرَّجُ بِهِ الْكُرُبُ وَتُقْضَىٰ بِهِ الْحَوَائِجُ '
+                        'وَتَنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِيمِ وَيُسْتَسْقَىٰ الْغَمَامُ بِوَجْهِهِ '
+                        'الْكَرِيمِ وَعَلَىٰ آلِهِ وَصَحْبِهِ فِي كُلِّ لَمْحَةٍ وَنَفَسٍ بِعَدَدِ كُلِّ مَعْلُومٍ لَكَ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          height: 2.0,
+                          color: Colors.green[900],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(
@@ -413,6 +481,16 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      Text(
+                        'يَا بَدِيعُ\nحَسْبُنَا اللهُ وَنِعْمَ الْوَكِيلُ',
+                        style: TextStyle(
+                          fontFamily: 'Quran12',
+                          height: 2.0,
+                          color: Colors.green[900],
+                          fontSize: _ayatFontSize,
+                        ),
+                        textDirection: TextDirection.rtl,
+                        textAlign: TextAlign.right,
                       Container(
                         width: double.infinity,
                         child: Text(

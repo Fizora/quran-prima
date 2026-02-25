@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:quran_prima/pages/baca_quran.dart';
 import 'package:quran_prima/pages/terakhir_baca.dart';
 // [DI NONAKTIFKAN] Navigasi jadwal sholat dihilangkan

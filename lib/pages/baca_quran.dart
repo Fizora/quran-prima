@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'ayat_page.dart';
 import '../services/data_service.dart';
 import '../services/font_size_service.dart';
@@ -227,8 +226,8 @@ class _BacaQuranPageState extends State<BacaQuranPage> {
                 // Arabic Text
                 Text(
                   surah["arabic"],
-                  style: GoogleFonts.amiri(
-                    fontSize: 18,
+                  style: TextStyle(
+                    fontFamily: 'Quran12',
                     fontWeight: FontWeight.bold,
                     color: Colors.black87,
                   ),

@@ -188,10 +188,8 @@ class _AyatPageState extends State<AyatPage> {
                 children: [
                   TextSpan(
                     text: ayat['arab'],
-                    style: GoogleFonts.amiriQuran(
-                      fontSize: isBasmalah
-                          ? _ayatFontSize + 6
-                          : _ayatFontSize,
+                    style: GoogleFonts.amiri(
+                      fontSize: isBasmalah ? _ayatFontSize + 6 : _ayatFontSize,
                       height: _arabicLineHeight,
                       fontWeight: FontWeight.w500,
                       color: Colors.black87,
@@ -240,7 +238,7 @@ class _AyatPageState extends State<AyatPage> {
                   children: [
                     TextSpan(
                       text: ayat['arab'],
-                      style: GoogleFonts.amiriQuran(
+                      style: GoogleFonts.amiri(
                         fontSize: isBasmalah
                             ? _ayatFontSize + 6
                             : _ayatFontSize,
@@ -252,7 +250,7 @@ class _AyatPageState extends State<AyatPage> {
                     if (!isBasmalah) ...[
                       TextSpan(
                         text: ' ۝${_convertToArabicNumber(ayat['nomor'])} ',
-                        style: TextStyle(
+                        style: TextStyle( 
                           fontSize: _ayatFontSize - 4,
                           fontWeight: FontWeight.w600,
                           color: Colors.green[700],

@@ -1,6 +1,7 @@
 {
   "nomor": 1,
   "nama": "Al-Anfal",
+  "jumlah_ayat": 75,
   "ayat": [
     {
       "nomor": 0,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
-import '../services/font_theme_service.dart';
-import 'prayer_notification_settings.dart';
+import '../services/prayer_notification_service.dart';
+import '../services/audio_service.dart'; // perlu dibuat service ini
 
 class SettingsPage extends StatefulWidget {
   final VoidCallback onFontChanged;
@@ -16,8 +16,19 @@ class SettingsPage extends StatefulWidget {
 class _SettingsPageState extends State<SettingsPage> {
   late double _ayatFontSize;
   late double _normalFontSize;
-  late String _selectedFont;
+  // Pengaturan notifikasi
+  late Map<String, bool> _prayerStates = {};
+  late int _advanceMinutes;
+  late String _selectedAlarmSound;
   bool isLoading = true;
+
+  // Daftar suara alarm (contoh)
+  final List<Map<String, String>> _alarmSounds = [
+    {'key': 'default', 'name': 'Suara Default'},
+    {'key': 'adhan1', 'name': 'Adhan 1'},
+    {'key': 'adhan2', 'name': 'Adhan 2'},
+    {'key': 'notification1', 'name': 'Notifikasi 1'},
+  ];
 
   @override
   void initState() {
@@ -26,35 +37,71 @@ class _SettingsPageState extends State<SettingsPage> {
   }
 
   Future<void> _loadSettings() async {
+    // Muat ukuran font
     final ayatSize = await FontSizeService.getAyatFontSize();
     final normalSize = await FontSizeService.getNormalFontSize();
-    final selectedFont = await FontThemeService.getSelectedFont();
+
+    // Muat pengaturan notifikasi
+    final states = <String, bool>{};
+    for (String prayer in PrayerNotificationService.prayerNames.keys) {
+      states[prayer] =
+          await PrayerNotificationService.isPrayerNotificationEnabled(prayer);
+    }
+    final advanceTime =
+        await PrayerNotificationService.getNotificationAdvanceTime();
+
+    // Muat suara alarm (default 'default')
+    final alarmSound = await AudioService.getSelectedAlarmSound();
 
     setState(() {
       _ayatFontSize = ayatSize;
       _normalFontSize = normalSize;
-      _selectedFont = selectedFont;
+      _prayerStates = states;
+      _advanceMinutes = advanceTime;
+      _selectedAlarmSound = alarmSound;
       isLoading = false;
     });
   }
 
-  Future<void> _setSelectedFont(String font) async {
-    await FontThemeService.setSelectedFont(font);
+  Future<void> _togglePrayerNotification(String prayer, bool value) async {
+    await PrayerNotificationService.setPrayerNotificationEnabled(prayer, value);
     setState(() {
-      _selectedFont = font;
+      _prayerStates[prayer] = value;
     });
-    widget.onFontChanged();
-    if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            'Font berubah menjadi ${FontThemeService.fontNames[font]}',
-          ),
-          backgroundColor: Colors.green,
-          duration: const Duration(seconds: 2),
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(
+          value
+              ? 'Notifikasi ${PrayerNotificationService.prayerNames[prayer]} diaktifkan'
+              : 'Notifikasi ${PrayerNotificationService.prayerNames[prayer]} dinonaktifkan',
         ),
-      );
-    }
+        backgroundColor: value ? Colors.green : Colors.orange,
+        duration: const Duration(seconds: 2),
+      ),
+    );
+  }
+
+  Future<void> _setAdvanceTime(int minutes) async {
+    await PrayerNotificationService.setNotificationAdvanceTime(minutes);
+    setState(() {
+      _advanceMinutes = minutes;
+    });
+  }
+
+  Future<void> _setAlarmSound(String soundKey) async {
+    await AudioService.setSelectedAlarmSound(soundKey);
+    setState(() {
+      _selectedAlarmSound = soundKey;
+    });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Suara alarm diubah'),
+        backgroundColor: Colors.green,
+        duration: const Duration(seconds: 2),
+      ),
+    );
   }
 
   Future<void> _setAyatFontSize(double size) async {
@@ -73,10 +120,11 @@ class _SettingsPageState extends State<SettingsPage> {
 
   Future<void> _resetToDefaults() async {
     await FontSizeService.resetToDefaults();
-    await _loadSettings();
+    // Reset notifikasi? Mungkin tidak perlu, biarkan sesuai kebutuhan.
+    await _loadSettings(); // reload semua
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Font sizes reset to default')),
+        const SnackBar(content: Text('Pengaturan font direset ke default')),
       );
     }
   }
@@ -85,7 +133,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pengaturan Font'),
+        title: const Text('Pengaturan'),
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
       ),
@@ -101,140 +149,196 @@ class _SettingsPageState extends State<SettingsPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    // Prayer Notification Settings Card
+                    // --- Bagian Notifikasi Sholat (langsung di sini) ---
                     Card(
                       elevation: 2,
                       margin: const EdgeInsets.only(bottom: 16),
                       color: Colors.green[50],
-                      child: InkWell(
-                        onTap: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) =>
-                                  const PrayerNotificationSettingsPage(),
-                            ),
-                          );
-                        },
-                        child: Padding(
-                          padding: const EdgeInsets.all(16.0),
-                          child: Row(
-                            children: [
-                              Icon(
-                                Icons.notifications_active,
-                                color: Colors.green[700],
-                                size: 32,
-                              ),
-                              const SizedBox(width: 16),
-                              Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      'Notifikasi Sholat',
-                                      style: TextStyle(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.green[700],
-                                      ),
-                                    ),
-                                    const SizedBox(height: 4),
-                                    Text(
-                                      'Atur pengingat waktu sholat harian',
-                                      style: TextStyle(
-                                        fontSize: 12,
-                                        color: Colors.green[600],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Icon(
-                                Icons.arrow_forward_ios,
-                                color: Colors.green[400],
-                                size: 16,
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-
-                    // Font Theme Section
-                    Card(
-                      elevation: 2,
-                      margin: const EdgeInsets.only(bottom: 16),
                       child: Padding(
                         padding: const EdgeInsets.all(16.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            const Text(
-                              'Pilih Font',
-                              style: TextStyle(
-                                fontSize: 18,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.green,
-                              ),
-                            ),
-                            const SizedBox(height: 16),
-                            // Font Preview
-                            Container(
-                              width: double.infinity,
-                              padding: const EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.green[50],
-                                borderRadius: BorderRadius.circular(8),
-                                border: Border.all(color: Colors.green[200]!),
-                              ),
-                              child: Text(
-                                'The quick brown fox jumps over the lazy dog',
-                                style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.green[900],
-                                  fontFamily: FontThemeService.getFontFamily(
-                                    _selectedFont,
+                            Row(
+                              children: [
+                                Icon(
+                                  Icons.notifications_active,
+                                  color: Colors.green[700],
+                                ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  'Notifikasi Sholat',
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.green[700],
                                   ),
                                 ),
+                              ],
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              'Aktifkan notifikasi untuk menerima pengingat waktu sholat',
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Colors.green[600],
                               ),
                             ),
                             const SizedBox(height: 16),
-                            // Font Selection Dropdown
-                            DropdownButtonFormField<String>(
-                              value: _selectedFont,
-                              decoration: InputDecoration(
-                                labelText: 'Font Aplikasi',
-                                border: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(8),
-                                ),
-                                prefixIcon: const Icon(
-                                  Icons.text_fields,
-                                  color: Colors.green,
-                                ),
-                              ),
-                              items: FontThemeService.availableFonts
-                                  .map(
-                                    (font) => DropdownMenuItem(
-                                      value: font,
-                                      child: Text(
-                                        FontThemeService.fontNames[font] ??
-                                            font,
-                                      ),
+
+                            // Daftar toggle per sholat
+                            ..._prayerStates.entries.map((entry) {
+                              final prayer = entry.key;
+                              final isEnabled = entry.value;
+                              final prayerName =
+                                  PrayerNotificationService
+                                      .prayerNames[prayer] ??
+                                  prayer;
+
+                              return Container(
+                                margin: const EdgeInsets.only(bottom: 8),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      prayerName,
+                                      style: const TextStyle(fontSize: 16),
                                     ),
-                                  )
-                                  .toList(),
-                              onChanged: (String? value) {
-                                if (value != null) {
-                                  _setSelectedFont(value);
-                                }
-                              },
+                                    Switch(
+                                      value: isEnabled,
+                                      onChanged: (value) =>
+                                          _togglePrayerNotification(
+                                            prayer,
+                                            value,
+                                          ),
+                                      activeColor: Colors.green,
+                                    ),
+                                  ],
+                                ),
+                              );
+                            }).toList(),
+
+                            const Divider(height: 24),
+
+                            // Waktu pengingat
+                            const Text(
+                              'Pengingat Sebelum Adzan',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                const Text('Waktu pengingat'),
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 4,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: Colors.green[100],
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                  child: Text(
+                                    '$_advanceMinutes menit',
+                                    style: TextStyle(color: Colors.green[700]),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            Slider(
+                              value: _advanceMinutes.toDouble(),
+                              min: 0,
+                              max: 30,
+                              divisions: 30,
+                              label: '$_advanceMinutes menit',
+                              onChanged: (value) =>
+                                  _setAdvanceTime(value.toInt()),
+                            ),
+                            const SizedBox(height: 8),
+
+                            // Pilihan suara alarm
+                            const Text(
+                              'Suara Alarm',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 8,
+                              ),
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.green[200]!),
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                              child: DropdownButton<String>(
+                                value: _selectedAlarmSound,
+                                isExpanded: true,
+                                underline: const SizedBox(),
+                                items: _alarmSounds.map((sound) {
+                                  return DropdownMenuItem(
+                                    value: sound['key'],
+                                    child: Text(sound['name']!),
+                                  );
+                                }).toList(),
+                                onChanged: (value) {
+                                  if (value != null) _setAlarmSound(value);
+                                },
+                              ),
+                            ),
+                            const SizedBox(height: 16),
+
+                            // Tombol aksi cepat
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () async {
+                                      await PrayerNotificationService.setAllNotificationsEnabled(
+                                        true,
+                                      );
+                                      await _loadSettings();
+                                    },
+                                    icon: const Icon(Icons.done_all),
+                                    label: const Text('Aktifkan Semua'),
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors.green,
+                                      foregroundColor: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Expanded(
+                                  child: ElevatedButton.icon(
+                                    onPressed: () async {
+                                      await PrayerNotificationService.setAllNotificationsEnabled(
+                                        false,
+                                      );
+                                      await _loadSettings();
+                                    },
+                                    icon: const Icon(Icons.clear_all),
+                                    label: const Text('Nonaktifkan Semua'),
+                                    style: ElevatedButton.styleFrom(
+                                      backgroundColor: Colors.grey[400],
+                                      foregroundColor: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
                         ),
                       ),
                     ),
 
-                    // Ayat Font Size Section
+                    // --- Ukuran Font Ayat ---
                     Card(
                       elevation: 2,
                       margin: const EdgeInsets.only(bottom: 16),
@@ -264,7 +368,7 @@ class _SettingsPageState extends State<SettingsPage> {
                               child: Text(
                                 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
                                 textAlign: TextAlign.right,
-                                style: GoogleFonts.amiriQuran(
+                                style: GoogleFonts.amiri(
                                   fontSize: _ayatFontSize,
                                   color: Colors.green[900],
                                 ),
@@ -301,11 +405,9 @@ class _SettingsPageState extends State<SettingsPage> {
                                       onPressed:
                                           _ayatFontSize >
                                               FontSizeService.minFontSize
-                                          ? () {
-                                              _setAyatFontSize(
-                                                _ayatFontSize - 1,
-                                              );
-                                            }
+                                          ? () => _setAyatFontSize(
+                                              _ayatFontSize - 1,
+                                            )
                                           : null,
                                       icon: const Icon(Icons.remove),
                                       label: const Text('Kecil'),
@@ -315,11 +417,9 @@ class _SettingsPageState extends State<SettingsPage> {
                                       onPressed:
                                           _ayatFontSize <
                                               FontSizeService.maxFontSize
-                                          ? () {
-                                              _setAyatFontSize(
-                                                _ayatFontSize + 1,
-                                              );
-                                            }
+                                          ? () => _setAyatFontSize(
+                                              _ayatFontSize + 1,
+                                            )
                                           : null,
                                       icon: const Icon(Icons.add),
                                       label: const Text('Besar'),
@@ -329,7 +429,6 @@ class _SettingsPageState extends State<SettingsPage> {
                               ],
                             ),
                             const SizedBox(height: 16),
-                            // Slider
                             Slider(
                               value: _ayatFontSize,
                               min: FontSizeService.minFontSize,
@@ -343,7 +442,7 @@ class _SettingsPageState extends State<SettingsPage> {
                       ),
                     ),
 
-                    // Normal Font Size Section
+                    // --- Ukuran Font Biasa ---
                     Card(
                       elevation: 2,
                       margin: const EdgeInsets.only(bottom: 16),
@@ -379,7 +478,6 @@ class _SettingsPageState extends State<SettingsPage> {
                               ),
                             ),
                             const SizedBox(height: 16),
-                            // Size Display and Controls
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
@@ -409,11 +507,9 @@ class _SettingsPageState extends State<SettingsPage> {
                                       onPressed:
                                           _normalFontSize >
                                               FontSizeService.minFontSize
-                                          ? () {
-                                              _setNormalFontSize(
-                                                _normalFontSize - 1,
-                                              );
-                                            }
+                                          ? () => _setNormalFontSize(
+                                              _normalFontSize - 1,
+                                            )
                                           : null,
                                       icon: const Icon(Icons.remove),
                                       label: const Text('Kecil'),
@@ -423,11 +519,9 @@ class _SettingsPageState extends State<SettingsPage> {
                                       onPressed:
                                           _normalFontSize <
                                               FontSizeService.maxFontSize
-                                          ? () {
-                                              _setNormalFontSize(
-                                                _normalFontSize + 1,
-                                              );
-                                            }
+                                          ? () => _setNormalFontSize(
+                                              _normalFontSize + 1,
+                                            )
                                           : null,
                                       icon: const Icon(Icons.add),
                                       label: const Text('Besar'),
@@ -437,7 +531,6 @@ class _SettingsPageState extends State<SettingsPage> {
                               ],
                             ),
                             const SizedBox(height: 16),
-                            // Slider
                             Slider(
                               value: _normalFontSize,
                               min: FontSizeService.minFontSize,
@@ -451,7 +544,7 @@ class _SettingsPageState extends State<SettingsPage> {
                       ),
                     ),
 
-                    // Reset Button
+                    // --- Tombol Reset (hanya reset font) ---
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
@@ -461,7 +554,7 @@ class _SettingsPageState extends State<SettingsPage> {
                             builder: (context) => AlertDialog(
                               title: const Text('Reset ke Default'),
                               content: const Text(
-                                'Apakah Anda yakin ingin mereset ukuran font ke nilai default?',
+                                'Apakah Anda yakin ingin mereset ukuran font ke nilai default? (Pengaturan notifikasi tidak berubah)',
                               ),
                               actions: [
                                 TextButton(
@@ -484,7 +577,7 @@ class _SettingsPageState extends State<SettingsPage> {
                           foregroundColor: Colors.white,
                           padding: const EdgeInsets.symmetric(vertical: 12),
                         ),
-                        child: const Text('Reset ke Default'),
+                        child: const Text('Reset Ukuran Font ke Default'),
                       ),
                     ),
                   ],

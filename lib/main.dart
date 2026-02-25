@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quran_prima/pages/baca_quran.dart';
 import 'package:quran_prima/pages/terakhir_baca.dart';
-import 'package:quran_prima/pages/jadwal_sholat.dart';
+// [DI NONAKTIFKAN] Navigasi jadwal sholat dihilangkan
+// import 'package:quran_prima/pages/jadwal_sholat.dart';
 import 'package:quran_prima/pages/doa_smk.dart';
 import 'package:quran_prima/pages/istigosah.dart';
 import 'package:quran_prima/pages/asmaul_husna.dart';
@@ -13,6 +14,7 @@ import 'package:quran_prima/services/location_service.dart';
 void main() {
   runApp(const QuranPrimaApp());
 }
+
 //
 class QuranPrimaApp extends StatefulWidget {
   const QuranPrimaApp({super.key});
@@ -153,12 +155,13 @@ class QuranHomePage extends StatelessWidget {
         );
         break;
 
-      case "JADWAL SHOLAT":
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => const JadwalSholatPage()),
-        );
-        break;
+      // [DI NONAKTIFKAN] Navigasi jadwal sholat dihilangkan
+      // case "JADWAL SHOLAT":
+      //   Navigator.push(
+      //     context,
+      //     MaterialPageRoute(builder: (_) => const JadwalSholatPage()),
+      //   );
+      //   break;
 
       case "ASMAUL HUSNA":
         Navigator.push(
@@ -258,7 +261,8 @@ class QuranHomePage extends StatelessWidget {
     final List<Map<String, dynamic>> menuItems = [
       {"label": "BACA QUR'AN", "icon": Icons.menu_book_rounded},
       {"label": "TERAKHIR BACA", "icon": Icons.history_rounded},
-      {"label": "JADWAL SHOLAT", "icon": Icons.access_time_rounded},
+      // [DI NONAKTIFKAN] Item menu jadwal sholat dihilangkan
+      // {"label": "JADWAL SHOLAT", "icon": Icons.access_time_rounded},
       {"label": "ASMAUL HUSNA", "icon": Icons.light_mode_rounded},
       {"label": "DOA SMK", "icon": Icons.school_rounded},
       {"label": "ISTIGOSAH", "icon": Icons.book_rounded},
@@ -334,16 +338,21 @@ class QuranHomePage extends StatelessWidget {
                     SizedBox(
                       width: size.width > 400 ? 300 : size.width * 0.85,
                       child: Column(
-                        children: menuItems.map(
-                          (item) => _buildMenuButton(
-                            label: item['label'] as String,
-                            icon: item['icon'] as IconData,
-                            onTap: () {
-                              _navigateToPage(context, item['label'] as String);
-                            },
-                            isSmallScreen: isSmallScreen,
-                          ),
-                        ).toList(),
+                        children: menuItems
+                            .map(
+                              (item) => _buildMenuButton(
+                                label: item['label'] as String,
+                                icon: item['icon'] as IconData,
+                                onTap: () {
+                                  _navigateToPage(
+                                    context,
+                                    item['label'] as String,
+                                  );
+                                },
+                                isSmallScreen: isSmallScreen,
+                              ),
+                            )
+                            .toList(),
                       ),
                     ),
 

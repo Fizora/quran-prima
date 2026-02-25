@@ -1,10 +1,11 @@
 {
   "nomor": 5,
   "nama": "Al-Ma'idah",
+  "jumlah_ayat": 120,
   "ayat": [
     {
       "nomor": 0,
-      "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+      "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
       "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
     },
     {

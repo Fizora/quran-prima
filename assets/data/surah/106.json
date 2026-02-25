@@ -3,24 +3,29 @@
   "nama": "Quraisy",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "لِإِيلَافِ قُرَيْشٍ",
+      "arab": "لِاِيْلٰفِ قُرَيْشٍۙ",
       "arti": "Karena kebiasaan orang-orang Quraisy,"
     },
     {
       "nomor": 2,
-      "arab": "إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ",
+      "arab": "اٖلٰفِهِمْ رِحْلَةَ الشِّتَاۤءِ وَالصَّيْفِۚ",
       "arti": "(yaitu) kebiasaan mereka bepergian pada musim dingin dan musim panas."
     },
     {
       "nomor": 3,
-      "arab": "فَلْيَعْبُدُوا رَبَّ هَٰذَا الْبَيْنِ",
-      "arti": "Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka'bah),"
+      "arab": "فَلْيَعْبُدُوْا رَبَّ هٰذَا الْبَيْتِۙ",
+      "arti": "Maka hendaklah mereka menyembah Tuhan (pemilik) rumah ini (Ka‘bah),"
     },
     {
       "nomor": 4,
-      "arab": "الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ",
-      "arti": "yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari ketakutan."
+      "arab": "الَّذِيْٓ اَطْعَمَهُمْ مِّنْ جُوْعٍ ەۙ وَّاٰمَنَهُمْ مِّنْ خَوْفٍ ࣖ",
+      "arti": "yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari rasa ketakutan."
     }
   ]
 }

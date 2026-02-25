@@ -3,28 +3,33 @@
   "nama": "Al-Falaq",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "arab": "قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِۙ",
       "arti": "Katakanlah, “Aku berlindung kepada Tuhan yang menguasai subuh (fajar),"
     },
     {
       "nomor": 2,
-      "arab": "مِن شَرِّ مَا خَلَقَ",
+      "arab": "مِنْ شَرِّ مَا خَلَقَۙ",
       "arti": "dari kejahatan (makhluk yang) Dia ciptakan,"
     },
     {
       "nomor": 3,
-      "arab": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "arab": "وَمِنْ شَرِّ غَاسِقٍ اِذَا وَقَبَۙ",
       "arti": "dan dari kejahatan malam apabila telah gelap gulita,"
     },
     {
       "nomor": 4,
-      "arab": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+      "arab": "وَمِنْ شَرِّ النَّفّٰثٰتِ فِى الْعُقَدِۙ",
       "arti": "dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya),"
     },
     {
       "nomor": 5,
-      "arab": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "arab": "وَمِنْ شَرِّ حَاسِدٍ اِذَا حَسَدَ ࣖ",
       "arti": "dan dari kejahatan orang yang dengki apabila dia dengki.”"
     }
   ]

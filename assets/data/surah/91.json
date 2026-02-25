@@ -3,79 +3,84 @@
   "nama": "Asy-Syams",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "وَالشَّمْسِ وَضُحَىٰهَا",
-      "arti": "Demi matahari dan cahayanya di pagi hari,"
+      "arab": "وَالشَّمْسِ وَضُحٰىهَاۖ",
+      "arti": "Demi matahari dan sinarnya pada pagi hari,"
     },
     {
       "nomor": 2,
-      "arab": "وَالْقَمَرِ إِذَا تَلَّىٰهَا",
-      "arti": "dan bulan apabila mengiringinya,"
+      "arab": "وَالْقَمَرِ اِذَا تَلٰىهَاۖ",
+      "arti": "demi bulan apabila mengiringinya,"
     },
     {
       "nomor": 3,
-      "arab": "وَالنَّهَارِ إِذَا جَلَّىٰهَا",
-      "arti": "dan siang apabila menampakkannya,"
+      "arab": "وَالنَّهَارِ اِذَا جَلّٰىهَاۖ",
+      "arti": "demi siang apabila menampakkannya,"
     },
     {
       "nomor": 4,
-      "arab": "وَاللَّيْلِ إِذَا يَغْشَىٰهَا",
-      "arti": "dan malam apabila menutupinya,"
+      "arab": "وَالَّيْلِ اِذَا يَغْشٰىهَاۖ",
+      "arti": "demi malam apabila menutupinya (gelap gulita),"
     },
     {
       "nomor": 5,
-      "arab": "وَالسَّمَاءِ وَمَا بَنَىٰهَا",
-      "arti": "dan langit serta pembinaannya,"
+      "arab": "وَالسَّمَاۤءِ وَمَا بَنٰىهَاۖ",
+      "arti": "demi langit serta pembinaannya (yang menakjubkan),"
     },
     {
       "nomor": 6,
-      "arab": "وَالْأَرْضِ وَمَا طَحَىٰهَا",
-      "arti": "dan bumi serta penghamparannya,"
+      "arab": "وَالْاَرْضِ وَمَا طَحٰىهَاۖ",
+      "arti": "demi bumi serta penghamparannya,"
     },
     {
       "nomor": 7,
-      "arab": "وَنَفْسٍ وَمَا سَوَّىٰهَا",
-      "arti": "dan jiwa serta penyempurnaannya (ciptaannya),"
+      "arab": "وَنَفْسٍ وَّمَا سَوّٰىهَاۖ",
+      "arti": "demi jiwa serta penyempurnaan (ciptaan)nya,"
     },
     {
       "nomor": 8,
-      "arab": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَاهَا",
+      "arab": "فَاَلْهَمَهَا فُجُوْرَهَا وَتَقْوٰىهَاۖ",
       "arti": "maka Dia mengilhamkan kepadanya (jalan) kejahatan dan ketakwaannya,"
     },
     {
       "nomor": 9,
-      "arab": "قَدْ أَفْلَحَ مَن زَكَّىٰهَا",
+      "arab": "قَدْ اَفْلَحَ مَنْ زَكّٰىهَاۖ",
       "arti": "sungguh beruntung orang yang menyucikannya (jiwa itu),"
     },
     {
       "nomor": 10,
-      "arab": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "arab": "وَقَدْ خَابَ مَنْ دَسّٰىهَاۗ",
       "arti": "dan sungguh rugi orang yang mengotorinya."
     },
     {
       "nomor": 11,
-      "arab": "كَذَّبَتْ ثَمُودُ بِطَغْوَاهَا",
-      "arti": "Kaum Samud telah mendustakan (rasulnya) karena mereka melampaui batas,"
+      "arab": "كَذَّبَتْ ثَمُوْدُ بِطَغْوٰىهَآ  ۖ",
+      "arti": "(Kaum) samud telah mendustakan (rasulnya) karena mereka melampaui batas (zalim),"
     },
     {
       "nomor": 12,
-      "arab": "إِذِ انبَعَثَ أَشْقَاهَا",
+      "arab": "اِذِ انْۢبَعَثَ اَشْقٰىهَاۖ",
       "arti": "ketika bangkit orang yang paling celaka di antara mereka,"
     },
     {
       "nomor": 13,
-      "arab": "فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا",
-      "arti": "lalu Rasul Allah (Saleh) berkata kepada mereka, \"(Biarkanlah) unta betina Allah dan minumannya.\""
+      "arab": "فَقَالَ لَهُمْ رَسُوْلُ اللّٰهِ نَاقَةَ اللّٰهِ وَسُقْيٰهَاۗ",
+      "arti": "lalu Rasul Allah (Saleh) berkata kepada mereka, “(Biarkanlah) unta betina dari Allah ini dengan minumannya.”"
     },
     {
       "nomor": 14,
-      "arab": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنبِهِمْ فَسَوَّىٰهَا",
-      "arti": "Kemudian mereka mendustakannya dan menyembelih unta itu, maka Tuhan mereka membinasakan mereka karena dosanya, lalu diratakan-Nya (dengan tanah)."
+      "arab": "فَكَذَّبُوْهُ فَعَقَرُوْهَاۖ فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْۢبِهِمْ فَسَوّٰىهَاۖ",
+      "arti": "Namun mereka mendustakannya dan menyembelihnya, karena itu Tuhan membinasakan mereka karena dosanya, lalu diratakan-Nya (dengan tanah),"
     },
     {
       "nomor": 15,
-      "arab": "وَلَا يَخَافُ عُقْبَاهَا",
-      "arti": "Dan Allah tidak takut terhadap akibat tindakan-Nya itu."
+      "arab": "وَلَا يَخَافُ عُقْبٰهَا ࣖ",
+      "arti": "dan Dia tidak takut terhadap akibatnya."
     }
   ]
 }

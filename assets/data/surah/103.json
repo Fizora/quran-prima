@@ -3,18 +3,23 @@
   "nama": "Al-'Asr",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "وَالْعَصْرِ",
+      "arab": "وَالْعَصْرِۙ",
       "arti": "Demi masa,"
     },
     {
       "nomor": 2,
-      "arab": "إِنَّ الْإِنسَانَ لَفِي خُسْرٍ",
+      "arab": "اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍۙ",
       "arti": "sungguh, manusia berada dalam kerugian,"
     },
     {
       "nomor": 3,
-      "arab": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+      "arab": "اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ وَتَوَاصَوْا بِالْحَقِّ ەۙ وَتَوَاصَوْا بِالصَّبْرِ ࣖ",
       "arti": "kecuali orang-orang yang beriman dan mengerjakan kebajikan serta saling menasihati untuk kebenaran dan saling menasihati untuk kesabaran."
     }
   ]

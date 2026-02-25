@@ -3,214 +3,219 @@
   "nama": "'Abasa",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "عَبَسَ وَتَوَلَّىٰ",
-      "arti": "Dia (Muhammad) bermuka masam dan berpaling,"
+      "arab": "عَبَسَ وَتَوَلّٰىٓۙ",
+      "arti": "Dia (Muhammad) berwajah masam dan berpaling,"
     },
     {
       "nomor": 2,
-      "arab": "أَن جَاءَهُ الْأَعْمَىٰ",
+      "arab": "اَنْ جَاۤءَهُ الْاَعْمٰىۗ",
       "arti": "karena seorang buta telah datang kepadanya (Abdullah bin Ummi Maktum)."
     },
     {
       "nomor": 3,
-      "arab": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّىٰ",
-      "arti": "Dan tahukah engkau, barangkali dia ingin menyucikan dirinya (dari dosa),"
+      "arab": "وَمَا يُدْرِيْكَ لَعَلَّهٗ يَزَّكّٰىٓۙ",
+      "arti": "Dan tahukah engkau (Muhammad) barangkali dia ingin menyucikan dirinya (dari dosa),"
     },
     {
       "nomor": 4,
-      "arab": "أَوْ يَذَّكَّرُ فَتَنْفَعَهُ الذِّكْرَىٰ",
+      "arab": "اَوْ يَذَّكَّرُ فَتَنْفَعَهُ الذِّكْرٰىۗ",
       "arti": "atau dia (ingin) mendapatkan pengajaran, yang memberi manfaat kepadanya?"
     },
     {
       "nomor": 5,
-      "arab": "أَمَّا مَنِ اسْتَغْنَىٰ",
-      "arti": "Adapun orang yang merasa dirinya serba cukup (pembesar Quraisy),"
+      "arab": "اَمَّا مَنِ اسْتَغْنٰىۙ",
+      "arti": "Adapun orang yang merasa dirinya serba cukup (pembesar-pembesar Quraisy),"
     },
     {
       "nomor": 6,
-      "arab": "فَأَنتَ لَهُ تَصَدَّىٰ",
+      "arab": "فَاَنْتَ لَهٗ تَصَدّٰىۗ",
       "arti": "maka engkau (Muhammad) memberi perhatian kepadanya,"
     },
     {
       "nomor": 7,
-      "arab": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+      "arab": "وَمَا عَلَيْكَ اَلَّا يَزَّكّٰىۗ",
       "arti": "padahal tidak ada (cela) atasmu kalau dia tidak menyucikan diri (beriman)."
     },
     {
       "nomor": 8,
-      "arab": "وَأَمَّا مَن جَاءَكَ يَسْعَىٰ",
+      "arab": "وَاَمَّا مَنْ جَاۤءَكَ يَسْعٰىۙ",
       "arti": "Dan adapun orang yang datang kepadamu dengan bersegera (untuk mendapatkan pengajaran),"
     },
     {
       "nomor": 9,
-      "arab": "وَهُوَ يَخْشَىٰ",
+      "arab": "وَهُوَ يَخْشٰىۙ",
       "arti": "sedang dia takut (kepada Allah),"
     },
     {
       "nomor": 10,
-      "arab": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
-      "arti": "engkau (justru) mengabaikannya."
+      "arab": "فَاَنْتَ عَنْهُ تَلَهّٰىۚ",
+      "arti": "engkau (Muhammad) malah mengabaikannya."
     },
     {
       "nomor": 11,
-      "arab": "كَلَّا إِنَّهَا تَذْكِرَةٌ",
+      "arab": "كَلَّآ اِنَّهَا تَذْكِرَةٌ ۚ",
       "arti": "Sekali-kali jangan (begitu)! Sungguh, (ajaran-ajaran Allah) itu suatu peringatan,"
     },
     {
       "nomor": 12,
-      "arab": "فَمَن شَاءَ ذَكَرَهُ",
-      "arti": "maka barangsiapa menghendaki, tentulah dia memperhatikannya,"
+      "arab": "فَمَنْ شَاۤءَ ذَكَرَهٗ ۘ",
+      "arti": "maka barangsiapa menghendaki, tentulah dia akan memperhatikannya,"
     },
     {
       "nomor": 13,
-      "arab": "فِي صُحُفٍ مُّكَرَّمَةٍ",
+      "arab": "فِيْ صُحُفٍ مُّكَرَّمَةٍۙ",
       "arti": "di dalam kitab-kitab yang dimuliakan (di sisi Allah),"
     },
     {
       "nomor": 14,
-      "arab": "مَّرْفُوعَةٍ مُّطَهَّرَةٍ",
+      "arab": "مَّرْفُوْعَةٍ مُّطَهَّرَةٍ ۢ ۙ",
       "arti": "yang ditinggikan (dan) disucikan,"
     },
     {
       "nomor": 15,
-      "arab": "بِأَيْدِي سَفَرَةٍ",
+      "arab": "بِاَيْدِيْ سَفَرَةٍۙ",
       "arti": "di tangan para utusan (malaikat),"
     },
     {
       "nomor": 16,
-      "arab": "كِرَامٍ بَرَرَةٍ",
+      "arab": "كِرَامٍۢ بَرَرَةٍۗ",
       "arti": "yang mulia lagi berbakti."
     },
     {
       "nomor": 17,
-      "arab": "قُتِلَ الْإِنسَانُ مَا أَكْفَرَهُ",
-      "arti": "Celakalah manusia! Alangkah ingkarnya dia!"
+      "arab": "قُتِلَ الْاِنْسَانُ مَآ اَكْفَرَهٗۗ",
+      "arti": "Celakalah manusia! Alangkah kufurnya dia!"
     },
     {
       "nomor": 18,
-      "arab": "مِنْ أَيِّ شَيْءٍ خَلَقَهُ",
+      "arab": "مِنْ اَيِّ شَيْءٍ خَلَقَهٗۗ",
       "arti": "Dari apakah Dia (Allah) menciptakannya?"
     },
     {
       "nomor": 19,
-      "arab": "مِن نُّطْفَةٍ خَلَقَهُ فَقَدَّرَهُ",
+      "arab": "مِنْ نُّطْفَةٍۗ خَلَقَهٗ فَقَدَّرَهٗۗ",
       "arti": "Dari setetes mani, Dia menciptakannya lalu menentukannya."
     },
     {
       "nomor": 20,
-      "arab": "ثُمَّ السَّبِيلَ يَسَّرَهُ",
+      "arab": "ثُمَّ السَّبِيْلَ يَسَّرَهٗۙ",
       "arti": "Kemudian jalannya Dia mudahkan,"
     },
     {
       "nomor": 21,
-      "arab": "ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ",
+      "arab": "ثُمَّ اَمَاتَهٗ فَاَقْبَرَهٗۙ",
       "arti": "kemudian Dia mematikannya lalu menguburkannya,"
     },
     {
       "nomor": 22,
-      "arab": "ثُمَّ إِذَا شَاءَ أَنشَرَهُ",
-      "arti": "kemudian apabila Dia menghendaki, Dia membangkitkannya kembali."
+      "arab": "ثُمَّ اِذَا شَاۤءَ اَنْشَرَهٗۗ",
+      "arti": "kemudian jika Dia menghendaki, Dia membangkitkannya kembali."
     },
     {
       "nomor": 23,
-      "arab": "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ",
-      "arti": "Sekali-kali tidak; dia (manusia) itu belum melaksanakan apa yang Dia perintahkan kepadanya."
+      "arab": "كَلَّا لَمَّا يَقْضِ مَآ اَمَرَهٗۗ",
+      "arti": "Sekali-kali jangan (begitu)! Dia (manusia) itu belum melaksanakan apa yang Dia (Allah) perintahkan kepadanya."
     },
     {
       "nomor": 24,
-      "arab": "فَلْيَنظُرِ الْإِنسَانُ إِلَىٰ طَعَامِهِ",
-      "arti": "Maka hendaklah manusia memperhatikan makanannya,"
+      "arab": "فَلْيَنْظُرِ الْاِنْسَانُ اِلٰى طَعَامِهٖٓ ۙ ",
+      "arti": "Maka hendaklah manusia itu memperhatikan makanannya."
     },
     {
       "nomor": 25,
-      "arab": "أَنَّا صَبَبْنَا الْمَاءَ صَبًّا",
+      "arab": "اَنَّا صَبَبْنَا الْمَاۤءَ صَبًّاۙ",
       "arti": "Kamilah yang telah mencurahkan air melimpah (dari langit),"
     },
     {
       "nomor": 26,
-      "arab": "ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا",
+      "arab": "ثُمَّ شَقَقْنَا الْاَرْضَ شَقًّاۙ",
       "arti": "kemudian Kami belah bumi dengan sebaik-baiknya,"
     },
     {
       "nomor": 27,
-      "arab": "فَأَنبَتْنَا فِيهَا حَبًّا",
-      "arti": "lalu Kami tumbuhkan biji-bijian di bumi itu,"
+      "arab": "فَاَنْۢبَتْنَا فِيْهَا حَبًّاۙ",
+      "arti": "lalu di sana Kami tumbuhkan biji-bijian,"
     },
     {
       "nomor": 28,
-      "arab": "وَعِنَبًا وَقَضْبًا",
-      "arti": "anggur dan sayur-sayuran,"
+      "arab": "وَّعِنَبًا وَّقَضْبًاۙ",
+      "arti": "dan anggur dan sayur-sayuran,"
     },
     {
       "nomor": 29,
-      "arab": "وَزَيْتُونًا وَنَخْلًا",
-      "arti": "zaitun dan kurma,"
+      "arab": "وَّزَيْتُوْنًا وَّنَخْلًاۙ",
+      "arti": "dan zaitun dan pohon kurma,"
     },
     {
       "nomor": 30,
-      "arab": "وَحَدَائِقَ غُلْبًا",
-      "arti": "kebun-kebun (yang) rindang,"
+      "arab": "وَّحَدَاۤئِقَ غُلْبًا",
+      "arti": "dan kebun-kebun (yang) rindang,"
     },
     {
       "nomor": 31,
-      "arab": "وَفَاكِهَةً وَأَبًّا",
+      "arab": "وَفَاكِهَةً وَّاَبًّا",
       "arti": "dan buah-buahan serta rerumputan."
     },
     {
       "nomor": 32,
-      "arab": "مَّتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ",
+      "arab": "مَتَاعًا لَّكُمْ وَلِاَنْعَامِكُمْۗ",
       "arti": "(Semua itu) untuk kesenanganmu dan untuk hewan-hewan ternakmu."
     },
     {
       "nomor": 33,
-      "arab": "فَإِذَا جَاءَتِ الصَّاخَّةُ",
+      "arab": "فَاِذَا جَاۤءَتِ الصَّاۤخَّةُ ۖ",
       "arti": "Maka apabila datang suara yang memekakkan (tiupan sangkakala yang kedua),"
     },
     {
       "nomor": 34,
-      "arab": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ",
+      "arab": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ اَخِيْهِۙ",
       "arti": "pada hari itu manusia lari dari saudaranya,"
     },
     {
       "nomor": 35,
-      "arab": "وَأُمِّهِ وَأَبِيهِ",
-      "arti": "dari ibu dan bapaknya,"
+      "arab": "وَاُمِّهٖ وَاَبِيْهِۙ",
+      "arti": "dan dari ibu dan bapaknya,"
     },
     {
       "nomor": 36,
-      "arab": "وَصَاحِبَتِهِ وَبَنِيهِ",
-      "arti": "dari istri dan anak-anaknya."
+      "arab": "وَصَاحِبَتِهٖ وَبَنِيْهِۗ",
+      "arti": "dan dari istri dan anak-anaknya."
     },
     {
       "nomor": 37,
-      "arab": "لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
-      "arti": "Setiap orang dari mereka pada hari itu mempunyai urusan yang cukup menyibukkannya."
+      "arab": "لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَىِٕذٍ شَأْنٌ يُّغْنِيْهِۗ",
+      "arti": "Setiap orang dari mereka pada hari itu mempunyai urusan yang menyibukkannya."
     },
     {
       "nomor": 38,
-      "arab": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
-      "arti": "Banyak wajah pada hari itu berseri-seri,"
+      "arab": "وُجُوْهٌ يَّوْمَىِٕذٍ مُّسْفِرَةٌۙ",
+      "arti": "Pada hari itu ada wajah-wajah yang berseri-seri,"
     },
     {
       "nomor": 39,
-      "arab": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
-      "arti": "tertawa dan bergembira ria,"
+      "arab": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ ۚ",
+      "arti": "tertawa dan gembira ria,"
     },
     {
       "nomor": 40,
-      "arab": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
-      "arti": "dan banyak (pula) wajah pada hari itu tertutup debu,"
+      "arab": "وَوُجُوْهٌ يَّوْمَىِٕذٍ عَلَيْهَا غَبَرَةٌۙ",
+      "arti": "dan pada hari itu ada (pula) wajah-wajah yang tertutup debu (suram),"
     },
     {
       "nomor": 41,
-      "arab": "تَرْهَقُهَا قَتَرَةٌ",
-      "arti": "dan ditutup lagi oleh kegelapan."
+      "arab": "تَرْهَقُهَا قَتَرَةٌ ۗ",
+      "arti": "tertutup oleh kegelapan (ditimpa kehinaan dan kesusahan)."
     },
     {
       "nomor": 42,
-      "arab": "أُولَٰئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ",
-      "arti": "Mereka itulah orang-orang kafir lagi durhaka."
+      "arab": "اُولٰۤىِٕكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ ࣖ",
+      "arti": "Mereka itulah orang-orang kafir yang durhaka."
     }
   ]
 }

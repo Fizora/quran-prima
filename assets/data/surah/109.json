@@ -3,34 +3,39 @@
   "nama": "Al-Kafirun",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
-      "arti": "Katakanlah (Muhammad), \"Wahai orang-orang kafir!"
+      "arab": "قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَۙ",
+      "arti": "Katakanlah (Muhammad), “Wahai orang-orang kafir!"
     },
     {
       "nomor": 2,
-      "arab": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
-      "arti": "Aku tidak akan menyembah apa yang kamu sembah,"
+      "arab": "لَآ اَعْبُدُ مَا تَعْبُدُوْنَۙ",
+      "arti": "aku tidak akan menyembah apa yang kamu sembah,"
     },
     {
       "nomor": 3,
-      "arab": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "arab": "وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۚ",
       "arti": "dan kamu bukan penyembah apa yang aku sembah,"
     },
     {
       "nomor": 4,
-      "arab": "وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ",
+      "arab": "وَلَآ اَنَا۠ عَابِدٌ مَّا عَبَدْتُّمْۙ",
       "arti": "dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
     },
     {
       "nomor": 5,
-      "arab": "وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ",
+      "arab": "وَلَآ اَنْتُمْ عٰبِدُوْنَ مَآ اَعْبُدُۗ",
       "arti": "dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah."
     },
     {
       "nomor": 6,
-      "arab": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
-      "arti": "Untukmu agamamu, dan untukku agamaku.\""
+      "arab": "لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ ࣖ",
+      "arti": "Untukmu agamamu, dan untukku agamaku.”"
     }
   ]
 }

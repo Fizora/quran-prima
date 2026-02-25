@@ -3,43 +3,48 @@
   "nama": "At-Tin",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "وَالتِّينِ وَالزَّيْتُونِ",
+      "arab": "وَالتِّيْنِ وَالزَّيْتُوْنِۙ",
       "arti": "Demi (buah) Tin dan (buah) Zaitun,"
     },
     {
       "nomor": 2,
-      "arab": "وَطُورِ سِينِينَ",
-      "arti": "dan demi bukit Sinai,"
+      "arab": "وَطُوْرِ سِيْنِيْنَۙ",
+      "arti": "demi gunung Sinai,"
     },
     {
       "nomor": 3,
-      "arab": "وَهَٰذَا الْبَلَدِ الْأَمِينِ",
-      "arti": "dan demi kota (Mekah) ini yang aman,"
+      "arab": "وَهٰذَا الْبَلَدِ الْاَمِيْنِۙ",
+      "arti": "dan demi negeri (Mekah) yang aman ini."
     },
     {
       "nomor": 4,
-      "arab": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
-      "arti": "sesungguhnya Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya."
+      "arab": "لَقَدْ خَلَقْنَا الْاِنْسَانَ فِيْٓ اَحْسَنِ تَقْوِيْمٍۖ",
+      "arti": "Sungguh, Kami telah menciptakan manusia dalam bentuk yang sebaik-baiknya,"
     },
     {
       "nomor": 5,
-      "arab": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
-      "arti": "Kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya (neraka),"
+      "arab": "ثُمَّ رَدَدْنٰهُ اَسْفَلَ سَافِلِيْنَۙ",
+      "arti": "kemudian Kami kembalikan dia ke tempat yang serendah-rendahnya,"
     },
     {
       "nomor": 6,
-      "arab": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "arab": "اِلَّا الَّذِيْنَ اٰمَنُوْا وَعَمِلُوا الصّٰلِحٰتِ فَلَهُمْ اَجْرٌ غَيْرُ مَمْنُوْنٍۗ",
       "arti": "kecuali orang-orang yang beriman dan mengerjakan kebajikan; maka mereka akan mendapat pahala yang tidak ada putus-putusnya."
     },
     {
       "nomor": 7,
-      "arab": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
+      "arab": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّيْنِۗ",
       "arti": "Maka apa yang menyebabkan (mereka) mendustakanmu (tentang) hari pembalasan setelah (adanya keterangan-keterangan) itu?"
     },
     {
       "nomor": 8,
-      "arab": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
+      "arab": "اَلَيْسَ اللّٰهُ بِاَحْكَمِ الْحٰكِمِيْنَ ࣖ",
       "arti": "Bukankah Allah hakim yang paling adil?"
     }
   ]

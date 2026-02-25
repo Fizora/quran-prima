@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 
 class IstigosahPage extends StatefulWidget {
@@ -365,7 +366,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Container(
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'أَسْتَغْفِرُ اللهَ الْعَظِيمَ',

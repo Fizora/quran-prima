@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 
 class IstigosahPage extends StatefulWidget {
@@ -88,7 +89,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ',
@@ -145,7 +147,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'سُبْحَانَ اللهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ',
@@ -202,7 +205,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ',
@@ -262,7 +266,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'إِلَىٰ حَضْرَةِ النَّبِيِّ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَآلِهِ وَصَحْبِهِ، ثُمَّ إِلَىٰ أَرْوَاحِ جَمِيعِ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ، الْفَاتِحَةُ.',
@@ -320,7 +325,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'يَا حَيُّ يَا قَيُّومُ، بِرَحْمَتِكَ أَسْتَغِيْثُ، وَمِنْ عَذَابِكَ أَسْتَجِيْرُ، وَبِكَ أَسْتَعِيْنُ، فَاكْفِنِي كُلَّ مَا أَهَمَّنِي وَلَا تَكِلْنِي إِلَىٰ نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا',
@@ -382,7 +388,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n'
@@ -433,7 +440,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Container(
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'أَسْتَغْفِرُ اللهَ الْعَظِيمَ',
@@ -491,7 +498,8 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                         textDirection: TextDirection.rtl,
                         textAlign: TextAlign.right,
-                      Container(
+                      ),
+                      SizedBox(
                         width: double.infinity,
                         child: Text(
                           'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ',

@@ -1,6 +1,7 @@
 {
   "nomor": 11,
   "nama": "Hud",
+  "jumlah_ayat": 123,
   "ayat": [
     {
       "nomor": 0,

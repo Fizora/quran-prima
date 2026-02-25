@@ -1,10 +1,11 @@
 {
   "nomor": 10,
   "nama": "Yunus",
+  "jumlah_ayat": 109,
   "ayat": [
     {
       "nomor": 0,
-      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
       "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
     },
     {

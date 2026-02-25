@@ -1,6 +1,7 @@
 {
   "nomor": 12,
   "nama": "Yusuf",
+  "jumlah_ayat": 111,
   "ayat": [
     {
       "nomor": 0,

@@ -72,15 +72,21 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'رَبِّ زِدْنِي عِلْمًا',
-                        style: GoogleFonts.notoNaskhArabic(
-                          fontSize: _ayatFontSize,
-                          color: Colors.green[800],
+                      // Teks Arab rata kanan
+                      Container(
+                        width: double.infinity,
+                        child: Text(
+                          'رَبِّ زِدْنِي عِلْمًا',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
                       ),
                       const SizedBox(height: 8),
+                      // Teks Latin
                       const Text(
                         '"Rabbi zidni \'ilma"',
                         style: TextStyle(
@@ -89,6 +95,7 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
+                      // Terjemahan
                       const Text(
                         '"Ya Rabbku, tambahkanlah kepadaku ilmu"',
                         style: TextStyle(fontSize: 14, color: Colors.grey),
@@ -116,13 +123,17 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي وَعَلِّمْنِي مَا يَنْفَعُنِي',
-                        style: GoogleFonts.notoNaskhArabic(
-                          fontSize: _ayatFontSize,
-                          color: Colors.green[800],
+                      Container(
+                        width: double.infinity,
+                        child: Text(
+                          'اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي وَعَلِّمْنِي مَا يَنْفَعُنِي',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
                       ),
                       const SizedBox(height: 8),
                       const Text(
@@ -160,13 +171,17 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'يَا رَبِّ زِدْنِي عِلْمًا وَارْزُقْنِي فَهْمًا',
-                        style: GoogleFonts.notoNaskhArabic(
-                          fontSize: _ayatFontSize,
-                          color: Colors.green[800],
+                      Container(
+                        width: double.infinity,
+                        child: Text(
+                          'يَا رَبِّ زِدْنِي عِلْمًا وَارْزُقْنِي فَهْمًا',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
                       ),
                       const SizedBox(height: 8),
                       const Text(
@@ -203,13 +218,17 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً وَأَنْتَ تَجْعَلُ الْحَزْنَ سَهْلاً',
-                        style: GoogleFonts.notoNaskhArabic(
-                          fontSize: _ayatFontSize,
-                          color: Colors.green[800],
+                      Container(
+                        width: double.infinity,
+                        child: Text(
+                          'اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً وَأَنْتَ تَجْعَلُ الْحَزْنَ سَهْلاً',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
                       ),
                       const SizedBox(height: 8),
                       const Text(

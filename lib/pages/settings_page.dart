@@ -24,8 +24,8 @@ class _SettingsPageState extends State<SettingsPage> {
   // Daftar suara alarm (contoh)
   final List<Map<String, String>> _alarmSounds = [
     {'key': 'default', 'name': 'Suara Default'},
-    {'key': 'adhan1', 'name': 'Adhan 1'},
-    {'key': 'adhan2', 'name': 'Adhan 2'},
+    {'key': 'adzhan1', 'name': 'Adzhan 1'},
+    {'key': 'adzhan2', 'name': 'Adzhan 2'},
     {'key': 'notification1', 'name': 'Notifikasi 1'},
   ];
 

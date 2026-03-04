@@ -226,7 +226,7 @@ class _AyatPageState extends State<AyatPage> {
                     style: TextStyle(
                       fontSize: _ayatFontSize + 10,
                       fontWeight: FontWeight.normal,
-                      color: Colors.green[700],
+                      color: Colors.black87,
                       height: _arabicLineHeight, // samakan dengan teks Arab
                       fontFamily: 'Quran12',
                     ),
@@ -267,7 +267,7 @@ class _AyatPageState extends State<AyatPage> {
                         content: Text(
                           'Ayat ${_convertToArabicNumber(ayat['nomor'])} disimpan',
                         ),
-                        backgroundColor: Colors.green,
+                        backgroundColor: Colors.black87,
                         duration: const Duration(seconds: 1),
                         behavior: SnackBarBehavior.floating,
                         shape: RoundedRectangleBorder(

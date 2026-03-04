@@ -3,7 +3,7 @@ import 'package:quran_prima/pages/baca_quran.dart';
 import 'package:quran_prima/pages/terakhir_baca.dart';
 // [DI NONAKTIFKAN] Navigasi jadwal sholat dihilangkan
 // import 'package:quran_prima/pages/jadwal_sholat.dart';
-import 'package:quran_prima/pages/doa_smk.dart';
+// import 'package:quran_prima/pages/doa_smk.dart';
 import 'package:quran_prima/pages/istigosah.dart';
 import 'package:quran_prima/pages/asmaul_husna.dart';
 import 'package:quran_prima/pages/settings_page.dart';
@@ -154,7 +154,6 @@ class QuranHomePage extends StatelessWidget {
         );
         break;
 
-      // [DI NONAKTIFKAN] Navigasi jadwal sholat dihilangkan
       // case "JADWAL SHOLAT":
       //   Navigator.push(
       //     context,
@@ -169,12 +168,12 @@ class QuranHomePage extends StatelessWidget {
         );
         break;
 
-      case "DOA SMK":
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => const DoaSMKPage()),
-        );
-        break;
+      // case "DOA SMK":
+      //   Navigator.push(
+      //     context,
+      //     MaterialPageRoute(builder: (_) => const DoaSMKPage()),
+      //   );
+      //   break;
 
       case "ISTIGOSAH":
         Navigator.push(
@@ -260,10 +259,9 @@ class QuranHomePage extends StatelessWidget {
     final List<Map<String, dynamic>> menuItems = [
       {"label": "BACA QUR'AN", "icon": Icons.menu_book_rounded},
       {"label": "TERAKHIR BACA", "icon": Icons.history_rounded},
-      // [DI NONAKTIFKAN] Item menu jadwal sholat dihilangkan
       // {"label": "JADWAL SHOLAT", "icon": Icons.access_time_rounded},
       {"label": "ASMAUL HUSNA", "icon": Icons.light_mode_rounded},
-      {"label": "DOA SMK", "icon": Icons.school_rounded},
+      // {"label": "DOA SMK", "icon": Icons.school_rounded},
       {"label": "ISTIGOSAH", "icon": Icons.book_rounded},
       {"label": "PENGATURAN", "icon": Icons.settings_rounded},
     ];

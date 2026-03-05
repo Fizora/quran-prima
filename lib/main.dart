@@ -8,6 +8,7 @@ import 'package:quran_prima/pages/asmaul_husna.dart';
 import 'package:quran_prima/pages/settings_page.dart';
 import 'package:quran_prima/services/font_theme_service.dart';
 import 'package:quran_prima/services/location_service.dart';
+import 'package:quran_prima/pages/info_page.dart';
 
 void main() {
   runApp(const QuranPrimaApp());
@@ -188,6 +189,12 @@ class QuranHomePage extends StatelessWidget {
           ),
         );
         break;
+      case "INFO APLIKASI":
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (_) => const InfoPage()),
+        );
+        break;
     }
   }
 
@@ -262,6 +269,7 @@ class QuranHomePage extends StatelessWidget {
       {"label": "DOA SMK", "icon": Icons.school_rounded},
       {"label": "ISTIGOSAH", "icon": Icons.book_rounded},
       {"label": "PENGATURAN", "icon": Icons.settings_rounded},
+      {"label": "INFO APLIKASI", "icon": Icons.info_outline_rounded},
     ];
 
     // Responsive values berdasarkan ukuran layar

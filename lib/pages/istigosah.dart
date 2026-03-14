@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../services/font_size_service.dart';
 
 class IstigosahPage extends StatefulWidget {
@@ -39,7 +41,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Bacaan Istigosah Lengkap',
+                'Bacaan Istigosah',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
@@ -48,12 +50,12 @@ class _IstigosahPageState extends State<IstigosahPage> {
               ),
               const SizedBox(height: 16),
               const Text(
-                'Istigosah adalah doa bersama untuk memohon pertolongan Allah SWT. Bacaan istigosah mencakup Al-Fatihah, Istighfar, dan berbagai doa penyembuhan.',
+                'Istigosah adalah doa memohon pertolongan kepada Allah SWT. Berikut urutan bacaan yang umum diamalkan:',
                 style: TextStyle(fontSize: 14),
               ),
               const SizedBox(height: 16),
 
-              // 1. Al-Fatihah
+              // 1. Syahadat (3x)
               Card(
                 elevation: 2,
                 margin: const EdgeInsets.only(bottom: 16),
@@ -63,7 +65,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        '1. Al-Fatihah',
+                        '1. Syahadat (3x)',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -71,23 +73,267 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n'
-                        'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\n'
-                        'الرَّحْمَٰنِ الرَّحِيمِ\n'
-                        'مَالِكِ يَوْمِ الدِّينِ\n'
-                        'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\n'
-                        'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\n'
-                        'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\n'
-                        'غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          height: 2.0,
-                          color: Colors.green[900],
-                          fontSize: _ayatFontSize,
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللهِ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Asyhadu an laa ilaaha illallah, wa asyhadu anna Muhammadar rasulullah"',
+                        style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          fontSize: 14,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Aku bersaksi bahwa tiada Tuhan selain Allah, dan aku bersaksi bahwa Muhammad adalah utusan Allah"',
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // 2. Dzikir Mulia (3x)
+              Card(
+                elevation: 2,
+                margin: const EdgeInsets.only(bottom: 16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        '2. Dzikir Mulia (3x)',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: Colors.green,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'سُبْحَانَ اللهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللهُ وَاللهُ أَكْبَرُ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Subhanallah walhamdulillah wala ilaha illallah wallahu akbar"',
+                        style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          fontSize: 14,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Maha Suci Allah, segala puji bagi Allah, tiada Tuhan selain Allah, Allah Maha Besar"',
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // 3. Hauqalah (3x)
+              Card(
+                elevation: 2,
+                margin: const EdgeInsets.only(bottom: 16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        '3. Hauqalah (3x)',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: Colors.green,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"La haula wala quwwata illa billah"',
+                        style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          fontSize: 14,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Tiada daya dan upaya kecuali dengan pertolongan Allah"',
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // 4. Bacaan Tawasul (1x)
+              Card(
+                elevation: 2,
+                margin: const EdgeInsets.only(bottom: 16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        '4. Bacaan Tawasul (1x)',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: Colors.green,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'إِلَىٰ حَضْرَةِ النَّبِيِّ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ وَآلِهِ وَصَحْبِهِ، ثُمَّ إِلَىٰ أَرْوَاحِ جَمِيعِ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ، الْفَاتِحَةُ.',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                            height: 1.8,
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Ila hadrotin nabiyyi Muhammadin shallallahu alaihi wasallam wa alihi wa shohbihi, tsumma ila arwahi jamiil muslimina wal muslimat wal mukminina wal mukminat, al-Fatihah."',
+                        style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Kepada junjungan Nabi Muhammad shallallahu alaihi wasallam, keluarga, dan sahabatnya, kemudian kepada arwah seluruh kaum muslimin dan muslimat, mukminin dan mukminat, (kita hadiahkan) Al-Fatihah."',
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // 5. Al Istighosah
+              Card(
+                elevation: 2,
+                margin: const EdgeInsets.only(bottom: 16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        '5. Al Istighosah',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: Colors.green,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'يَا حَيُّ يَا قَيُّومُ، بِرَحْمَتِكَ أَسْتَغِيْثُ، وَمِنْ عَذَابِكَ أَسْتَجِيْرُ، وَبِكَ أَسْتَعِيْنُ، فَاكْفِنِي كُلَّ مَا أَهَمَّنِي وَلَا تَكِلْنِي إِلَىٰ نَفْسِي طَرْفَةَ عَيْنٍ أَبَدًا',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                            height: 1.8,
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Ya Hayyu Ya Qayyum, birahmatika astaghits, wa min adzabika astajiiru, wa bika asta\'iinu, fakfini kulla ma ahammani wa la takilni ila nafsi thorfata \'ainin abada."',
+                        style: TextStyle(
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      const Text(
+                        '"Wahai Yang Maha Hidup, Yang Maha Berdiri Sendiri, dengan rahmat-Mu aku memohon pertolongan, dari siksa-Mu aku memohon perlindungan, dan hanya kepada-Mu aku memohon pertolongan. Maka cukupilah segala urusanku yang penting, dan jangan Engkau serahkan diriku kepada diriku sendiri meski sekejap mata."',
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              // 6. Al-Fatihah (1x)
+              Card(
+                elevation: 2,
+                margin: const EdgeInsets.only(bottom: 16),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        '6. Al-Fatihah (1x)',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                          color: Colors.green,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n'
+                          'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\n'
+                          'الرَّحْمَٰنِ الرَّحِيمِ\n'
+                          'مَالِكِ يَوْمِ الدِّينِ\n'
+                          'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ\n'
+                          'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ\n'
+                          'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ\n'
+                          'غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                            height: 2.0,
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
+                        ),
                       ),
                       const SizedBox(height: 8),
                       const Text(
@@ -102,7 +348,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                 ),
               ),
 
-              // 2. Istighfar
+              // 7. Istighfar (17x)
               Card(
                 elevation: 2,
                 margin: const EdgeInsets.only(bottom: 16),
@@ -112,7 +358,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        '2. Istighfar (3x)',
+                        '7. Istighfar (17x)',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -120,19 +366,21 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'أَسْتَغْفِرُ اللهَ الْعَظِيمِ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          color: Colors.green[800],
-                          fontSize: _ayatFontSize,
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'أَسْتَغْفِرُ اللهَ الْعَظِيمَ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
                       ),
                       const SizedBox(height: 8),
                       const Text(
-                        '\'Astaghfirullahal adzim\'',
+                        '"Astaghfirullahal \'adzim"',
                         style: TextStyle(
                           fontStyle: FontStyle.italic,
                           fontSize: 14,
@@ -140,7 +388,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       ),
                       const SizedBox(height: 8),
                       const Text(
-                        '\'Aku memohon ampun kepada Allah Yang Maha Agung\'',
+                        '"Aku memohon ampun kepada Allah Yang Maha Agung"',
                         style: TextStyle(fontSize: 14, color: Colors.grey),
                       ),
                     ],
@@ -148,7 +396,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                 ),
               ),
 
-              // 3. Kalimat Thayyibah
+              // 8. Lauhaulawalaquwata (1x)
               Card(
                 elevation: 2,
                 margin: const EdgeInsets.only(bottom: 16),
@@ -158,7 +406,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        '3. Kalimat Thayyibah (33x)',
+                        '8. Lauhaulawalaquwata (1x)',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -166,19 +414,21 @@ class _IstigosahPageState extends State<IstigosahPage> {
                         ),
                       ),
                       const SizedBox(height: 8),
-                      Text(
-                        'لاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللهِ الْعَلِيِّ الْعَظِيمِ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          color: Colors.green[800],
-                          fontSize: _ayatFontSize,
+                      SizedBox(
+                        width: double.infinity,
+                        child: Text(
+                          'لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللهِ',
+                          style: GoogleFonts.amiri(
+                            fontSize: _ayatFontSize,
+                            color: Colors.green[800],
+                          ),
+                          textDirection: TextDirection.rtl,
+                          textAlign: TextAlign.right,
                         ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
                       ),
                       const SizedBox(height: 8),
                       const Text(
-                        '\'La haula wa la quwwata illa billahil aliyyil adzim\'',
+                        '"La haula wala quwwata illa billah"',
                         style: TextStyle(
                           fontStyle: FontStyle.italic,
                           fontSize: 14,
@@ -186,198 +436,7 @@ class _IstigosahPageState extends State<IstigosahPage> {
                       ),
                       const SizedBox(height: 8),
                       const Text(
-                        '\'Tidak ada daya dan upaya kecuali dengan pertolongan Allah Yang Maha Tinggi lagi Maha Agung\'',
-                        style: TextStyle(fontSize: 14, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // 4. Shalawat
-              Card(
-                elevation: 2,
-                margin: const EdgeInsets.only(bottom: 16),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        '4. Shalawat (41x)',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.green,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'اللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِ سَيِّدِنَا مُحَمَّدٍ\n'
-                        'سَلّاَمٌ عَلَيْهِ كَامِلَةٌ وَسَلَامٌ عَلَىٰ نَبِيِّنَا مُحَمَّدٍ\n'
-                        'اَللَّهُمَّ صَلِّ عَلَىٰ سَيِّدِنَا مُحَمَّدٍ وَعَلَىٰ آلِهِ وَصَحْبِهِ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          height: 2.0,
-                          color: Colors.green[900],
-                          fontSize: _ayatFontSize,
-                        ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Allahumma sholli ala sayyidina Muhammad wa ala ali sayyidina Muhammad, salamun alaihi kamilatan wa salamun ala nabiyyina Muhammad, Allahumma sholli ala sayyidina Muhammad wa ala alihi wa shohbihi\'',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          fontSize: 12,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Ya Allah, limpahkanlah rahmat kepada Nabi Muhammad dan keluarganya, semoga keselamatan yang sempurna tercurah kepadanya dan salam sejahtera kepada Nabi kami Muhammad, Ya Allah limpahkanlah rahmat kepada Nabi Muhammad, keluarganya, dan sahabat-sahabatnya\'',
-                        style: TextStyle(fontSize: 14, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // 5. Doa Kesembuhan
-              Card(
-                elevation: 2,
-                margin: const EdgeInsets.only(bottom: 16),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        '5. Doa Kesembuhan (33x)',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.green,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'أَسْتَغْفِرُ اللهَ الْعَظِيمِ إِنَّهُ كَانَ غَفَّارًا',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          color: Colors.green[800],
-                          fontSize: _ayatFontSize,
-                        ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Astaghfirullahal adzima innahu kana ghaffara\'',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          fontSize: 14,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Aku memohon ampun kepada Allah Yang Maha Agung, sesungguhnya Dia adalah Maha Pengampun\'',
-                        style: TextStyle(fontSize: 14, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // 6. Doa Penyembuhan
-              Card(
-                elevation: 2,
-                margin: const EdgeInsets.only(bottom: 16),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        '6. Doa Penyembuhan (41x)',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.green,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'اللَّهُمَّ صَلِّ صَلاَةً كَامِلَةً وَسَلِّمْ سَلاَمًا تَامًّا عَلَىٰ سَيِّدِنَا مُحَمَّدٍ '
-                        'الَّذِي تَحِلُّ بِهِ الْقُرَى وَتُفَرَّجُ بِهِ الْكُرُبُ وَتُقْضَىٰ بِهِ الْحَوَائِجُ '
-                        'وَتَنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِيمِ وَيُسْتَسْقَىٰ الْغَمَامُ بِوَجْهِهِ '
-                        'الْكَرِيمِ وَعَلَىٰ آلِهِ وَصَحْبِهِ فِي كُلِّ لَمْحَةٍ وَنَفَسٍ بِعَدَدِ كُلِّ مَعْلُومٍ لَكَ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          height: 2.0,
-                          color: Colors.green[900],
-                          fontSize: _ayatFontSize,
-                        ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        'Doa shalawat penyembuhan yang panjang',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          fontSize: 14,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        'Shalawat untuk memohon kesembuhan dan terbebas dari segala kesulitan',
-                        style: TextStyle(fontSize: 14, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-
-              // 7. Ya Badi' dan Hasbunallah
-              Card(
-                elevation: 2,
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        "7. Ya Badi' dan Hasbunallah (33x)",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.green,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'يَا بَدِيعُ\nحَسْبُنَا اللهُ وَنِعْمَ الْوَكِيلُ',
-                        style: TextStyle(
-                          fontFamily: 'Quran12',
-                          height: 2.0,
-                          color: Colors.green[900],
-                          fontSize: _ayatFontSize,
-                        ),
-                        textDirection: TextDirection.rtl,
-                        textAlign: TextAlign.right,
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Ya Badii\' Hasbunallahu wa nimal wakil\'',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          fontSize: 14,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      const Text(
-                        '\'Wahai Yang Maha Pencipta, Cukuplah Allah menjadi Penolong kami dan Dia adalah sebaik-baik Pelindung\'',
+                        '"Tiada daya dan upaya kecuali dengan pertolongan Allah"',
                         style: TextStyle(fontSize: 14, color: Colors.grey),
                       ),
                     ],

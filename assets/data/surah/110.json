@@ -1,21 +1,26 @@
 {
   "nomor": 110,
-  "nama": "An-Nashr",
+  "nama": "An-Nasr",
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
+      "arab": "اِذَا جَاۤءَ نَصْرُ اللّٰهِ وَالْفَتْحُۙ",
       "arti": "Apabila telah datang pertolongan Allah dan kemenangan,"
     },
     {
       "nomor": 2,
-      "arab": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
-      "arti": "dan engkau melihat manusia masuk agama Allah dengan berbondong-bondong,"
+      "arab": "وَرَاَيْتَ النَّاسَ يَدْخُلُوْنَ فِيْ دِيْنِ اللّٰهِ اَفْوَاجًاۙ",
+      "arti": "dan engkau melihat manusia berbondong-bondong masuk agama Allah,"
     },
     {
       "nomor": 3,
-      "arab": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
-      "arti": "maka bertasbihlah dengan memuji Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
+      "arab": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُۗ اِنَّهٗ كَانَ تَوَّابًا ࣖ",
+      "arti": "maka bertasbihlah dalam dengan Tuhanmu dan mohonlah ampunan kepada-Nya. Sungguh, Dia Maha Penerima tobat."
     }
   ]
 }

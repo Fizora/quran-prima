@@ -175,6 +175,49 @@ class InfoPage extends StatelessWidget {
               ),
             ),
             
+            const SizedBox(height: 16),
+
+            // Contributor Link
+            InkWell(
+              onTap: () {
+                _launchUrl('https://quran-prima.laskarsigma.my.id/');
+              },
+              borderRadius: BorderRadius.circular(16),
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(color: Colors.grey[200]!),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.02),
+                      blurRadius: 10,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
+                ),
+                child: Row(
+                  children: [
+                    Icon(Icons.people_alt_rounded, color: Colors.green[700], size: 20),
+                    const SizedBox(width: 12),
+                    const Expanded(
+                      child: Text(
+                        "Kontributor",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87,
+                        ),
+                      ),
+                    ),
+                    Icon(Icons.open_in_new_rounded, color: Colors.grey[400], size: 16),
+                  ],
+                ),
+              ),
+            ),
+            
             const SizedBox(height: 40),
             
             // Footer

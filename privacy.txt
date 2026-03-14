@@ -1,0 +1,45 @@
+1. Informasi yang Dikumpulkan
+Aplikasi Al Qur'an Prima tidak mengumpulkan data pribadi pengguna seperti nama, alamat email, nomor telepon, lokasi GPS, maupun informasi perangkat.
+Aplikasi hanya menyimpan data yang berkaitan dengan penggunaan aplikasi, seperti:
+- Riwayat bacaan terakhir
+- Preferensi tampilan (misalnya ukuran font dan jenis font)
+
+Data tersebut digunakan hanya untuk meningkatkan kenyamanan pengguna saat menggunakan aplikasi. Semua data tersebut disimpan secara lokal di perangkat pengguna dan tidak dikirim ke server kami.
+
+2. Penggunaan Data
+Data yang tersimpan di perangkat hanya digunakan untuk kebutuhan internal aplikasi, seperti:
+- Menampilkan kembali riwayat bacaan terakhir
+- Menyesuaikan tampilan aplikasi sesuai preferensi pengguna
+
+Aplikasi tidak mengirimkan, membagikan, atau menyimpan data tersebut ke server eksternal maupun pihak lain.
+
+3. Layanan Pihak Ketiga
+
+Aplikasi ini menggunakan sumber data dari layanan pihak ketiga untuk menyediakan konten Al-Qur'an.
+
+Data ayat Al-Qur'an diambil dari API SantriKoding pada saat proses pengembangan aplikasi. Data tersebut kemudian disimpan secara lokal di dalam aplikasi saat proses instalasi.
+
+Aplikasi tidak mengirimkan data pengguna ke layanan pihak ketiga.
+
+Jika di masa depan aplikasi menggunakan layanan API tambahan (misalnya untuk jadwal sholat), data yang digunakan hanya berupa lokasi yang dipilih secara manual oleh pengguna dan tidak menggunakan akses GPS.
+
+4. Penyimpanan Data
+
+Semua data yang dihasilkan dari penggunaan aplikasi disimpan secara lokal di perangkat pengguna dan tidak disimpan di server pengembang.
+
+5. Keamanan Data
+
+Kami berusaha menjaga keamanan data pengguna dengan memastikan bahwa aplikasi tidak mengumpulkan data pribadi dan tidak mengirimkan informasi pengguna ke server eksternal.
+
+6. Hak Pengguna
+
+Pengguna memiliki kendali penuh terhadap data yang tersimpan di perangkat. Pengguna dapat menghapus seluruh data aplikasi dengan cara menghapus data aplikasi melalui pengaturan perangkat atau dengan menghapus aplikasi dari perangkat.
+
+7. Perubahan Kebijakan Privasi
+
+Kebijakan privasi ini dapat diperbarui sewaktu-waktu apabila terdapat perubahan pada fitur aplikasi atau kebijakan yang berlaku. Perubahan akan diinformasikan melalui pembaruan aplikasi.
+
+8. Kontak Pengembang
+
+Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, Anda dapat menghubungi pengembang melalui email:
+Email: 

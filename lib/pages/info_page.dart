@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:quran_prima/pages/privacy_policy_page.dart';
 
 class InfoPage extends StatelessWidget {
   const InfoPage({super.key});
@@ -125,6 +126,52 @@ class InfoPage extends StatelessWidget {
                   _buildCreditItem("Font Al-Qur'an", "LPMQ IsepMisbah (Kemenag RI)"),
                   _buildCreditItem("Dukungan Gedung", "SMK PGRI 05 Jember"),
                 ],
+              ),
+            ),
+            
+            const SizedBox(height: 16),
+
+            // Privacy Policy Link
+            InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const PrivacyPolicyPage()),
+                );
+              },
+              borderRadius: BorderRadius.circular(16),
+              child: Container(
+                width: double.infinity,
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(16),
+                  border: Border.all(color: Colors.grey[200]!),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.02),
+                      blurRadius: 10,
+                      offset: const Offset(0, 4),
+                    ),
+                  ],
+                ),
+                child: Row(
+                  children: [
+                    Icon(Icons.security_rounded, color: Colors.green[700], size: 20),
+                    const SizedBox(width: 12),
+                    const Expanded(
+                      child: Text(
+                        "Kebijakan Keamanan Data",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black87,
+                        ),
+                      ),
+                    ),
+                    Icon(Icons.arrow_forward_ios_rounded, color: Colors.grey[400], size: 16),
+                  ],
+                ),
               ),
             ),
             

@@ -5,31 +5,9 @@ class LocationService {
   static const double defaultLatitude = -6.1751; // Jakarta
   static const double defaultLongitude = 106.8650;
 
-  // Request location permission
+  // Request location permission (Dinonaktifkan agar tidak muncul otomatis)
   static Future<bool> requestLocationPermission() async {
-    try {
-      bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
-      if (!serviceEnabled) {
-        print('Location service disabled');
-        return false;
-      }
-
-      LocationPermission permission = await Geolocator.checkPermission();
-      if (permission == LocationPermission.denied) {
-        permission = await Geolocator.requestPermission();
-      }
-
-      if (permission == LocationPermission.deniedForever) {
-        print('Location permission denied forever');
-        return false;
-      }
-
-      return permission == LocationPermission.whileInUse ||
-          permission == LocationPermission.always;
-    } catch (e) {
-      print('Error requesting location permission: $e');
-      return false;
-    }
+    return false;
   }
 
   // Get current user location

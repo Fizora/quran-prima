@@ -8,7 +8,6 @@ import 'package:quran_prima/pages/istigosah.dart';
 import 'package:quran_prima/pages/asmaul_husna.dart';
 import 'package:quran_prima/pages/settings_page.dart';
 import 'package:quran_prima/services/font_theme_service.dart';
-import 'package:quran_prima/services/location_service.dart';
 import 'package:quran_prima/pages/info_page.dart';
 
 void main() {
@@ -30,8 +29,6 @@ class _QuranPrimaAppState extends State<QuranPrimaApp> {
   void initState() {
     super.initState();
     _fontThemeFuture = FontThemeService.getSelectedFont();
-    // Request location permission at startup
-    LocationService.requestLocationPermission();
   }
 
   void _onFontChanged() {

@@ -1,0 +1,1 @@
+-keep class id.sch.smkpgri5.quranprima.MainActivity { *; }

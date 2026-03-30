@@ -1,4 +1,4 @@
-package com.example.quran_prima
+package id.sch.smkpgri5.quranprima
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,7 @@
 {
   "nomor": 111,
   "nama": "Al-Lahab",
+  "jumlah_ayat": 5,
   "ayat": [
     {
       "nomor": 0,

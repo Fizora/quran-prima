@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import '../services/data_service.dart';
 import '../services/last_read_service.dart';
 import '../services/font_size_service.dart';
@@ -69,6 +70,8 @@ class _AyatPageState extends State<AyatPage> {
           surahData = data;
           isLoading = false;
         });
+        // Setelah data dimuat, cek last read dan scroll ke ayat yang disimpan
+        _checkLastReadAndScroll();
       }
     } catch (e) {
       if (mounted) {
@@ -76,6 +79,34 @@ class _AyatPageState extends State<AyatPage> {
           errorMessage = 'Gagal memuat data';
           isLoading = false;
         });
+      }
+    }
+  }
+
+  Future<void> _checkLastReadAndScroll() async {
+    if (surahData == null) return;
+    final lastRead = await LastReadService.getLastRead();
+    if (lastRead != null && lastRead['surahNumber'] == widget.surahNumber) {
+      final ayahNumber = lastRead['ayahNumber'] as int?;
+      if (ayahNumber != null && ayahNumber > 0) {
+        final ayatList = surahData!['ayat'] as List;
+        final index = ayatList.indexWhere(
+          (ayat) => ayat['nomor'] == ayahNumber,
+        );
+        if (index != -1) {
+          // Gunakan post frame callback untuk scroll setelah layout selesai
+          SchedulerBinding.instance.addPostFrameCallback((_) {
+            if (_scrollController.hasClients) {
+              // Estimasi offset berdasarkan indeks (asumsi tinggi item ~180)
+              double offset = index * 180.0;
+              _scrollController.animateTo(
+                offset,
+                duration: const Duration(milliseconds: 500),
+                curve: Curves.easeInOut,
+              );
+            }
+          });
+        }
       }
     }
   }
@@ -129,9 +160,7 @@ class _AyatPageState extends State<AyatPage> {
                 child: Container(
                   width: 45,
                   height: 24,
-                  padding: const EdgeInsets.all(
-                    2,
-                  ), // Memberikan jarak bulatan ke tepi
+                  padding: const EdgeInsets.all(2),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: _displayMode == 'ayat-translation'
@@ -143,7 +172,6 @@ class _AyatPageState extends State<AyatPage> {
                       AnimatedAlign(
                         duration: const Duration(milliseconds: 250),
                         curve: Curves.easeInOut,
-                        // Mengatur posisi bulatan (kiri atau kanan)
                         alignment: _displayMode == 'ayat-translation'
                             ? Alignment.centerLeft
                             : Alignment.centerRight,
@@ -177,7 +205,7 @@ class _AyatPageState extends State<AyatPage> {
   Widget _buildAyatItem(Map<String, dynamic> ayat, int index) {
     bool isBasmalah = ayat['nomor'] == 0;
 
-    // Untuk mode 'ayat-only' - tampilkan hanya ayat
+    // Mode 'ayat-only' - tampilkan hanya ayat
     if (_displayMode == 'ayat-only') {
       return Container(
         color: Colors.white,
@@ -196,11 +224,11 @@ class _AyatPageState extends State<AyatPage> {
                   TextSpan(
                     text: ayat['arab'],
                     style: TextStyle(
+                      fontSize: _ayatFontSize + 10,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.green[700],
+                      height: _arabicLineHeight, // samakan dengan teks Arab
                       fontFamily: 'Quran12',
-                      fontWeight: FontWeight.w500,
-                      color: Colors.black87,
-                      height: _arabicLineHeight,
-                      fontSize: isBasmalah ? _ayatFontSize + 6 : _ayatFontSize,
                     ),
                   ),
                   if (!isBasmalah) ...[
@@ -220,6 +248,66 @@ class _AyatPageState extends State<AyatPage> {
             ),
 
             if (isBasmalah) const SizedBox(height: 8),
+
+            // Tombol simpan untuk mode ayat-only (kecuali basmalah)
+            if (!isBasmalah) ...[
+              const SizedBox(height: 8),
+              Align(
+                alignment: Alignment.centerRight,
+                child: GestureDetector(
+                  onTap: () async {
+                    await LastReadService.saveLastRead(
+                      surahNumber: widget.surahNumber,
+                      surahName: widget.surahName,
+                      ayahNumber: ayat['nomor'],
+                      ayahText: ayat['arab'],
+                    );
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(
+                          'Ayat ${_convertToArabicNumber(ayat['nomor'])} disimpan',
+                        ),
+                        backgroundColor: Colors.green,
+                        duration: const Duration(seconds: 1),
+                        behavior: SnackBarBehavior.floating,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                      ),
+                    );
+                  },
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 6,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.green.withOpacity(0.1),
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: const [
+                        Icon(
+                          Icons.bookmark_add_outlined,
+                          size: 14,
+                          color: Colors.green,
+                        ),
+                        SizedBox(width: 4),
+                        Text(
+                          'Simpan',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.green,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
           ],
         ),
       );
@@ -254,7 +342,7 @@ class _AyatPageState extends State<AyatPage> {
                         fontSize: isBasmalah
                             ? _ayatFontSize + 6
                             : _ayatFontSize,
-                          color: Colors.black87
+                        color: Colors.black87,
                       ),
                     ),
                     if (!isBasmalah) ...[
@@ -264,8 +352,8 @@ class _AyatPageState extends State<AyatPage> {
                           fontSize: _ayatFontSize + 10,
                           fontWeight: FontWeight.normal,
                           color: Colors.green[700],
-                          height: _arabicLineHeight, // samakan dengan teks Arab
-                          fontFamily: 'Quran12'
+                          height: _arabicLineHeight,
+                          fontFamily: 'Quran12',
                         ),
                       ),
                     ],
@@ -311,7 +399,7 @@ class _AyatPageState extends State<AyatPage> {
 
                 const SizedBox(height: 8),
 
-                // Bookmark button
+                // Bookmark button (sudah ada)
                 Align(
                   alignment: Alignment.centerRight,
                   child: GestureDetector(
@@ -470,7 +558,6 @@ class _AyatPageState extends State<AyatPage> {
 
     final List<dynamic> ayatList = surahData!['ayat'];
 
-    // Gunakan ListView builder untuk kedua mode
     return ListView.builder(
       controller: _scrollController,
       physics: const BouncingScrollPhysics(),

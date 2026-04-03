@@ -1,0 +1,52 @@
+{
+  "nomor": 99,
+  "nama": "Az-Zalzalah",
+  "jumlah_ayat": 8,
+  "ayat": [
+    {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
+      "nomor": 1,
+      "arab": "اِذَا زُلْزِلَتِ الْاَرْضُ زِلْزَالَهَاۙ",
+      "arti": "Apabila bumi diguncangkan dengan guncangan yang dahsyat,"
+    },
+    {
+      "nomor": 2,
+      "arab": "وَاَخْرَجَتِ الْاَرْضُ اَثْقَالَهَاۙ",
+      "arti": "dan bumi telah mengeluarkan beban-beban berat (yang dikandung)nya,"
+    },
+    {
+      "nomor": 3,
+      "arab": "وَقَالَ الْاِنْسَانُ مَا لَهَاۚ",
+      "arti": "Dan manusia bertanya, “Apa yang terjadi pada bumi ini?”"
+    },
+    {
+      "nomor": 4,
+      "arab": "يَوْمَىِٕذٍ تُحَدِّثُ اَخْبَارَهَاۙ",
+      "arti": "Pada hari itu bumi menyampaikan beritanya,"
+    },
+    {
+      "nomor": 5,
+      "arab": "بِاَنَّ رَبَّكَ اَوْحٰى لَهَاۗ",
+      "arti": "karena sesungguhnya Tuhanmu telah memerintahkan (yang sedemikian itu) padanya."
+    },
+    {
+      "nomor": 6,
+      "arab": "يَوْمَىِٕذٍ يَّصْدُرُ النَّاسُ اَشْتَاتًا ەۙ لِّيُرَوْا اَعْمَالَهُمْۗ",
+      "arti": "Pada hari itu manusia keluar dari kuburnya dalam keadaan berkelompok-kelompok, untuk diperlihatkan kepada mereka (balasan) semua perbuatannya."
+    },
+    {
+      "nomor": 7,
+      "arab": "فَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَّرَهٗۚ",
+      "arti": "Maka barangsiapa mengerjakan kebaikan seberat zarrah, niscaya dia akan melihat (balasan)nya,"
+    },
+    {
+      "nomor": 8,
+      "arab": "وَمَنْ يَّعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَّرَهٗ ࣖ",
+      "arti": "dan barangsiapa mengerjakan kejahatan seberat zarrah, niscaya dia akan melihat (balasan)nya."
+    }
+  ]
+}

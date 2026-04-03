@@ -1,20 +1,26 @@
 {
   "nomor": 108,
   "nama": "Al-Kausar",
+  "jumlah_ayat": 3,
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
-      "arti": "Sesungguhnya Kami telah memberimu (Muhammad) nikmat yang banyak."
+      "arab": "اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَۗ",
+      "arti": "Sungguh, Kami telah memberimu (Muhammad) nikmat yang banyak."
     },
     {
       "nomor": 2,
-      "arab": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "arab": "فَصَلِّ لِرَبِّكَ وَانْحَرْۗ",
       "arti": "Maka laksanakanlah salat karena Tuhanmu, dan berkurbanlah (sebagai ibadah dan mendekatkan diri kepada Allah)."
     },
     {
       "nomor": 3,
-      "arab": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+      "arab": "اِنَّ شَانِئَكَ هُوَ الْاَبْتَرُ ࣖ",
       "arti": "Sungguh, orang-orang yang membencimu dialah yang terputus (dari rahmat Allah)."
     }
   ]

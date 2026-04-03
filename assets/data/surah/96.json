@@ -1,101 +1,107 @@
 {
   "nomor": 96,
   "nama": "Al-'Alaq",
+  "jumlah_ayat": 19,
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+      "arab": "اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِيْ خَلَقَۚ",
       "arti": "Bacalah dengan (menyebut) nama Tuhanmu yang menciptakan,"
     },
     {
       "nomor": 2,
-      "arab": "خَلَقَ الْإِنسَانَ مِنْ عَلَقٍ",
+      "arab": "خَلَقَ الْاِنْسَانَ مِنْ عَلَقٍۚ",
       "arti": "Dia telah menciptakan manusia dari segumpal darah."
     },
     {
       "nomor": 3,
-      "arab": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
+      "arab": "اِقْرَأْ وَرَبُّكَ الْاَكْرَمُۙ",
       "arti": "Bacalah, dan Tuhanmulah Yang Mahamulia,"
     },
     {
       "nomor": 4,
-      "arab": "الَّذِي عَلَّمَ بِالْقَلَمِ",
-      "arti": "yang mengajar (manusia) dengan pena."
+      "arab": "الَّذِيْ عَلَّمَ بِالْقَلَمِۙ",
+      "arti": "Yang mengajar (manusia) dengan pena."
     },
     {
       "nomor": 5,
-      "arab": "عَلَّمَ الْإِنسَانَ مَا لَمْ يَعْلَمْ",
+      "arab": "عَلَّمَ الْاِنْسَانَ مَا لَمْ يَعْلَمْۗ",
       "arti": "Dia mengajarkan manusia apa yang tidak diketahuinya."
     },
     {
       "nomor": 6,
-      "arab": "كَلَّا إِنَّ الْإِنسَانَ لَيَطْغَىٰ",
-      "arti": "Ketahuilah! Sungguh, manusia benar-benar melampaui batas,"
+      "arab": "كَلَّآ اِنَّ الْاِنْسَانَ لَيَطْغٰىٓ ۙ",
+      "arti": "Sekali-kali tidak! Sungguh, manusia itu benar-benar melampaui batas,"
     },
     {
       "nomor": 7,
-      "arab": "أَن رَّآهُ اسْتَغْنَىٰ",
+      "arab": "اَنْ رَّاٰهُ اسْتَغْنٰىۗ",
       "arti": "apabila melihat dirinya serba cukup."
     },
     {
       "nomor": 8,
-      "arab": "إِنَّ إِلَىٰ رَبِّكَ الرُّجْعَىٰ",
+      "arab": "اِنَّ اِلٰى رَبِّكَ الرُّجْعٰىۗ",
       "arti": "Sungguh, hanya kepada Tuhanmulah tempat kembali(mu)."
     },
     {
       "nomor": 9,
-      "arab": "أَرَأَيْتَ الَّذِي يَنْهَىٰ",
+      "arab": "اَرَاَيْتَ الَّذِيْ يَنْهٰىۙ",
       "arti": "Bagaimana pendapatmu tentang orang yang melarang?"
     },
     {
       "nomor": 10,
-      "arab": "عَبْدًا إِذَا صَلَّىٰ",
+      "arab": "عَبْدًا اِذَا صَلّٰىۗ",
       "arti": "seorang hamba ketika dia melaksanakan salat,"
     },
     {
       "nomor": 11,
-      "arab": "أَرَأَيْتَ إِن كَانَ عَلَى الْهُدَىٰ",
-      "arti": "bagaimana pendapatmu jika orang yang dilarang itu berada di atas kebenaran (petunjuk),"
+      "arab": "اَرَاَيْتَ اِنْ كَانَ عَلَى الْهُدٰىٓۙ",
+      "arti": "bagaimana pendapatmu jika dia (yang dilarang salat itu) berada di atas kebenaran (petunjuk),"
     },
     {
       "nomor": 12,
-      "arab": "أَوْ أَمَرَ بِالتَّقْوَىٰ",
+      "arab": "اَوْ اَمَرَ بِالتَّقْوٰىۗ",
       "arti": "atau dia menyuruh bertakwa (kepada Allah)?"
     },
     {
       "nomor": 13,
-      "arab": "أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ",
-      "arti": "Bagaimana pendapatmu jika orang yang melarang itu mendustakan dan berpaling?"
+      "arab": "اَرَاَيْتَ اِنْ كَذَّبَ وَتَوَلّٰىۗ",
+      "arti": "Bagaimana pendapatmu jika dia (yang melarang) itu mendustakan dan berpaling?"
     },
     {
       "nomor": 14,
-      "arab": "أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَىٰ",
+      "arab": "اَلَمْ يَعْلَمْ بِاَنَّ اللّٰهَ يَرٰىۗ",
       "arti": "Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?"
     },
     {
       "nomor": 15,
-      "arab": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
-      "arti": "Ketahuilah, sungguh jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya (ke dalam neraka),"
+      "arab": "كَلَّا لَىِٕنْ لَّمْ يَنْتَهِ ەۙ لَنَسْفَعًاۢ بِالنَّاصِيَةِۙ",
+      "arti": "Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya, (ke dalam neraka),"
     },
     {
       "nomor": 16,
-      "arab": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
-      "arti": "(yaitu) ubun-ubun orang yang mendustakan dan durhaka."
+      "arab": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍۚ",
+      "arti": "yaitu) ubun-ubun orang yang mendustakan dan durhaka."
     },
     {
       "nomor": 17,
-      "arab": "فَلْيَدْعُ نَادِيَهُ",
+      "arab": "فَلْيَدْعُ نَادِيَهٗۙ",
       "arti": "Maka biarlah dia memanggil golongannya (untuk menolongnya),"
     },
     {
       "nomor": 18,
-      "arab": "سَنَدْعُ الزَّبَانِيَةَ",
-      "arti": "kelak Kami akan memanggil malaikat Zabaniyah (penyiksa orang yang berdosa)."
+      "arab": "سَنَدْعُ الزَّبَانِيَةَۙ",
+      "arti": "Kelak Kami akan memanggil Malaikat Zabaniyah, (penyiksa orang-orang yang berdosa), "
     },
     {
       "nomor": 19,
-      "arab": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِب ۩",
-      "arti": "Sekali-kali jangan! Janganlah kamu patuh kepadanya; dan sujudlah serta dekatkanlah (dirimu kepada Tuhan)."
+      "arab": "كَلَّاۗ  لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ ۩ ࣖ",
+      "arti": "sekali-kali tidak! Janganlah kamu patuh kepadanya; dan sujudlah serta dekatkanlah (dirimu kepada Allah)."
     }
   ]
 }

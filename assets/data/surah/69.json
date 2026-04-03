@@ -1,266 +1,272 @@
 {
   "nomor": 69,
   "nama": "Al-Haqqah",
+  "jumlah_ayat": 52,
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "الْحَاقَّةُ",
+      "arab": "اَلْحَاۤقَّةُۙ",
       "arti": "Hari Kiamat,"
     },
     {
       "nomor": 2,
-      "arab": "مَا الْحَاقَّةُ",
+      "arab": "مَا الْحَاۤقَّةُ ۚ ",
       "arti": "apakah hari Kiamat itu?"
     },
     {
       "nomor": 3,
-      "arab": "وَمَا أَدْرَاكَ مَا الْحَاقَّةُ",
+      "arab": "وَمَآ اَدْرٰىكَ مَا الْحَاۤقَّةُ ۗ ",
       "arti": "Dan tahukah kamu apakah hari Kiamat itu?"
     },
     {
       "nomor": 4,
-      "arab": "كَذَّبَتْ ثَمُودُ وَعَادٌ بِالْقَارِعَةِ",
-      "arti": "Kaum Samud dan 'Ad telah mendustakan hari Kiamat."
+      "arab": "كَذَّبَتْ ثَمُوْدُ وَعَادٌ ۢبِالْقَارِعَةِ ",
+      "arti": "Kaum Samud, dan ‘Ad telah mendustakan hari Kiamat."
     },
     {
       "nomor": 5,
-      "arab": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ",
-      "arti": "Adapun kaum Samud, mereka telah dibinasakan dengan kejadian yang luar biasa."
+      "arab": "فَاَمَّا ثَمُوْدُ فَاُهْلِكُوْا بِالطَّاغِيَةِ ",
+      "arti": "Maka adapun kaum Samud, mereka telah dibinasakan dengan suara yang sangat keras,"
     },
     {
       "nomor": 6,
-      "arab": "وَأَمَّا عَادٌ فَأُهْلِكُوا بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
-      "arti": "Adapun kaum 'Ad, mereka telah dibinasakan dengan angin yang sangat dingin lagi sangat kencang,"
+      "arab": "وَاَمَّا عَادٌ فَاُهْلِكُوْا بِرِيْحٍ صَرْصَرٍ عَاتِيَةٍۙ",
+      "arti": "sedangkan kaum ‘Ad, mereka telah dibinasakan dengan angin topan yang sangat dingin,"
     },
     {
       "nomor": 7,
-      "arab": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَانِيَةَ أَيَّامٍ حُسُومًا فَتَرَى الْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
-      "arti": "yang Allah menimpakan angin itu kepada mereka selama tujuh malam dan delapan hari terus menerus; maka kamu lihat kaum 'Ad pada waktu itu mati bergelimpangan seperti batang-batang pohon kurma yang telah kosong (lapuk)."
+      "arab": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَّثَمٰنِيَةَ اَيَّامٍۙ حُسُوْمًا فَتَرَى الْقَوْمَ فِيْهَا صَرْعٰىۙ  كَاَنَّهُمْ اَعْجَازُ نَخْلٍ خَاوِيَةٍۚ",
+      "arti": "Allah menimpakan angin itu kepada mereka selama tujuh malam delapan hari terus-menerus; maka kamu melihat kaum ‘Ad pada waktu itu mati bergelimpangan seperti batang-batang pohon kurma yang telah kosong (lapuk)."
     },
     {
       "nomor": 8,
-      "arab": "فَهَلْ تَرَىٰ لَهُم مِّن بَاقِيَةٍ",
-      "arti": "Maka kamu tidak melihat seorang pun yang masih tersisa di antara mereka."
+      "arab": "فَهَلْ تَرٰى لَهُمْ مِّنْۢ بَاقِيَةٍ ",
+      "arti": "Maka adakah kamu melihat seorang pun yang masih tersisa di antara mereka?"
     },
     {
       "nomor": 9,
-      "arab": "وَجَاءَ فِرْعَوْنُ وَمَن قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ",
-      "arti": "Dan telah datang Fir'aun dan orang-orang yang sebelumnya dan (penduduk) negeri-negeri yang dijungkirbalikkan karena kesalahan yang besar."
+      "arab": "وَجَاۤءَ فِرْعَوْنُ وَمَنْ قَبْلَهٗ وَالْمُؤْتَفِكٰتُ بِالْخَاطِئَةِۚ",
+      "arti": "Kemudian datang Fir‘aun dan orang-orang yang sebelumnya dan (penduduk) negeri-negeri yang dijungkirbalikkan karena kesalahan yang besar."
     },
     {
       "nomor": 10,
-      "arab": "فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
-      "arti": "Maka mereka mendurhakai rasul Tuhan mereka, lalu Allah menyiksa mereka dengan siksaan yang sangat keras."
+      "arab": "فَعَصَوْا رَسُوْلَ رَبِّهِمْ فَاَخَذَهُمْ اَخْذَةً رَّابِيَةً ",
+      "arti": "Maka mereka mendurhakai utusan Tuhannya, Allah menyiksa mereka dengan siksaan yang sangat keras. "
     },
     {
       "nomor": 11,
-      "arab": "إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِي الْجَارِيَةِ",
-      "arti": "Sesungguhnya Kami, ketika air naik (sampai ke gunung), Kami bawa (nenek moyang) kamu ke dalam kapal,"
+      "arab": "اِنَّا لَمَّا طَغَا الْمَاۤءُ حَمَلْنٰكُمْ فِى الْجَارِيَةِۙ",
+      "arti": "Sesungguhnya ketika air naik (sampai ke gunung), Kami membawa (nenek moyang) kamu ke dalam kapal, "
     },
     {
       "nomor": 12,
-      "arab": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَا أُذُنٌ وَاعِيَةٌ",
-      "arti": "agar Kami jadikan peristiwa itu peringatan bagi kamu dan agar diperhatikan oleh telinga yang mau mendengar."
+      "arab": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَّتَعِيَهَآ اُذُنٌ وَّاعِيَةٌ ",
+      "arti": "agar Kami jadikan (peristiwa itu) sebagai peringatan bagi kamu dan agar diperhatikan oleh telinga yang mau mendengar. "
     },
     {
       "nomor": 13,
-      "arab": "فَإِذَا نُفِخَ فِي الصُّورِ نَفْخَةٌ وَاحِدةٌ",
+      "arab": "فَاِذَا نُفِخَ فِى الصُّوْرِ نَفْخَةٌ وَّاحِدَةٌ ۙ",
       "arti": "Maka apabila sangkakala ditiup sekali tiup,"
     },
     {
       "nomor": 14,
-      "arab": "وَحُمِلَتِ الْأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً",
-      "arti": "dan diangkatlah bumi dan gunung-gunung, lalu dibenturkan keduanya sekali bentur."
+      "arab": "وَّحُمِلَتِ الْاَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَّاحِدَةًۙ",
+      "arti": "dan diangkatlah bumi dan gunung-gunung, lalu dibenturkan keduanya sekali benturan."
     },
     {
       "nomor": 15,
-      "arab": "فَيَوْمَئِذٍ وَقَعَتِ الْوَاقِعَةُ",
-      "arti": "Maka pada hari itu terjadilah hari Kiamat,"
+      "arab": "فَيَوْمَىِٕذٍ وَّقَعَتِ الْوَاقِعَةُۙ",
+      "arti": "Maka pada hari itu terjadilah hari Kiamat, "
     },
     {
       "nomor": 16,
-      "arab": "وَانشَقَّتِ السَّمَاءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "arab": "وَانْشَقَّتِ السَّمَاۤءُ فَهِيَ يَوْمَىِٕذٍ وَّاهِيَةٌۙ",
       "arti": "dan terbelahlah langit, karena pada hari itu langit menjadi rapuh."
     },
     {
       "nomor": 17,
-      "arab": "وَالْمَلَكُ عَلَىٰ أَرْجَائِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَانِيَةٌ",
-      "arti": "Dan malaikat-malaikat berada di penjuru-penjuru langit. Dan pada hari itu delapan orang malaikat menjunjung 'Arsy Tuhanmu di atas (kepala) mereka."
+      "arab": "وَّالْمَلَكُ عَلٰٓى اَرْجَاۤىِٕهَاۗ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَىِٕذٍ ثَمٰنِيَةٌ  ۗ",
+      "arti": "Dan para malaikat berada di berbagai penjuru langit. Pada hari itu delapan malaikat menjunjung ‘Arsy (singgasana) Tuhanmu di atas (kepala) mereka. "
     },
     {
       "nomor": 18,
-      "arab": "يَوْمَئِذٍ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌ",
-      "arti": "Pada hari itu kamu dihadapkan (kepada Tuhanmu), tidak ada sesuatu pun dari kamu yang tersembunyi (bagi Allah)."
+      "arab": "يَوْمَىِٕذٍ تُعْرَضُوْنَ لَا تَخْفٰى مِنْكُمْ خَافِيَةٌ ",
+      "arti": "Pada hari itu kamu dihadapkan (kepada Tuhanmu), tidak ada sesuatu pun dari kamu yang tersembunyi (bagi Allah). "
     },
     {
       "nomor": 19,
-      "arab": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ",
-      "arti": "Adapun orang-orang yang diberikan kitabnya dari sebelah kanannya, maka dia berkata, \"Ambillah, bacalah kitabku (ini).\""
+      "arab": "فَاَمَّا مَنْ اُوْتِيَ كِتٰبَهٗ بِيَمِيْنِهٖ فَيَقُوْلُ هَاۤؤُمُ اقْرَءُوْا كِتٰبِيَهْۚ ",
+      "arti": "Adapun orang yang kitabnya  diberikan di tangan kanannya, maka dia berkata, “Ambillah, bacalah kitabku (ini).” "
     },
     {
       "nomor": 20,
-      "arab": "إِنِّي ظَنَنتُ أَنِّي مُلَاقٍ حِسَابِيَهْ",
-      "arti": "Sesungguhnya aku yakin, bahwa sesungguhnya aku akan menemui hisab terhadap diriku."
+      "arab": "اِنِّيْ ظَنَنْتُ اَنِّيْ مُلٰقٍ حِسَابِيَهْۚ",
+      "arti": "Sesungguhnya aku yakin, bahwa (suatu saat) aku akan menerima perhitungan terhadap diriku. "
     },
     {
       "nomor": 21,
-      "arab": "فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ",
+      "arab": "فَهُوَ فِيْ عِيْشَةٍ رَّاضِيَةٍۚ",
       "arti": "Maka orang itu berada dalam kehidupan yang diridai,"
     },
     {
       "nomor": 22,
-      "arab": "فِي جَنَّةٍ عَالِيَةٍ",
-      "arti": "dalam surga yang tinggi,"
+      "arab": "فِيْ جَنَّةٍ عَالِيَةٍۙ",
+      "arti": "dalam surga yang tinggi, "
     },
     {
       "nomor": 23,
-      "arab": "قُطُوفُهَا دَانِيَةٌ",
+      "arab": "قُطُوْفُهَا دَانِيَةٌ ",
       "arti": "buah-buahannya dekat,"
     },
     {
       "nomor": 24,
-      "arab": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا أَسْلَفْتُمْ فِي الْأَيَّامِ الْخَالِيَةِ",
-      "arti": "(kepada mereka dikatakan), \"Makan dan minumlah dengan rasa nikmat sebagai balasan dari apa yang telah kamu kerjakan pada hari-hari yang telah lalu.\""
+      "arab": "كُلُوْا وَاشْرَبُوْا هَنِيْۤـًٔا ۢبِمَآ اَسْلَفْتُمْ فِى الْاَيَّامِ الْخَالِيَةِ ",
+      "arti": "(kepada mereka dikatakan), “Makan dan minumlah dengan nikmat karena amal yang telah kamu kerjakan pada hari-hari yang telah lalu.” "
     },
     {
       "nomor": 25,
-      "arab": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِشِمَالِهِ فَيَقُولُ يَا لَيْتَنِي لَمْ أُوتَ كِتَابِيَهْ",
-      "arti": "Adapun orang yang diberikan kitabnya dari sebelah kirinya, maka dia berkata, \"Wahai, alangkah baiknya kiranya tidak diberikan kepadaku kitabku (ini),"
+      "arab": "وَاَمَّا مَنْ اُوْتِيَ كِتٰبَهٗ بِشِمَالِهٖ ەۙ فَيَقُوْلُ يٰلَيْتَنِيْ لَمْ اُوْتَ كِتٰبِيَهْۚ",
+      "arti": "Dan adapun orang yang kitabnya diberikan di tangan kirinya, maka dia berkata, “Alangkah baiknya jika kitabku (ini) tidak diberikan kepadaku."
     },
     {
       "nomor": 26,
-      "arab": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
-      "arti": "dan aku tidak mengetahui apa hisab terhadap diriku,"
+      "arab": "وَلَمْ اَدْرِ مَا حِسَابِيَهْۚ",
+      "arti": "Sehingga aku tidak mengetahui bagaimana perhitunganku. "
     },
     {
       "nomor": 27,
-      "arab": "يَا لَيْتَهَا كَانَتِ الْقَاضِيَةَ",
-      "arti": "wahai kiranya (kematian) itulah yang menyelesaikan segala sesuatu."
+      "arab": "يٰلَيْتَهَا كَانَتِ الْقَاضِيَةَۚ",
+      "arti": "Wahai, kiranya (kematian) itulah yang menyudahi segala sesuatu. "
     },
     {
       "nomor": 28,
-      "arab": "مَا أَغْنَىٰ عَنِّي مَالِيَهْ",
-      "arti": "Hartaku sama sekali tidak berguna bagiku."
+      "arab": "مَآ اَغْنٰى عَنِّيْ مَالِيَهْۚ ",
+      "arti": "Hartaku sama sekali tidak berguna bagiku. "
     },
     {
       "nomor": 29,
-      "arab": "هَلَكَ عَنِّي سُلْطَانِيَهْ",
-      "arti": "Telah hilang kekuasaanku dariku.\""
+      "arab": "هَلَكَ عَنِّيْ سُلْطٰنِيَهْۚ",
+      "arti": "Kekuasaanku telah hilang dariku.”"
     },
     {
       "nomor": 30,
-      "arab": "خُذُوهُ فَغُلُّوهُ",
-      "arti": "(Allah berfirman), \"Peganglah dia lalu belenggulah tangannya ke lehernya.\""
+      "arab": "خُذُوْهُ فَغُلُّوْهُۙ",
+      "arti": "(Allah berfirman), “Tangkaplah dia lalu belenggulah tangannya ke lehernya.” "
     },
     {
       "nomor": 31,
-      "arab": "ثُمَّ الْجَحِيمَ صَلُّوهُ",
-      "arti": "Kemudian masukkanlah dia ke dalam api neraka yang menyala-nyala."
+      "arab": "ثُمَّ الْجَحِيْمَ صَلُّوْهُۙ",
+      "arti": "Kemudian masukkanlah dia ke dalam api neraka yang menyala-nyala. "
     },
     {
       "nomor": 32,
-      "arab": "ثُمَّ فِي سِلْسِلَةٍ ذَرْعُهَا سَبْعُونَ ذِرَاعًا فَاسْلُكُوهُ",
-      "arti": "Kemudian belitlah dia dengan rantai yang panjangnya tujuh puluh hasta."
+      "arab": "ثُمَّ فِيْ سِلْسِلَةٍ ذَرْعُهَا سَبْعُوْنَ ذِرَاعًا فَاسْلُكُوْهُۗ",
+      "arti": "Kemudian belitlah dia dengan rantai yang panjangnya tujuh puluh hasta. "
     },
     {
       "nomor": 33,
-      "arab": "إِنَّهُ كَانَ لَا يُؤْمِنُ بِاللَّهِ الْعَظِيمِ",
-      "arti": "Sesungguhnya dia dahulu tidak beriman kepada Allah Yang Maha Besar,"
+      "arab": "اِنَّهٗ كَانَ لَا يُؤْمِنُ بِاللّٰهِ الْعَظِيْمِۙ",
+      "arti": "Sesungguhnya dialah orang yang tidak beriman kepada Allah Yang Mahabesar. "
     },
     {
       "nomor": 34,
-      "arab": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
-      "arti": "dan juga dia tidak mendorong (orang lain) untuk memberi makan orang miskin."
+      "arab": "وَلَا يَحُضُّ عَلٰى طَعَامِ الْمِسْكِيْنِۗ",
+      "arti": "Dan juga dia tidak mendorong (orang lain) untuk memberi makan orang miskin. "
     },
     {
       "nomor": 35,
-      "arab": "فَلَيْسَ لَهُ الْيَوْمَ هَاهُنَا حَمِيمٌ",
-      "arti": "Maka tiada seorang teman pun baginya pada hari ini di sini,"
+      "arab": "فَلَيْسَ لَهُ الْيَوْمَ هٰهُنَا حَمِيْمٌۙ",
+      "arti": "Maka pada hari ini di sini tidak ada seorang teman pun baginya. "
     },
     {
       "nomor": 36,
-      "arab": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
-      "arti": "dan tidak ada makanan (baginya) kecuali dari darah dan nanah,"
+      "arab": "وَّلَا طَعَامٌ اِلَّا مِنْ غِسْلِيْنٍۙ",
+      "arti": "Dan tidak ada makanan (baginya) kecuali dari darah dan nanah. "
     },
     {
       "nomor": 37,
-      "arab": "لَا يَأْكُلُهُ إِلَّا الْخَاطِئُونَ",
-      "arti": "tidak ada yang memakannya kecuali orang-orang yang berdosa."
+      "arab": "لَّا يَأْكُلُهٗٓ اِلَّا الْخَاطِـُٔوْنَ ࣖ ",
+      "arti": "Tidak ada yang memakannya kecuali orang-orang yang berdosa. "
     },
     {
       "nomor": 38,
-      "arab": "فَلَا أُقْسِمُ بِمَا تُبْصِرُونَ",
-      "arti": "Maka Aku bersumpah demi apa yang kamu lihat,"
+      "arab": "فَلَآ اُقْسِمُ بِمَا تُبْصِرُوْنَۙ",
+      "arti": "Maka Aku bersumpah demi apa yang kamu lihat, "
     },
     {
       "nomor": 39,
-      "arab": "وَمَا لَا تُبْصِرُونَ",
-      "arti": "dan demi apa yang tidak kamu lihat,"
+      "arab": "وَمَا لَا تُبْصِرُوْنَۙ",
+      "arti": "dan demi apa yang tidak kamu lihat."
     },
     {
       "nomor": 40,
-      "arab": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
-      "arti": "sesungguhnya (Al-Qur'an) itu benar-benar firman (Allah yang dibawa oleh) utusan yang mulia (Jibril),"
+      "arab": "اِنَّهٗ لَقَوْلُ رَسُوْلٍ كَرِيْمٍۙ",
+      "arti": "Sesungguhnya ia (Al-Qur'an) itu benar-benar wahyu (yang diturunkan kepada) Rasul yang mulia,"
     },
     {
       "nomor": 41,
-      "arab": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
-      "arti": "dan (Al-Qur'an) itu bukanlah perkataan seorang penyair. Sedikit sekali kamu beriman kepadanya."
+      "arab": "وَّمَا هُوَ بِقَوْلِ شَاعِرٍۗ قَلِيْلًا مَّا تُؤْمِنُوْنَۙ",
+      "arti": "dan ia (Al-Qur'an) bukanlah perkataan seorang penyair. Sedikit sekali kamu beriman kepadanya. "
     },
     {
       "nomor": 42,
-      "arab": "وَمَا هُوَ بِقَوْلِ كَاهِنٍ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
-      "arti": "Dan bukan pula perkataan tukang tenung. Sedikit sekali kamu mengambil pelajaran darinya."
+      "arab": "وَلَا بِقَوْلِ كَاهِنٍۗ قَلِيْلًا مَّا تَذَكَّرُوْنَۗ",
+      "arti": "Dan bukan pula perkataan tukang tenung. Sedikit sekali kamu mengambil pelajaran darinya. "
     },
     {
       "nomor": 43,
-      "arab": "تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ",
-      "arti": "Diturunkan dari Tuhan seluruh alam."
+      "arab": "تَنْزِيْلٌ مِّنْ رَّبِّ الْعٰلَمِيْنَ ",
+      "arti": "Ia (Al-Qur'an) adalah wahyu yang diturunkan dari Tuhan seluruh alam. "
     },
     {
       "nomor": 44,
-      "arab": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ",
-      "arti": "Seandainya dia (Muhammad) mengada-adakan sebagian perkataan atas (nama) Kami,"
+      "arab": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْاَقَاوِيْلِۙ",
+      "arti": "Dan sekiranya dia (Muhammad) mengada-adakan sebagian perkataan atas (nama) Kami, "
     },
     {
       "nomor": 45,
-      "arab": "لَأَخَذْنَا مِنْهُ بِالْيَمِينِ",
-      "arti": "niscaya benar-benar Kami pegang dia pada tangan kanannya,"
+      "arab": "لَاَخَذْنَا مِنْهُ بِالْيَمِيْنِۙ",
+      "arti": "pasti Kami pegang dia pada tangan kanannya. "
     },
     {
       "nomor": 46,
-      "arab": "ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-      "arti": "kemudian benar-benar Kami potong urat tali jantungnya."
+      "arab": "ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِيْنَۖ",
+      "arti": "Kemudian Kami potong pembuluh jantungnya. "
     },
     {
       "nomor": 47,
-      "arab": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَاجِزِينَ",
-      "arti": "Maka tidak ada seorang pun dari kamu yang dapat menghalangi (Kami), dari pemotongan urat nadi itu."
+      "arab": "فَمَا مِنْكُمْ مِّنْ اَحَدٍ عَنْهُ حَاجِزِيْنَۙ",
+      "arti": "Maka tidak seorang pun dari kamu yang dapat menghalangi (Kami untuk menghukumnya). "
     },
     {
       "nomor": 48,
-      "arab": "وَإِنَّهُ لَتَذْكِرَةٌ لِّلْمُتَّقِينَ",
-      "arti": "Dan sungguh, (Al-Qur'an) itu pelajaran bagi orang-orang yang bertakwa."
+      "arab": "وَاِنَّهٗ لَتَذْكِرَةٌ لِّلْمُتَّقِيْنَ ",
+      "arti": "Dan sungguh, (Al-Qur'an) itu pelajaran bagi orang-orang yang bertakwa. "
     },
     {
       "nomor": 49,
-      "arab": "وَإِنَّا لَنَعْلَمُ أَنَّ مِنكُم مُّكَذِّبِينَ",
-      "arti": "Dan sesungguhnya Kami mengetahui bahwa di antara kamu ada orang yang mendustakan(nya)."
+      "arab": "وَاِنَّا لَنَعْلَمُ اَنَّ مِنْكُمْ مُّكَذِّبِيْنَۗ",
+      "arti": "Dan sungguh, Kami mengetahui bahwa di antara kamu ada orang yang mendustakan."
     },
     {
       "nomor": 50,
-      "arab": "وَإِنَّهُ لَحَسْرَةٌ عَلَى الْكَافِرِينَ",
-      "arti": "Dan sesungguhnya (Al-Qur'an) itu benar-benar menjadi penyesalan bagi orang-orang kafir (di akhirat)."
+      "arab": "وَاِنَّهٗ لَحَسْرَةٌ عَلَى الْكٰفِرِيْنَۚ",
+      "arti": "Dan sungguh, (Al-Qur'an) itu akan menimbulkan penyesalan bagi orang-orang kafir (di akhirat)."
     },
     {
       "nomor": 51,
-      "arab": "وَإِنَّهُ لَحَقُّ الْيَقِينِ",
-      "arti": "Dan sesungguhnya (Al-Qur'an) itu kebenaran yang yakin."
+      "arab": "وَاِنَّهٗ لَحَقُّ الْيَقِيْنِ ",
+      "arti": "Dan Sungguh, (Al-Qur'an) itu kebenaran yang meyakinkan. "
     },
     {
       "nomor": 52,
-      "arab": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
-      "arti": "Maka bertasbihlah dengan (menyebut) nama Tuhanmu Yang Maha Besar."
+      "arab": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيْمِ ࣖ",
+      "arti": "Maka bertasbihlah dengan (menyebut) nama Tuhanmu Yang Mahaagung. "
     }
   ]
 }

@@ -1,136 +1,142 @@
 {
   "nomor": 88,
-  "nama": "Al-Ghasyiyah",
+  "nama": "Al-Gasyiyah",
+  "jumlah_ayat": 26,
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
-      "arti": "Sudahkah sampai kepadamu berita tentang hari Kiamat?"
+      "arab": "هَلْ اَتٰىكَ حَدِيْثُ الْغَاشِيَةِۗ",
+      "arti": "Sudahkah sampai kepadamu berita tentang (hari Kiamat)?"
     },
     {
       "nomor": 2,
-      "arab": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ",
-      "arti": "Banyak wajah pada hari itu tunduk terhina,"
+      "arab": "وُجُوْهٌ يَّوْمَىِٕذٍ خَاشِعَةٌ  ۙ",
+      "arti": "Pada hari itu banyak wajah yang tertunduk terhina,"
     },
     {
       "nomor": 3,
-      "arab": "عَامِلَةٌ نَّاصِبَةٌ",
-      "arti": "bekerja keras lagi kepayahan,"
+      "arab": "عَامِلَةٌ نَّاصِبَةٌ  ۙ",
+      "arti": "(karena) bekerja keras lagi kepayahan,"
     },
     {
       "nomor": 4,
-      "arab": "تَصْلَىٰ نَارًا حَامِيَةً",
-      "arti": "memasuki api yang sangat panas (neraka),"
+      "arab": "تَصْلٰى نَارًا حَامِيَةً  ۙ",
+      "arti": "mereka memasuki api yang sangat panas (neraka),"
     },
     {
       "nomor": 5,
-      "arab": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
-      "arti": "diberi minum dari sumber yang sangat panas."
+      "arab": "تُسْقٰى مِنْ عَيْنٍ اٰنِيَةٍ ۗ",
+      "arti": "diberi minum dari sumber mata air yang sangat panas."
     },
     {
       "nomor": 6,
-      "arab": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
-      "arti": "Mereka tidak memperoleh makanan selain dari pohon yang berduri,"
+      "arab": "لَيْسَ لَهُمْ طَعَامٌ اِلَّا مِنْ ضَرِيْعٍۙ",
+      "arti": "Tidak ada makanan bagi mereka selain dari pohon yang berduri,"
     },
     {
       "nomor": 7,
-      "arab": "لَّا يُسْمِنُ وَلَا يُغْنِي مِن جُوعٍ",
-      "arti": "yang tidak menggemukkan dan tidak pula menghilangkan lapar."
+      "arab": "لَّا يُسْمِنُ وَلَا يُغْنِيْ مِنْ جُوْعٍۗ",
+      "arti": "yang tidak menggemukkan dan tidak menghilangkan lapar."
     },
     {
       "nomor": 8,
-      "arab": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
-      "arti": "Banyak wajah pada hari itu berseri-seri,"
+      "arab": "وُجُوْهٌ يَّوْمَىِٕذٍ نَّاعِمَةٌ  ۙ",
+      "arti": "Pada hari itu banyak (pula) wajah yang berseri-seri,"
     },
     {
       "nomor": 9,
-      "arab": "لِّسَعْيِهَا رَاضِيَةٌ",
-      "arti": "merasa senang karena usahanya,"
+      "arab": "لِّسَعْيِهَا رَاضِيَةٌ  ۙ ",
+      "arti": "merasa senang karena usahanya (sendiri),"
     },
     {
       "nomor": 10,
-      "arab": "فِي جَنَّةٍ عَالِيَةٍ",
-      "arti": "dalam surga yang tinggi,"
+      "arab": "فِيْ جَنَّةٍ عَالِيَةٍۙ",
+      "arti": "(mereka) dalam surga yang tinggi, "
     },
     {
       "nomor": 11,
-      "arab": "لَّا تَسْمَعُ فِيهَا لَاغِيَةً",
-      "arti": "di sana mereka tidak mendengar perkataan yang sia-sia."
+      "arab": "لَّا تَسْمَعُ فِيْهَا لَاغِيَةً ۗ",
+      "arti": "di sana (kamu) tidak mendengar perkataan yang tidak berguna."
     },
     {
       "nomor": 12,
-      "arab": "فِيهَا عَيْنٌ جَارِيَةٌ",
-      "arti": "Di dalamnya ada mata air yang mengalir,"
+      "arab": "فِيْهَا عَيْنٌ جَارِيَةٌ  ۘ",
+      "arti": "Di sana ada mata air yang mengalir."
     },
     {
       "nomor": 13,
-      "arab": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
-      "arti": "di dalamnya ada takhta-takhta yang ditinggikan,"
+      "arab": "فِيْهَا سُرُرٌ مَّرْفُوْعَةٌ  ۙ",
+      "arti": "Di sana ada dipan-dipan yang ditinggikan,"
     },
     {
       "nomor": 14,
-      "arab": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+      "arab": "وَّاَكْوَابٌ مَّوْضُوْعَةٌ  ۙ",
       "arti": "dan gelas-gelas yang tersedia (di dekatnya),"
     },
     {
       "nomor": 15,
-      "arab": "وَنَمَارِقُ مَصْفُوفَةٌ",
+      "arab": "وَّنَمَارِقُ مَصْفُوْفَةٌ  ۙ ",
       "arti": "dan bantal-bantal sandaran yang tersusun,"
     },
     {
       "nomor": 16,
-      "arab": "وَزَرَابِيُّ مَبْثُوثَةٌ",
+      "arab": "وَّزَرَابِيُّ مَبْثُوْثَةٌ  ۗ",
       "arti": "dan permadani-permadani yang terhampar."
     },
     {
       "nomor": 17,
-      "arab": "أَفَلَا يَنظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ",
-      "arti": "Maka tidakkah mereka memperhatikan unta, bagaimana dia diciptakan?"
+      "arab": "اَفَلَا يَنْظُرُوْنَ اِلَى الْاِبِلِ كَيْفَ خُلِقَتْۗ",
+      "arti": "Maka tidakkah mereka memperhatikan unta, bagaimana diciptakan?"
     },
     {
       "nomor": 18,
-      "arab": "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ",
-      "arti": "Dan langit, bagaimana ditinggikan?"
+      "arab": "وَاِلَى السَّمَاۤءِ كَيْفَ رُفِعَتْۗ",
+      "arti": "dan langit, bagaimana ditinggikan?"
     },
     {
       "nomor": 19,
-      "arab": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ",
-      "arti": "Dan gunung-gunung, bagaimana ditegakkan?"
+      "arab": "وَاِلَى الْجِبَالِ كَيْفَ نُصِبَتْۗ",
+      "arti": "Dan gunung-gunung bagaimana ditegakkan?"
     },
     {
       "nomor": 20,
-      "arab": "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
-      "arti": "Dan bumi, bagaimana dihamparkan?"
+      "arab": "وَاِلَى الْاَرْضِ كَيْفَ سُطِحَتْۗ ",
+      "arti": "Dan bumi bagaimana dihamparkan?"
     },
     {
       "nomor": 21,
-      "arab": "فَذَكِّرْ إِنَّمَا أَنتَ مُذَكِّرٌ",
+      "arab": "فَذَكِّرْۗ اِنَّمَآ اَنْتَ مُذَكِّرٌۙ",
       "arti": "Maka berilah peringatan, karena sesungguhnya engkau (Muhammad) hanyalah pemberi peringatan."
     },
     {
       "nomor": 22,
-      "arab": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "arab": "لَّسْتَ عَلَيْهِمْ بِمُصَيْطِرٍۙ",
       "arti": "Engkau bukanlah orang yang berkuasa atas mereka,"
     },
     {
       "nomor": 23,
-      "arab": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
-      "arti": "tetapi barangsiapa berpaling dan kafir,"
+      "arab": "اِلَّا مَنْ تَوَلّٰى وَكَفَرَۙ",
+      "arti": "kecuali (jika ada) orang yang berpaling dan kafir,"
     },
     {
       "nomor": 24,
-      "arab": "فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ",
+      "arab": "فَيُعَذِّبُهُ اللّٰهُ الْعَذَابَ الْاَكْبَرَۗ",
       "arti": "maka Allah akan mengazabnya dengan azab yang besar."
     },
     {
       "nomor": 25,
-      "arab": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
-      "arti": "Sesungguhnya kepada Kamilah mereka kembali,"
+      "arab": "اِنَّ اِلَيْنَآ اِيَابَهُمْ",
+      "arti": "Sungguh, kepada Kamilah mereka kembali,"
     },
     {
       "nomor": 26,
-      "arab": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
-      "arti": "kemudian sesungguhnya kewajiban Kamilah menghisab mereka."
+      "arab": "ثُمَّ اِنَّ عَلَيْنَا حِسَابَهُمْ ࣖ",
+      "arti": "kemudian sesungguhnya (kewajiban) Kamilah membuat perhitungan atas mereka."
     }
   ]
 }

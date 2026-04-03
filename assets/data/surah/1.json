@@ -10,32 +10,37 @@
     },
     {
       "nomor": 1,
-      "arab": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ",
-      "arti": "Segala puji bagi Allah, Tuhan seluruh alam,"
+      "arab": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih, Maha Penyayang."
     },
     {
       "nomor": 2,
-      "arab": "الرَّحْمٰنِ الرَّحِيْمِۙ",
-      "arti": "Yang Maha Pengasih, Maha Penyayang,"
+      "arab": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ",
+      "arti": "Segala puji bagi Allah, Tuhan seluruh alam,"
     },
     {
       "nomor": 3,
-      "arab": "مٰلِكِ يَوْمِ الدِّيْنِۗ",
-      "arti": "Pemilik hari pembalasan."
+      "arab": "الرَّحْمٰنِ الرَّحِيْمِۙ",
+      "arti": "Yang Maha Pengasih, Maha Penyayang,"
     },
     {
       "nomor": 4,
-      "arab": "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ",
-      "arti": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
+      "arab": "مٰلِكِ يَوْمِ الدِّيْنِۗ",
+      "arti": "Pemilik hari pembalasan."
     },
     {
       "nomor": 5,
-      "arab": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۙ",
-      "arti": "Tunjukilah kami jalan yang lurus,"
+      "arab": "اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُۗ",
+      "arti": "Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan."
     },
     {
       "nomor": 6,
-      "arab": "صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَࣖ",
+      "arab": "اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۙ",
+      "arti": "Tunjukilah kami jalan yang lurus,"
+    },
+    {
+      "nomor": 7,
+      "arab": "صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ࣖ",
       "arti": "(yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."
     }
   ]

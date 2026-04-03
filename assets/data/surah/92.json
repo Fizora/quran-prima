@@ -1,111 +1,117 @@
 {
   "nomor": 92,
   "nama": "Al-Lail",
+  "jumlah_ayat": 21,
   "ayat": [
     {
+      "nomor": 0,
+      "arab": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "arti": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."
+    },
+    {
       "nomor": 1,
-      "arab": "وَاللَّيْلِ إِذَا يَغْشَىٰ",
+      "arab": "وَالَّيْلِ اِذَا يَغْشٰىۙ",
       "arti": "Demi malam apabila menutupi (cahaya siang),"
     },
     {
       "nomor": 2,
-      "arab": "وَالنَّهَارِ إِذَا تَجَلَّىٰ",
-      "arti": "dan siang apabila terang benderang,"
+      "arab": "وَالنَّهَارِ اِذَا تَجَلّٰىۙ",
+      "arti": "demi siang apabila terang benderang,"
     },
     {
       "nomor": 3,
-      "arab": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنثَىٰ",
-      "arti": "dan penciptaan laki-laki dan perempuan,"
+      "arab": "وَمَا خَلَقَ الذَّكَرَ وَالْاُنْثٰىٓ ۙ",
+      "arti": "demi penciptaan laki-laki dan perempuan,"
     },
     {
       "nomor": 4,
-      "arab": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
-      "arti": "sesungguhnya usaha kamu memang berbeda-beda."
+      "arab": "اِنَّ سَعْيَكُمْ لَشَتّٰىۗ",
+      "arti": "sungguh, usahamu memang beraneka macam."
     },
     {
       "nomor": 5,
-      "arab": "فَأَمَّا مَن أَعْطَىٰ وَاتَّقَىٰ",
-      "arti": "Adapun orang yang memberikan (hartanya di jalan Allah) dan bertakwa,"
+      "arab": "فَاَمَّا مَنْ اَعْطٰى وَاتَّقٰىۙ",
+      "arti": "Maka barangsiapa memberikan (hartanya di jalan Allah) dan bertakwa,"
     },
     {
       "nomor": 6,
-      "arab": "وَصَدَّقَ بِالْحُسْنَىٰ",
-      "arti": "dan membenarkan adanya pahala yang terbaik (surga),"
+      "arab": "وَصَدَّقَ بِالْحُسْنٰىۙ",
+      "arti": "dan membenarkan (adanya pahala) yang terbaik (surga),"
     },
     {
       "nomor": 7,
-      "arab": "فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ",
-      "arti": "maka Kami kelak akan menyiapkan baginya jalan yang mudah."
+      "arab": "فَسَنُيَسِّرُهٗ لِلْيُسْرٰىۗ",
+      "arti": "maka akan Kami mudahkan baginya jalan menuju kemudahan (kebahagiaan),"
     },
     {
       "nomor": 8,
-      "arab": "وَأَمَّا مَن بَخِلَ وَاسْتَغْنَىٰ",
-      "arti": "Dan adapun orang yang kikir dan merasa dirinya cukup,"
+      "arab": "وَاَمَّا مَنْۢ بَخِلَ وَاسْتَغْنٰىۙ",
+      "arti": "dan adapun orang yang kikir dan merasa dirinya cukup (tidak perlu pertolongan Allah),"
     },
     {
       "nomor": 9,
-      "arab": "وَكَذَّبَ بِالْحُسْنَىٰ",
-      "arti": "serta mendustakan pahala yang terbaik,"
+      "arab": "وَكَذَّبَ بِالْحُسْنٰىۙ",
+      "arti": "serta mendustakan (pahala) yang terbaik,"
     },
     {
       "nomor": 10,
-      "arab": "فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ",
-      "arti": "maka Kami kelak akan menyiapkan baginya (jalan) yang sukar."
+      "arab": "فَسَنُيَسِّرُهٗ لِلْعُسْرٰىۗ",
+      "arti": "maka akan Kami mudahkan baginya jalan menuju kesukaran (kesengsaraan),"
     },
     {
       "nomor": 11,
-      "arab": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ",
-      "arti": "Dan hartanya tidak bermanfaat baginya apabila ia telah binasa."
+      "arab": "وَمَا يُغْنِيْ عَنْهُ مَالُهٗٓ اِذَا تَرَدّٰىٓۙ",
+      "arti": "dan hartanya tidak bermanfaat baginya apabila dia telah binasa."
     },
     {
       "nomor": 12,
-      "arab": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
-      "arti": "Sesungguhnya kewajiban Kamilah memberi petunjuk,"
+      "arab": "اِنَّ عَلَيْنَا لَلْهُدٰىۖ",
+      "arti": "Sesungguhnya Kamilah yang memberi petunjuk,"
     },
     {
       "nomor": 13,
-      "arab": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ",
-      "arti": "dan sesungguhnya kepunyaan Kamilah akhirat dan dunia."
+      "arab": "وَاِنَّ لَنَا لَلْاٰخِرَةَ وَالْاُوْلٰىۗ",
+      "arti": "dan sesungguhnya milik Kamilah akhirat dan dunia itu."
     },
     {
       "nomor": 14,
-      "arab": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
-      "arti": "Maka Kami memperingatkan kamu dengan neraka yang menyala-nyala."
+      "arab": "فَاَنْذَرْتُكُمْ نَارًا تَلَظّٰىۚ",
+      "arti": "Maka Aku memperingatkan kamu dengan neraka yang menyala-nyala,"
     },
     {
       "nomor": 15,
-      "arab": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
-      "arti": "Tidak ada yang masuk ke dalamnya kecuali orang yang paling celaka,"
+      "arab": "لَا يَصْلٰىهَآ اِلَّا الْاَشْقَىۙ",
+      "arti": "yang hanya dimasuki oleh orang yang paling celaka,"
     },
     {
       "nomor": 16,
-      "arab": "الَّذِي كَذَّبَ وَتَوَلَّىٰ",
+      "arab": "الَّذِيْ كَذَّبَ وَتَوَلّٰىۗ",
       "arti": "yang mendustakan (kebenaran) dan berpaling (dari iman)."
     },
     {
       "nomor": 17,
-      "arab": "وَسَيُجَنَّبُهَا الْأَتْقَى",
-      "arti": "Dan kelak akan dijauhkan orang yang paling bertakwa dari neraka itu,"
+      "arab": "وَسَيُجَنَّبُهَا الْاَتْقَىۙ",
+      "arti": "Dan akan dijauhkan darinya (neraka) orang yang paling bertakwa, "
     },
     {
       "nomor": 18,
-      "arab": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ",
-      "arti": "yang menafkahkan hartanya (di jalan Allah) untuk membersihkannya,"
+      "arab": "الَّذِيْ يُؤْتِيْ مَالَهٗ يَتَزَكّٰىۚ",
+      "arti": "yang menginfakkan hartanya (di jalan Allah) untuk membersihkan (dirinya),"
     },
     {
       "nomor": 19,
-      "arab": "وَمَا لِأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَىٰ",
-      "arti": "padahal tidak ada seorang pun memberikan suatu nikmat kepadanya yang harus dibalasnya,"
+      "arab": "وَمَا لِاَحَدٍ عِنْدَهٗ مِنْ نِّعْمَةٍ تُجْزٰىٓۙ",
+      "arti": "dan tidak ada seorang pun memberikan suatu nikmat padanya yang harus dibalasnya,"
     },
     {
       "nomor": 20,
-      "arab": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ",
-      "arti": "tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya yang Mahatinggi."
+      "arab": "اِلَّا ابْتِغَاۤءَ وَجْهِ رَبِّهِ الْاَعْلٰىۚ",
+      "arti": "tetapi (dia memberikan itu semata-mata) karena mencari keridaan Tuhannya Yang Mahatinggi."
     },
     {
       "nomor": 21,
-      "arab": "وَلَسَوْفَ يَرْضَىٰ",
-      "arti": "Dan kelak dia benar-benar mendapat kepuasan."
+      "arab": "وَلَسَوْفَ يَرْضٰى ࣖ",
+      "arti": "Dan niscaya kelak dia akan mendapat kesenangan (yang sempurna)."
     }
   ]
 }

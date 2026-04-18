@@ -224,11 +224,13 @@ class _AyatPageState extends State<AyatPage> {
                   TextSpan(
                     text: ayat['arab'],
                     style: TextStyle(
-                      fontSize: _ayatFontSize + 10,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.green[700],
-                      height: _arabicLineHeight, // samakan dengan teks Arab
                       fontFamily: 'Quran12',
+                      fontWeight: FontWeight.w500,
+                      height: _arabicLineHeight,
+                      fontSize: isBasmalah
+                          ? _ayatFontSize + 10
+                          : _ayatFontSize,
+                      color: Colors.black87,
                     ),
                   ),
                   if (!isBasmalah) ...[
@@ -340,7 +342,7 @@ class _AyatPageState extends State<AyatPage> {
                         fontWeight: FontWeight.w500,
                         height: _arabicLineHeight,
                         fontSize: isBasmalah
-                            ? _ayatFontSize + 6
+                            ? _ayatFontSize + 10
                             : _ayatFontSize,
                         color: Colors.black87,
                       ),

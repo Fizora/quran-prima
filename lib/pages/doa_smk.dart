@@ -55,55 +55,55 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
               const SizedBox(height: 16),
 
               // Doa Memulai Pelajaran
-              Card(
-                elevation: 2,
-                margin: const EdgeInsets.only(bottom: 16),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text(
-                        'Doa Memulai Pelajaran:',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                          color: Colors.green,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      // Teks Arab rata kanan
-                      Container(
-                        width: double.infinity,
-                        child: Text(
-                          'رَبِّ زِدْنِي عِلْمًا',
-                          style: GoogleFonts.amiri(
-                            fontSize: _ayatFontSize,
-                            color: Colors.green[800],
-                          ),
-                          textDirection: TextDirection.rtl,
-                          textAlign: TextAlign.right,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      // Teks Latin
-                      const Text(
-                        '"Rabbi zidni \'ilma"',
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          fontSize: 14,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      // Terjemahan
-                      const Text(
-                        '"Ya Rabbku, tambahkanlah kepadaku ilmu"',
-                        style: TextStyle(fontSize: 14, color: Colors.grey),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
+              // Card(
+              //   elevation: 2,
+              //   margin: const EdgeInsets.only(bottom: 16),
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(16.0),
+              //     child: Column(
+              //       crossAxisAlignment: CrossAxisAlignment.start,
+              //       children: [
+              //         const Text(
+              //           'Doa Memulai Pelajaran:',
+              //           style: TextStyle(
+              //             fontWeight: FontWeight.bold,
+              //             fontSize: 16,
+              //             color: Colors.green,
+              //           ),
+              //         ),
+              //         const SizedBox(height: 8),
+              //         // Teks Arab rata kanan
+              //         Container(
+              //           width: double.infinity,
+              //           child: Text(
+              //             'رَبِّ زِدْنِي عِلْمًا',
+              //             style: GoogleFonts.amiri(
+              //               fontSize: _ayatFontSize,
+              //               color: Colors.green[800],
+              //             ),
+              //             textDirection: TextDirection.rtl,
+              //             textAlign: TextAlign.right,
+              //           ),
+              //         ),
+              //         const SizedBox(height: 8),
+              //         // Teks Latin
+              //         const Text(
+              //           '"Rabbi zidni \'ilma"',
+              //           style: TextStyle(
+              //             fontStyle: FontStyle.italic,
+              //             fontSize: 14,
+              //           ),
+              //         ),
+              //         const SizedBox(height: 8),
+              //         // Terjemahan
+              //         const Text(
+              //           '"Ya Rabbku, tambahkanlah kepadaku ilmu"',
+              //           style: TextStyle(fontSize: 14, color: Colors.grey),
+              //         ),
+              //       ],
+              //     ),
+              //   ),
+              // ),
 
               // Doa Memahami Pelajaran
               Card(
@@ -115,7 +115,7 @@ class _DoaSMKPageState extends State<DoaSMKPage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        'Doa Memahami Pelajaran:',
+                        'Doa Memulai Pelajaran:',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
